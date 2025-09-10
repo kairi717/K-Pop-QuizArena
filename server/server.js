@@ -61,16 +61,14 @@ const authenticateToken = (req, res, next) => { /* ... */ };
 // Google 로그인 처리
 app.options('/api/auth/google', cors(corsOptions)); 
 
-app.post('/api/auth/google', async (req, res) => {
+app.get('/api/auth/google', async (req, res) => {
   try {
     const { code } = req.body; // 클라이언트가 보낸 'code'를 받습니다.
-    console.log('oAuth2Client redirectUri:', oAuth2Client.redirectUri);
-    
+
+    console.log('--- Handling GET /api/auth/google ---');
+    console.log('Received code from query:', code ? `[${code.substring(0, 10)}...]` : 'No code received');
     // 인증 코드를 사용하여 Google로부터 토큰(access_token, id_token 등)을 받아옵니다.
-    const { tokens } = await oAuth2Client.getToken({
-      code,
-      redirect_uri: oAuth2Client.redirectUri,
-    });
+    const { tokens } = await oAuth2Client.getToken({ code });
     
     // 받아온 id_token을 사용하여 사용자 정보를 검증하고 추출합니다.
     const ticket = await oAuth2Client.verifyIdToken({
@@ -81,13 +79,7 @@ app.post('/api/auth/google', async (req, res) => {
 
     // --- 여기에 DB에서 사용자를 조회하거나 생성하는 로직을 추가할 수 있습니다. ---
 
-    // 성공적으로 처리되었으므로, 클라이언트에 사용자 정보와 토큰을 보내줍니다.
-    res.status(200).json({
-      message: 'Login successful!',
-      user: payload,
-      // 필요하다면 앱 자체의 JWT 토큰을 여기서 생성하여 함께 보내줍니다.
-      // token: your_app_jwt,
-    });
+    res.status(200).json({ token: appToken, user: user.rows[0] });
 
   } catch (error) {
     console.error('🔴 Google 인증 코드 처리 중 오류 발생:', error.response ? error.response.data : error.message);
