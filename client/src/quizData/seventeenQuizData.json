@@ -1,0 +1,1469 @@
+{
+  "easy": [
+    {
+      "question": "How many members are in SEVENTEEN?",
+      "options": ["10", "12", "13", "15"],
+      "answer": "13"
+    },
+    {
+      "question": "What is the official fandom name for SEVENTEEN?",
+      "options": ["Diamonds", "Carat", "Gems", "Seventeenies"],
+      "answer": "Carat"
+    },
+    {
+      "question": "Which entertainment company formed SEVENTEEN?",
+      "options": ["SM Entertainment", "JYP Entertainment", "YG Entertainment", "Pledis Entertainment"],
+      "answer": "Pledis Entertainment"
+    },
+    {
+      "question": "What are the three units of SEVENTEEN?",
+      "options": ["Vocal, Rap, Dance", "Hip-Hop, Vocal, Performance", "A, B, C", "Leaders, Maknaes, Hyungs"],
+      "answer": "Hip-Hop, Vocal, Performance"
+    },
+    {
+      "question": "Who is the general leader of SEVENTEEN and also the leader of the Hip-Hop Unit?",
+      "options": ["Jeonghan", "Hoshi", "S.Coups", "Woozi"],
+      "answer": "S.Coups"
+    },
+    {
+      "question": "Who is the leader of the Performance Unit?",
+      "options": ["Dino", "Jun", "The8", "Hoshi"],
+      "answer": "Hoshi"
+    },
+    {
+      "question": "Who is the leader of the Vocal Unit?",
+      "options": ["DK", "Seungkwan", "Joshua", "Woozi"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "What was SEVENTEEN's debut song?",
+      "options": ["Mansae", "Pretty U", "Adore U", "VERY NICE"],
+      "answer": "Adore U"
+    },
+    {
+      "question": "In what year did SEVENTEEN debut?",
+      "options": ["2014", "2015", "2016", "2017"],
+      "answer": "2015"
+    },
+    {
+      "question": "Which member is the main producer and composer for the group?",
+      "options": ["Hoshi", "S.Coups", "Woozi", "DK"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "Which two members are from China?",
+      "options": ["Joshua & Vernon", "Jun & The8", "Hoshi & Dino", "DK & Seungkwan"],
+      "answer": "Jun & The8"
+    },
+    {
+      "question": "Which two members are from the USA?",
+      "options": ["Jun & The8", "S.Coups & Jeonghan", "Joshua & Vernon", "Wonwoo & Mingyu"],
+      "answer": "Joshua & Vernon"
+    },
+    {
+      "question": "Who is the youngest member (maknae) of SEVENTEEN?",
+      "options": ["Seungkwan", "Vernon", "Dino", "The8"],
+      "answer": "Dino"
+    },
+    {
+      "question": "Who is the oldest member of SEVENTEEN?",
+      "options": ["Jeonghan", "Joshua", "S.Coups", "Jun"],
+      "answer": "S.Coups"
+    },
+    {
+      "question": "Which song is famous for its chorus 'Aju NICE!'?",
+      "options": ["CLAP", "Oh My!", "VERY NICE", "Left & Right"],
+      "answer": "VERY NICE"
+    },
+    {
+      "question": "What is the name of SEVENTEEN's official light stick?",
+      "options": ["Diamond Stick", "SVT Bong", "Shining Stick", "Carat Bong"],
+      "answer": "Carat Bong"
+    },
+    {
+      "question": "What does the name SEVENTEEN represent?",
+      "options": ["17 members originally", "They debuted at age 17", "13 members + 3 units + 1 team", "Their debut date was the 17th"],
+      "answer": "13 members + 3 units + 1 team"
+    },
+    {
+      "question": "Which member is known for the catchphrase 'Horanghae'?",
+      "options": ["Dino", "DK", "Hoshi", "Seungkwan"],
+      "answer": "Hoshi"
+    },
+    {
+      "question": "What is the name of the special sub-unit consisting of Seungkwan, DK, and Hoshi?",
+      "options": ["SVT Leaders", "Gag Trio", "BSS (BooSeokSoon)", "Vocal Line"],
+      "answer": "BSS (BooSeokSoon)"
+    },
+    {
+      "question": "Which member is known as the 'mother' or 'angel' of the group?",
+      "options": ["S.Coups", "Jeonghan", "Joshua", "DK"],
+      "answer": "Jeonghan"
+    },
+    {
+      "question": "Which member is known for his powerful vocals and being a main vocalist?",
+      "options": ["Vernon", "DK", "Wonwoo", "Mingyu"],
+      "answer": "DK"
+    },
+    {
+      "question": "Which member is famous for his variety show skills and being from Jeju Island?",
+      "options": ["Hoshi", "Dino", "Seungkwan", "DK"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "Who are the four members of the Hip-Hop Unit?",
+      "options": ["S.Coups, Wonwoo, Mingyu, Vernon", "Hoshi, Jun, The8, Dino", "Woozi, Jeonghan, Joshua, DK, Seungkwan", "S.Coups, Hoshi, Woozi, Dino"],
+      "answer": "S.Coups, Wonwoo, Mingyu, Vernon"
+    },
+    {
+      "question": "Who are the four members of the Performance Unit?",
+      "options": ["S.Coups, Wonwoo, Mingyu, Vernon", "Hoshi, Jun, The8, Dino", "Woozi, Jeonghan, Joshua, DK, Seungkwan", "S.Coups, Hoshi, Woozi, Dino"],
+      "answer": "Hoshi, Jun, The8, Dino"
+    },
+    {
+      "question": "Who are the five members of the Vocal Unit?",
+      "options": ["S.Coups, Wonwoo, Mingyu, Vernon", "Hoshi, Jun, The8, Dino", "Woozi, Jeonghan, Joshua, DK, Seungkwan", "S.Coups, Hoshi, Woozi, Dino"],
+      "answer": "Woozi, Jeonghan, Joshua, DK, Seungkwan"
+    },
+    {
+      "question": "What is S.Coups' real name?",
+      "options": ["Yoon Jeong-han", "Choi Seung-cheol", "Lee Ji-hoon", "Kwon Soon-young"],
+      "answer": "Choi Seung-cheol"
+    },
+    {
+      "question": "What is Woozi's real name?",
+      "options": ["Lee Seok-min", "Boo Seung-kwan", "Lee Chan", "Lee Ji-hoon"],
+      "answer": "Lee Ji-hoon"
+    },
+    {
+      "question": "Which song's choreography involves using a sofa?",
+      "options": ["Adore U", "Mansae", "Pretty U", "Don't Wanna Cry"],
+      "answer": "Pretty U"
+    },
+    {
+      "question": "What is the title of SEVENTEEN's popular web variety series?",
+      "options": ["SEVENTEEN Club", "SVT TV", "GOING SEVENTEEN", "Playground SEVENTEEN"],
+      "answer": "GOING SEVENTEEN"
+    },
+    {
+      "question": "What color are the official Carat Bong versions often associated with?",
+      "options": ["Blue and Red", "Black and White", "Rose Quartz and Serenity", "Yellow and Green"],
+      "answer": "Rose Quartz and Serenity"
+    },
+    {
+      "question": "Which member is known as the 'tallest member' and is part of the 'visual line'?",
+      "options": ["Wonwoo", "Vernon", "Mingyu", "S.Coups"],
+      "answer": "Mingyu"
+    },
+    {
+      "question": "What is Dino's real name?",
+      "options": ["Lee Chan", "Choi Han-sol", "Xu Ming-hao", "Wen Jun-hui"],
+      "answer": "Lee Chan"
+    },
+    {
+      "question": "Which member's stage name is his real name?",
+      "options": ["Hoshi", "The8", "DK", "Jeonghan"],
+      "answer": "Jeonghan"
+    },
+    {
+      "question": "Which song's title means 'Cheers' in Korean?",
+      "options": ["CLAP", "HIT", "THANKS", "MANSAE"],
+      "answer": "MANSAE"
+    },
+    {
+      "question": "The song 'Don't Wanna Cry' is notable for incorporating which genre of music?",
+      "options": ["Hip-Hop", "Rock", "EDM", "Trot"],
+      "answer": "EDM"
+    },
+    {
+      "question": "Which member is known as 'Gentleman Joshua'?",
+      "options": ["DK", "Jeonghan", "Joshua", "S.Coups"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "What is Hoshi's real name?",
+      "options": ["Kwon Soon-young", "Lee Seok-min", "Boo Seung-kwan", "Kim Min-gyu"],
+      "answer": "Kwon Soon-young"
+    },
+    {
+      "question": "Which member's stage name, The8, is significant because 8 is a lucky number in China?",
+      "options": ["Jun", "Hoshi", "The8", "Dino"],
+      "answer": "The8"
+    },
+    {
+      "question": "What is Vernon's real name?",
+      "options": ["Vernon Choi", "Choi Han-sol", "Hansol Vernon Chwe", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is DK's real name?",
+      "options": ["Lee Chan", "Lee Ji-hoon", "Lee Seok-min", "Kim Min-gyu"],
+      "answer": "Lee Seok-min"
+    },
+    {
+      "question": "Which song features the lyric 'Clap your hands until they're on fire'?",
+      "options": ["HIT", "CLAP", "VERY NICE", "HOT"],
+      "answer": "CLAP"
+    },
+    {
+      "question": "SEVENTEEN are known as 'self-producing' idols.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "What is the title of the group's first full-length studio album?",
+      "options": ["Boys Be", "Love & Letter", "Al1", "Going Seventeen"],
+      "answer": "Love & Letter"
+    },
+    {
+      "question": "The song 'HOME' is about finding comfort and a safe place with someone.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member is known for his deep voice in the Hip-Hop unit?",
+      "options": ["S.Coups", "Vernon", "Mingyu", "Wonwoo"],
+      "answer": "Wonwoo"
+    },
+    {
+      "question": "What is the debut song of the sub-unit BSS?",
+      "options": ["Fighting", "Just do it", "7PM", "Cheers"],
+      "answer": "Just do it"
+    },
+    {
+      "question": "Which member has the nickname '10:10' because of his eye shape?",
+      "options": ["Dino", "DK", "Hoshi", "Jun"],
+      "answer": "Hoshi"
+    },
+    {
+      "question": "What is Joshua's real Korean name?",
+      "options": ["Hong Ji-soo", "Kim Ji-soo", "Lee Ji-soo", "Park Ji-soo"],
+      "answer": "Hong Ji-soo"
+    },
+    {
+      "question": "Which member is known as SEVENTEEN's 'Gag Machine'?",
+      "options": ["DK", "Seungkwan", "Hoshi", "S.Coups"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "What is the main concept of the song 'Left & Right'?",
+      "options": ["Crying over a breakup", "Finding your way home", "Having fun and not worrying about choosing a path", "Fighting against the world"],
+      "answer": "Having fun and not worrying about choosing a path"
+    },
+    {
+      "question": "What is Seungkwan's real name?",
+      "options": ["Choi Seung-kwan", "Lee Seung-kwan", "Boo Seung-kwan", "Kim Seung-kwan"],
+      "answer": "Boo Seung-kwan"
+    },
+    {
+      "question": "What is the title of SEVENTEEN's first Japanese single?",
+      "options": ["Fallin' Flower", "24H", "Happy Ending", "Call Call Call!"],
+      "answer": "Happy Ending"
+    },
+    {
+      "question": "Which member often introduces himself as 'Future of K-pop'?",
+      "options": ["Hoshi", "Dino", "Seungkwan", "Vernon"],
+      "answer": "Dino"
+    },
+    {
+      "question": "Which song's title means 'Thank You' in Korean?",
+      "options": ["Gomawo", "Kamsahamnida", "THANKS", "Our Dawn Is Hotter Than Day"],
+      "answer": "THANKS"
+    },
+    {
+      "question": "The song 'Oh My!' has a dreamy and refreshing concept.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "What is Mingyu's real name?",
+      "options": ["Kim Min-gyu", "Lee Min-gyu", "Park Min-gyu", "Choi Min-gyu"],
+      "answer": "Kim Min-gyu"
+    },
+    {
+      "question": "What is The8's real name?",
+      "options": ["Wen Jun-hui", "Xu Ming-hao", "Li Wen-han", "Wang Yibo"],
+      "answer": "Xu Ming-hao"
+    },
+    {
+      "question": "What is Jun's real name?",
+      "options": ["Wen Jun-hui", "Xu Ming-hao", "Yanan", "Jackson Wang"],
+      "answer": "Wen Jun-hui"
+    },
+    {
+      "question": "Which member is known for being the 'energizer' of the group?",
+      "options": ["Jeonghan", "Wonwoo", "DK", "The8"],
+      "answer": "DK"
+    },
+    {
+      "question": "What is the title of the song from the album 'An Ode' that is known for its dark, powerful concept?",
+      "options": ["Happy Ending", "Fear", "Oh My!", "HOME;RUN"],
+      "answer": "Fear"
+    },
+    {
+      "question": "The song 'HOME;RUN' has a retro, swing-inspired concept.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member plays the guitar?",
+      "options": ["Woozi", "Joshua", "DK", "Seungkwan"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "Which member is known for his b-boying and martial arts skills?",
+      "options": ["Hoshi", "Dino", "Jun", "The8"],
+      "answer": "The8"
+    },
+    {
+      "question": "What does the album title 'Al1' signify?",
+      "options": ["All for one", "Alone", "Number 1", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the title track of the album 'TEEN, AGE'?",
+      "options": ["Don't Wanna Cry", "THANKS", "CLAP", "Getting Closer"],
+      "answer": "CLAP"
+    },
+    {
+      "question": "Which two members make up the '95 line' (born in 1995)?",
+      "options": ["Jeonghan and Joshua", "S.Coups, Jeonghan, and Joshua", "S.Coups and Jeonghan", "Jun and Hoshi"],
+      "answer": "S.Coups, Jeonghan, and Joshua"
+    },
+    {
+      "question": "Which four members make up the '96 line' (born in 1996)?",
+      "options": ["Woozi, DK, Mingyu, The8", "Jun, Hoshi, Wonwoo, Woozi", "DK, Mingyu, The8, Seungkwan", "Wonwoo, Woozi, DK, Mingyu"],
+      "answer": "Jun, Hoshi, Wonwoo, Woozi"
+    },
+    {
+      "question": "Which three members make up the '97 line' (born in 1997)?",
+      "options": ["DK, Mingyu, The8", "The8, Seungkwan, Vernon", "Mingyu, The8, Dino", "Seungkwan, Vernon, Dino"],
+      "answer": "DK, Mingyu, The8"
+    },
+    {
+      "question": "Which two members make up the '98 line' (born in 1998)?",
+      "options": ["DK and Mingyu", "The8 and Dino", "Seungkwan and Vernon", "There is only one '98 liner"],
+      "answer": "Seungkwan and Vernon"
+    },
+    {
+      "question": "Which member is the sole '99 liner' (born in 1999)?",
+      "options": ["Vernon", "The8", "Seungkwan", "Dino"],
+      "answer": "Dino"
+    },
+    {
+      "question": "The song '_WORLD' is the title track of which album?",
+      "options": ["Face the Sun", "Attacca", "Your Choice", "SECTOR 17"],
+      "answer": "SECTOR 17"
+    },
+    {
+      "question": "The song 'HOT' is the title track of which album?",
+      "options": ["Face the Sun", "Attacca", "Your Choice", "SECTOR 17"],
+      "answer": "Face the Sun"
+    },
+    {
+      "question": "Which member is known for his unique fashion sense and is often called a fashionista?",
+      "options": ["Mingyu", "Wonwoo", "The8", "Vernon"],
+      "answer": "The8"
+    },
+    {
+      "question": "What is the name of the reality show that documented SEVENTEEN's debut process?",
+      "options": ["SEVENTEEN Project: Debut Big Plan", "GOING SEVENTEEN", "SEVENTEEN TV", "Debut Diary"],
+      "answer": "SEVENTEEN Project: Debut Big Plan"
+    },
+    {
+      "question": "Which member can speak 5 languages (Korean, English, Spanish, Japanese, and a little Chinese)?",
+      "options": ["Joshua", "Vernon", "The8", "This is an exaggeration"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "Which member is a fan of the Harry Potter series?",
+      "options": ["S.Coups", "Joshua", "Wonwoo", "Vernon"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "What is the official flower for Carats?",
+      "options": ["Rose", "Diamond Flower", "Cherry Blossom", "There is no official flower"],
+      "answer": "There is no official flower"
+    },
+    {
+      "question": "Which unit is known for their emotional and lyrical songs?",
+      "options": ["Hip-Hop Unit", "Vocal Unit", "Performance Unit", "Leaders Unit"],
+      "answer": "Vocal Unit"
+    },
+    {
+      "question": "Which unit is known for their powerful and intricate choreography?",
+      "options": ["Hip-Hop Unit", "Vocal Unit", "Performance Unit", "Maknae Unit"],
+      "answer": "Performance Unit"
+    },
+    {
+      "question": "The song 'Rock with you' is from which album?",
+      "options": ["Your Choice", "Attacca", "Face the Sun", "Semicolon"],
+      "answer": "Attacca"
+    },
+    {
+      "question": "Which member's parents are both painters?",
+      "options": ["Dino", "The8", "Jun", "Mingyu"],
+      "answer": "Dino"
+    },
+    {
+      "question": "Which member is known for his love of reading books?",
+      "options": ["Mingyu", "Wonwoo", "S.Coups", "Joshua"],
+      "answer": "Wonwoo"
+    },
+    {
+      "question": "What is the main theme of the album 'Semicolon'?",
+      "options": ["The struggles of youth", "Taking a break and enjoying the moment", "Finding love", "Overcoming fear"],
+      "answer": "Taking a break and enjoying the moment"
+    },
+    {
+      "question": "Which song's music video was filmed in Los Angeles?",
+      "options": ["Adore U", "Don't Wanna Cry", "Left & Right", "Healing"],
+      "answer": "Healing"
+    },
+    {
+      "question": "Which member is known for his clumsy nature, often called 'Min-gu'?",
+      "options": ["Wonwoo", "Mingyu", "DK", "S.Coups"],
+      "answer": "Mingyu"
+    },
+    {
+      "question": "Which song by the Performance Unit is known for its blindfolded choreography?",
+      "options": ["HIGHLIGHT", "Lilili Yabbay", "MOONWALKER", "247"],
+      "answer": "Lilili Yabbay"
+    },
+    {
+      "question": "What is the title of the Hip-Hop Unit's song from 'TEEN, AGE'?",
+      "options": ["TRAUMA", "Check-In", "Lean On Me", "What's Good"],
+      "answer": "TRAUMA"
+    },
+    {
+      "question": "What is the title of the Vocal Unit's song known for its difficult high notes from 'Al1'?",
+      "options": ["Pinwheel", "Habit", "Don't Listen in Secret", "Hug"],
+      "answer": "Habit"
+    },
+    {
+      "question": "What is the concept of the song 'Ready to love'?",
+      "options": ["A summer party", "Confessing love to a friend", "A retro musical", "A dark and intense performance"],
+      "answer": "Confessing love to a friend"
+    },
+    {
+      "question": "What is the name of the special unit album released in 2020?",
+      "options": ["An Ode", "Heng:garæ", "Semicolon", "Your Choice"],
+      "answer": "Semicolon"
+    },
+    {
+      "question": "What animal is Hoshi often compared to?",
+      "options": ["Puppy", "Cat", "Tiger", "Hamster"],
+      "answer": "Tiger"
+    },
+    {
+      "question": "What animal is Woozi often compared to?",
+      "options": ["Puppy", "Cat", "Tiger", "Hamster"],
+      "answer": "Hamster"
+    },
+    {
+      "question": "Which member is known for being good at cooking?",
+      "options": ["Wonwoo", "S.Coups", "Mingyu", "Hoshi"],
+      "answer": "Mingyu"
+    },
+    {
+      "question": "What is the name of the pre-debut show where the members would broadcast live?",
+      "options": ["Debut Project", "Seventeen Diary", "SEVENTEEN TV", "Road to Debut"],
+      "answer": "SEVENTEEN TV"
+    },
+    {
+      "question": "Which member is known for sleeping a lot?",
+      "options": ["S.Coups", "Jeonghan", "Woozi", "Mingyu"],
+      "answer": "Jeonghan"
+    },
+    {
+      "question": "Which song's music video features the members in a musical-like setting?",
+      "options": ["CLAP", "HOME;RUN", "Ready to love", "Adore U"],
+      "answer": "HOME;RUN"
+    },
+    {
+      "question": "What is the title of the group's first English single?",
+      "options": ["_WORLD", "Darl+ing", "2 MINUS 1", "There is no full English single"],
+      "answer": "Darl+ing"
+    },
+    {
+      "question": "Which member is known for his powerful yet smooth dancing style, inspired by Michael Jackson?",
+      "options": ["Hoshi", "Jun", "The8", "Dino"],
+      "answer": "Dino"
+    },
+    {
+      "question": "The title of the Japanese song 'Fallin' Flower' refers to the beauty of youth.",
+      "options": ["True", "False"],
+      "answer": "True"
+    }
+  ],
+  "medium": [
+    {
+      "question": "What was the name of the pre-debut member who was supposed to be in the group but left before 'SEVENTEEN Project'?",
+      "options": ["Samuel Kim", "Dongjin", "Doyoon", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which member co-wrote the lyrics for the Performance Unit's song 'HIGHLIGHT'?",
+      "options": ["Woozi", "Hoshi", "Dino", "All Performance Unit members"],
+      "answer": "All Performance Unit members"
+    },
+    {
+      "question": "What is the B-side track from 'Love & Letter' that is a remake of a song from their pre-debut show?",
+      "options": ["Drift Away", "Shining Diamond", "Space", "Adore U (Vocal Team Ver.)"],
+      "answer": "Shining Diamond"
+    },
+    {
+      "question": "In the GOING SEVENTEEN series 'Don't Lie', who was the first 'Mafia' to get caught in the first season?",
+      "options": ["DK", "Jeonghan", "S.Coups", "Hoshi"],
+      "answer": "DK"
+    },
+    {
+      "question": "What is the title of Hoshi's first official solo mixtape?",
+      "options": ["Horangi", "Spider", "Tiger Power", "10:10"],
+      "answer": "Spider"
+    },
+    {
+      "question": "Which song from the 'An Ode' album was promoted alongside 'Fear' on music shows?",
+      "options": ["Snap Shoot", "Happy Ending (Korean Ver.)", "Let me hear you say", "Second Life"],
+      "answer": "Happy Ending (Korean Ver.)"
+    },
+    {
+      "question": "What is the name of Vernon's younger sister who has appeared on broadcasts with him?",
+      "options": ["Michelle", "Jessica", "Sofia", "Hannah"],
+      "answer": "Sofia"
+    },
+    {
+      "question": "Which member made his acting debut in the Chinese web drama 'Intouchable'?",
+      "options": ["The8", "Hoshi", "Jun", "Mingyu"],
+      "answer": "Jun"
+    },
+    {
+      "question": "What is the title of the song from 'Semicolon' that is performed by the '95 line (S.Coups, Jeonghan, Joshua)?",
+      "options": ["Light a Flame", "HEY BUDDY", "Do Re Mi", "AH! LOVE"],
+      "answer": "AH! LOVE"
+    },
+    {
+      "question": "What is the title of Woozi's first official solo mixtape?",
+      "options": ["Simple", "Miracle", "Ruby", "With You"],
+      "answer": "Ruby"
+    },
+    {
+      "question": "Which song won SEVENTEEN their very first music show trophy?",
+      "options": ["Adore U", "Mansae", "Pretty U", "VERY NICE"],
+      "answer": "Pretty U"
+    },
+    {
+      "question": "What is the name of Dino's father who is a dance teacher and influenced his career?",
+      "options": ["Lee Sang-min", "Lee Chan-woo", "Lee Sung-soo", "His father's name is not widely public"],
+      "answer": "His father's name is not widely public"
+    },
+    {
+      "question": "Which member appeared on the show 'King of Mask Singer' as 'Woodblock'?",
+      "options": ["Seungkwan", "Hoshi", "DK", "Woozi"],
+      "answer": "DK"
+    },
+    {
+      "question": "What is the name of the 'hidden track' on the physical version of the 'Al1' album?",
+      "options": ["Thinkin' about you", "Fast Pace", "Who", "There is no hidden track"],
+      "answer": "There is no hidden track"
+    },
+    {
+      "question": "The Hip-Hop Unit's song 'TRAUMA' discusses each member's personal struggles and fears.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member is known for inventing the 'Andromingyu' character in GOING SEVENTEEN?",
+      "options": ["DK", "Seungkwan", "Mingyu", "Hoshi"],
+      "answer": "Mingyu"
+    },
+    {
+      "question": "What is the title of the song from the album 'TEEN, AGE' that is performed by SVT Leaders?",
+      "options": ["CLAP", "CHANGE UP", "TRAUMA", "Pinwheel"],
+      "answer": "CHANGE UP"
+    },
+    {
+      "question": "What specific type of dog is S.Coups' pet, Kkuma?",
+      "options": ["Pomeranian", "Corgi", "Maltese", "Bichon Frise"],
+      "answer": "Corgi"
+    },
+    {
+      "question": "Which two members hosted 'M Countdown' as special MCs in 2016?",
+      "options": ["Mingyu and Wonwoo", "Jeonghan and Mingyu", "Seungkwan and Vernon", "Joshua and DK"],
+      "answer": "Jeonghan and Mingyu"
+    },
+    {
+      "question": "The choreography for 'Fallin' Flower' is known for creating what image with the members?",
+      "options": ["A heart", "A diamond", "A flower blooming", "A clock"],
+      "answer": "A flower blooming"
+    },
+    {
+      "question": "Which member has a black belt in Taekwondo?",
+      "options": ["Dino", "S.Coups", "Mingyu", "Hoshi"],
+      "answer": "Hoshi"
+    },
+    {
+      "question": "What is the name of the song from 'You Make My Day' which is a direct sequel to 'Adore U'?",
+      "options": ["Oh My!", "Our Dawn Is Hotter Than Day", "What's Good", "Come to me"],
+      "answer": "Come to me"
+    },
+    {
+      "question": "The song 'Pinwheel' by the Vocal Unit is about waiting for someone you miss.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "In GOING SEVENTEEN's 'TTT' (Hyperrealism Ver.), what activity do the members do?",
+      "options": ["Go camping", "Play games at a resort", "Go on a relaxing trip with lots of food and drinks", "Film a short movie"],
+      "answer": "Go on a relaxing trip with lots of food and drinks"
+    },
+    {
+      "question": "Which member collaborated with the American artist Pink Sweat$ on a remix of '17'?",
+      "options": ["Vernon", "Joshua", "DK", "Both Joshua and DK"],
+      "answer": "Both Joshua and DK"
+    },
+    {
+      "question": "What is the title of the song from 'Semicolon' performed by the '96 line (Jun, Hoshi, Wonwoo, Woozi)?",
+      "options": ["Light a Flame", "HEY BUDDY", "Do Re Mi", "AH! LOVE"],
+      "answer": "Light a Flame"
+    },
+    {
+      "question": "Which member has a solo song titled 'Begin' on the group's Japanese album?",
+      "options": ["Joshua", "The8", "Jun", "This is a BTS song, not SEVENTEEN"],
+      "answer": "This is a BTS song, not SEVENTEEN"
+    },
+    {
+      "question": "Which two members are known for their 'Chinaline' friendship and often speak Mandarin together?",
+      "options": ["Hoshi and Jun", "Joshua and Jun", "The8 and Hoshi", "Jun and The8"],
+      "answer": "Jun and The8"
+    },
+    {
+      "question": "The song 'GAM3 BO1' by the Hip-Hop Unit is from which album?",
+      "options": ["Heng:garæ", "Attacca", "Your Choice", "Face the Sun"],
+      "answer": "Attacca"
+    },
+    {
+      "question": "What is the title of the song from 'An Ode' that is an inside joke about Wonwoo's love for this food?",
+      "options": ["Lucky", "Snap Shoot", "Second Life", "There is no such song"],
+      "answer": "Lucky"
+    },
+    {
+      "question": "Which member is a fixed cast member on the variety show 'Amazing Saturday'?",
+      "options": ["DK", "Hoshi", "Seungkwan", "Mingyu"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "What is the name of the song that samples the 'SpongeBob SquarePants' theme in its instrumental?",
+      "options": ["Oh My!", "Left & Right", "Snap Shoot", "There is no such song"],
+      "answer": "Snap Shoot"
+    },
+    {
+      "question": "Which member is known for the line 'Dino, whose baby are you?'",
+      "options": ["S.Coups", "Jeonghan", "Hoshi", "Woozi"],
+      "answer": "Jeonghan"
+    },
+    {
+      "question": "Which album is the first part of SEVENTEEN's 'Power of Love' project in 2021?",
+      "options": ["Attacca", "Your Choice", "Semicolon", "Face the Sun"],
+      "answer": "Your Choice"
+    },
+    {
+      "question": "What is the title of the documentary series released on YouTube Originals about SEVENTEEN?",
+      "options": ["Aju NICE Trip", "SEVENTEEN: Hit the Road", "Caratland Behind", "GOING SEVENTEEN Spin-off"],
+      "answer": "SEVENTEEN: Hit the Road"
+    },
+    {
+      "question": "Which member performed in the musical 'Xcalibur' as King Arthur?",
+      "options": ["Seungkwan", "Joshua", "DK", "Woozi"],
+      "answer": "DK"
+    },
+    {
+      "question": "Which album did SEVENTEEN win their first 'Album of the Year' (Daesang) award for?",
+      "options": ["Love & Letter", "TEEN, AGE", "An Ode", "Heng:garæ"],
+      "answer": "An Ode"
+    },
+    {
+      "question": "What is the name of the B-side track from 'Heng:garæ' that became a fan-favorite for its comforting lyrics?",
+      "options": ["My My", "Kidult", "Together", "I Wish"],
+      "answer": "Kidult"
+    },
+    {
+      "question": "The Performance Unit's song 'MOONWALKER' is known for its sensual and dreamy choreography.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "What is the name of the song released for the OST of the web drama 'A-TEEN'?",
+      "options": ["9-TEEN", "Oh My!", "Thinkin' about you", "Our Dawn Is Hotter Than Day"],
+      "answer": "9-TEEN"
+    },
+    {
+      "question": "Which member is known for his catchphrase 'Kkurae/Geurae' (Okay)?",
+      "options": ["Mingyu", "S.Coups", "Hoshi", "DK"],
+      "answer": "S.Coups"
+    },
+    {
+      "question": "What is the title of the Japanese song that means 'Not Alone'?",
+      "options": ["Hitorijanai", "24H", "Ima -Even if the world ends tomorrow-", "Fallin' Flower"],
+      "answer": "Hitorijanai"
+    },
+    {
+      "question": "In the GOING SEVENTEEN series 'Insomnia-Zero', which member was notoriously difficult to make laugh?",
+      "options": ["S.Coups", "Jeonghan", "Wonwoo", "Woozi"],
+      "answer": "Wonwoo"
+    },
+    {
+      "question": "What is the title of the song that features the line 'This is our starting line'?",
+      "options": ["HIT", "Campfire", "Run to You", "Shining Diamond"],
+      "answer": "Shining Diamond"
+    },
+    {
+      "question": "Which member appeared on the Chinese survival show 'The Collaboration' as a mentor?",
+      "options": ["Jun", "Hoshi", "The8", "Vernon"],
+      "answer": "The8"
+    },
+    {
+      "question": "What is the concept of the Japanese single '24H'?",
+      "options": ["The passage of time and always being connected", "A summer vacation", "A beautiful ending", "A powerful performance"],
+      "answer": "The passage of time and always being connected"
+    },
+    {
+      "question": "Which member is known for being a fan of the singer-songwriter Lauv?",
+      "options": ["Joshua", "DK", "Seungkwan", "Vernon"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "The song 'Snap Shoot's music video was directed and filmed by which member?",
+      "options": ["Wonwoo", "The8", "Mingyu", "Vernon"],
+      "answer": "Mingyu"
+    },
+    {
+      "question": "What is the name of the song that serves as the theme for the GOING SEVENTEEN series?",
+      "options": ["Let's Go!", "GoSe", "Aju NICE", "There is no official theme song"],
+      "answer": "There is no official theme song"
+    },
+    {
+      "question": "Which member has a pet dog named Boksili?",
+      "options": ["Joshua", "DK", "Mingyu", "Seungkwan"],
+      "answer": "DK"
+    },
+    {
+      "question": "Which member has a solo song on the Chinese album 'C-Pop'?",
+      "options": ["Jun", "The8", "Both Jun and The8", "There is no such album"],
+      "answer": "Both Jun and The8"
+    },
+    {
+      "question": "Which member wrote the song 'Smile Flower' as a letter to Carats?",
+      "options": ["S.Coups", "Woozi", "Seungkwan", "Dino"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "The Vocal Unit song 'Don't Listen in Secret' is about secretly listening to a sad song.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Which member is known as the 'Ending Fairy' of the group?",
+      "options": ["Jeonghan", "Hoshi", "DK", "This role changes often"],
+      "answer": "This role changes often"
+    },
+    {
+      "question": "The song 'My My' is about a journey to find one's dreams, symbolized by a ship.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member is the global brand ambassador for the fashion brand Bally?",
+      "options": ["Joshua", "Mingyu", "DK", "Vernon"],
+      "answer": "DK"
+    },
+    {
+      "question": "The song 'Cheers' is performed by which unit?",
+      "options": ["Hip-Hop Unit", "Performance Unit", "SVT Leaders", "BSS"],
+      "answer": "SVT Leaders"
+    },
+    {
+      "question": "In the GOING SEVENTEEN series 'Debate Night', what was a common topic?",
+      "options": ["Serious political issues", "Reviewing their own content", "Silly 'what if' scenarios", "Debating which member is the best"],
+      "answer": "Silly 'what if' scenarios"
+    },
+    {
+      "question": "The8's solo song 'Side By Side' has a version in which two languages?",
+      "options": ["Korean and English", "Korean and Japanese", "Korean and Chinese", "Chinese and English"],
+      "answer": "Korean and Chinese"
+    },
+    {
+      "question": "What is the name of the song from 'Attacca' that is performed by the Performance Unit?",
+      "options": ["PANG!", "Imperfect love", "I can't run away", "2 MINUS 1"],
+      "answer": "PANG!"
+    },
+    {
+      "question": "Which member wrote the song 'Hug' for the Vocal Unit?",
+      "options": ["Jeonghan", "DK", "Seungkwan", "Woozi"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "What city is Jeonghan from?",
+      "options": ["Seoul", "Busan", "Daegu", "Hwaseong"],
+      "answer": "Seoul"
+    },
+    {
+      "question": "What is the name of the song that is a duet between Joshua and Vernon?",
+      "options": ["2 MINUS 1", "ROCKET", "Hello", "Ah! Love"],
+      "answer": "2 MINUS 1"
+    },
+    {
+      "question": "Which member has a pet hedgehog named Odi?",
+      "options": ["Jeonghan", "Joshua", "Woozi", "The8"],
+      "answer": "Jeonghan"
+    },
+    {
+      "question": "What is the title of the song from the 'Director's Cut' album that was also the title of their fan meeting?",
+      "options": ["THANKS", "Run to You", "Thinkin' about you", "SEVENTEEN in CARAT LAND"],
+      "answer": "Thinkin' about you"
+    },
+    {
+      "question": "Which member has a younger sister who is also a performer in the entertainment industry?",
+      "options": ["S.Coups", "Jeonghan", "Vernon", "This is not true"],
+      "answer": "This is not true"
+    },
+    {
+      "question": "The song 'Fearless' from 'Heng:garæ' is a continuation of the story from which previous title track?",
+      "options": ["Don't Wanna Cry", "CLAP", "Fear", "HIT"],
+      "answer": "Fear"
+    },
+    {
+      "question": "Which member can play the drums?",
+      "options": ["S.Coups", "Hoshi", "Woozi", "DK"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "Which member is known as 'Professor Boo' for his wit and knowledge?",
+      "options": ["Woozi", "DK", "Seungkwan", "Dino"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "The song 'Don Quixote' from 'Face the Sun' is about bravely facing challenges, like the literary character.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "What is the name of the song that was the theme for the Japanese drama 'I Don't Know a Thing About Love'?",
+      "options": ["Fallin' Flower", "Happy Ending", "Ainochikara (Power of Love)", "There is no such song"],
+      "answer": "There is no such song"
+    },
+    {
+      "question": "Which member has a solo song called 'Simple' that he performed at a concert?",
+      "options": ["Jeonghan", "Joshua", "Woozi", "DK"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "In the GOING SEVENTEEN series 'The Tag', which member was the 'killer'?",
+      "options": ["Jeonghan", "Hoshi", "DK", "Mingyu"],
+      "answer": "Jeonghan"
+    },
+    {
+      "question": "What is the title of the song that BSS released in 2023, featuring Lee Young-ji?",
+      "options": ["Just do it", "7PM", "Fighting", "LUNCH"],
+      "answer": "Fighting"
+    },
+    {
+      "question": "Which member is a brand ambassador for the French luxury brand Givenchy?",
+      "options": ["Mingyu", "Vernon", "Joshua", "The8"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "The song 'To you' from the album 'Attacca' was primarily written by which member?",
+      "options": ["Woozi", "S.Coups", "Wonwoo", "Mingyu"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "What is the birth flower of S.Coups (August 8)?",
+      "options": ["Rose", "Sunflower", "Azalea", "Hibiscus"],
+      "answer": "Azalea"
+    },
+    {
+      "question": "Which member is known for his imitation of a squeaky door?",
+      "options": ["Hoshi", "Seungkwan", "DK", "Jeonghan"],
+      "answer": "DK"
+    },
+    {
+      "question": "What is the name of the song that the members wrote and composed during 'SEVENTEEN's One Fine Day in Japan'?",
+      "options": ["Healing", "Campfire", "Flower", "Smile Flower"],
+      "answer": "Flower"
+    },
+    {
+      "question": "Which member is known for the phrase 'Jam Jam'?",
+      "options": ["Hoshi", "Woozi", "Dino", "Jun"],
+      "answer": "Hoshi"
+    },
+    {
+      "question": "The song 'Good to Me' is a B-side from which album?",
+      "options": ["TEEN, AGE", "Director's Cut", "You Make My Day", "You Made My Dawn"],
+      "answer": "You Made My Dawn"
+    },
+    {
+      "question": "Which member is known for being a Christian and often attends church?",
+      "options": ["Jeonghan", "Joshua", "DK", "Seungkwan"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "The title 'Heng:garæ' is a Korean word that means what?",
+      "options": ["Journey", "Tossing someone up in the air in celebration", "Semicolon", "Happiness"],
+      "answer": "Tossing someone up in the air in celebration"
+    },
+    {
+      "question": "Which member has a solo song titled 'Can't See The End' on a Chinese digital platform?",
+      "options": ["Jun", "The8", "Both", "Neither"],
+      "answer": "Jun"
+    },
+    {
+      "question": "The song 'Our Dawn Is Hotter Than Day' was filmed in which US state?",
+      "options": ["California", "New York", "Florida", "Texas"],
+      "answer": "California"
+    },
+    {
+      "question": "Which member is known as the 'Fake Maknae' because of his youthful looks and cute personality?",
+      "options": ["Jeonghan", "Joshua", "Hoshi", "Woozi"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "Which member is known for his photography skills, often posting under the name 'Kim Ming-goo'?",
+      "options": ["Wonwoo", "Mingyu", "The8", "DK"],
+      "answer": "Mingyu"
+    },
+    {
+      "question": "What is the name of the song from the 'An Ode' album that is sung by Jun, Hoshi, The8 and Dino?",
+      "options": ["247", "Network Love", "Back it up", "Snap Shoot"],
+      "answer": "247"
+    },
+    {
+      "question": "What is the name of the song that was a surprise release for Carats on the group's 3rd anniversary?",
+      "options": ["THANKS", "Campfire", "Love Letter", "No specific song was released"],
+      "answer": "No specific song was released"
+    },
+    {
+      "question": "Which member is a fan of the American rapper J. Cole?",
+      "options": ["S.Coups", "Wonwoo", "Mingyu", "Vernon"],
+      "answer": "Vernon"
+    },
+    {
+      "question": "The Japanese song 'Dream' is from which Japanese EP?",
+      "options": ["24H", "Hitorijanai", "Ainochikara", "DREAM"],
+      "answer": "DREAM"
+    },
+    {
+      "question": "Which member is known to dislike cucumbers?",
+      "options": ["Jeonghan", "DK", "Mingyu", "Seungkwan"],
+      "answer": "DK"
+    },
+    {
+      "question": "The title 'Attacca' is a musical term that means what?",
+      "options": ["To play loudly", "To finish", "To attack or begin the next section without pause", "A slow tempo"],
+      "answer": "To attack or begin the next section without pause"
+    },
+    {
+      "question": "Which member is known for his acrobatic and nunchuck skills?",
+      "options": ["Hoshi", "Dino", "The8", "Jun"],
+      "answer": "The8"
+    },
+    {
+      "question": "The song 'Super' is the title track of which album?",
+      "options": ["Face the Sun", "SECTOR 17", "FML", "Seventeenth Heaven"],
+      "answer": "FML"
+    },
+    {
+      "question": "Which member has a pet cat named Bongsik?",
+      "options": ["S.Coups", "Jeonghan", "Wonwoo", "Mingyu"],
+      "answer": "Wonwoo"
+    }
+  ],
+  "hard": [
+    {
+      "question": "What was the name of the cafe shown in 'SEVENTEEN TV' that was run by the trainees' parents?",
+      "options": ["Cafe Like", "Pledis Cafe", "Cafe Seventeen", "The cafe was not run by parents"],
+      "answer": "Cafe Like"
+    },
+    {
+      "question": "What is the title of the unreleased song Woozi performed on 'Sugar Man 2'?",
+      "options": ["What Kind of Future", "With You", "Miracle", "Simple"],
+      "answer": "What Kind of Future"
+    },
+    {
+      "question": "The lyrics for the Hip-Hop Unit song 'Chilli' were inspired by a meal the members had in which city?",
+      "options": ["Los Angeles", "Chicago", "Dallas", "New York"],
+      "answer": "Chicago"
+    },
+    {
+      "question": "In the GOING SEVENTEEN 'MOUSEBUSTERS' episode, what was the name of the cheese that was the final objective?",
+      "options": ["Gouda Cheese", "Golden Cheese", "Cheddar Cheese", "Diamond Cheese"],
+      "answer": "Golden Cheese"
+    },
+    {
+      "question": "Which member appeared in NU'EST's 'Face' MV as one of the bullies?",
+      "options": ["S.Coups", "Wonwoo", "Hoshi", "All of the above"],
+      "answer": "S.Coups"
+    },
+    {
+      "question": "The B-side track 'I Don't Know' from 'Going Seventeen' is a duet by which two members?",
+      "options": ["S.Coups and Woozi", "Vernon and Woozi", "Wonwoo and Woozi", "There is no such duet on that album"],
+      "answer": "There is no such duet on that album"
+    },
+    {
+      "question": "What is the name of the producer, besides Woozi and Bumzu, who frequently arranges SEVENTEEN's songs, like 'Don't Wanna Cry'?",
+      "options": ["Park Ki-tae", "Simon Petrén", "Lee Beom-hoon", "Anchor"],
+      "answer": "Park Ki-tae"
+    },
+    {
+      "question": "What specific church did Joshua attend in L.A. where he was scouted?",
+      "options": ["Bethel Church", "Saddleback Church", "A church in Koreatown", "The specific name is not publicly known"],
+      "answer": "A church in Koreatown"
+    },
+    {
+      "question": "The song 'IF I' by the Hip-Hop Unit from 'Al1' has a beat that was originally intended for which other artist?",
+      "options": ["I.O.I", "PRISTIN", "After School", "It was always for SEVENTEEN"],
+      "answer": "It was always for SEVENTEEN"
+    },
+    {
+      "question": "How many episodes of the pre-debut show 'SEVENTEEN TV' were aired in total?",
+      "options": ["3 seasons", "5 seasons", "1 season", "2 seasons"],
+      "answer": "5 seasons"
+    },
+    {
+      "question": "Which member passed the practical music exam to enter Hanyang University's Institute for Future Talents?",
+      "options": ["Woozi", "Dino", "Seungkwan", "DK"],
+      "answer": "Dino"
+    },
+    {
+      "question": "In the GOING SEVENTEEN series 'Insomnia-Zero 2', which member's 'forbidden action' was to show his teeth?",
+      "options": ["Hoshi", "Mingyu", "DK", "Jeonghan"],
+      "answer": "DK"
+    },
+    {
+      "question": "The B-side 'Beautiful' from 'Going Seventeen' features lyrics written by which three members?",
+      "options": ["Woozi, Mingyu, Dino", "Woozi, Bumzu, Vernon", "Woozi, DK, Mingyu", "Woozi, S.Coups, Hoshi"],
+      "answer": "Woozi, Mingyu, Dino"
+    },
+    {
+      "question": "What is the name of the web drama that Mingyu was a lead actor in?",
+      "options": ["Blue Birthday", "A-TEEN", "Live On", "He has not been a lead actor in a web drama"],
+      "answer": "He has not been a lead actor in a web drama"
+    },
+    {
+      "question": "The song 'Don't Listen in Secret' was inspired by an event from which member's trainee days?",
+      "options": ["Woozi", "Seungkwan", "DK", "Joshua"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "In the GOING SEVENTEEN episode 'Ad-lib: Seventeen's Got Talent', what talent did S.Coups showcase?",
+      "options": ["Rapping", "Beatboxing", "Breaking apples with his bare hands", "Magic tricks"],
+      "answer": "Breaking apples with his bare hands"
+    },
+    {
+      "question": "Which member appeared in Orange Caramel's 'My Copycat' music video?",
+      "options": ["S.Coups", "Jeonghan", "Hoshi", "Mingyu"],
+      "answer": "S.Coups"
+    },
+    {
+      "question": "What is the name of the song that samples the 'Thomas the Tank Engine' theme?",
+      "options": ["Adore U", "Oh My!", "Left & Right", "There is no such song"],
+      "answer": "There is no such song"
+    },
+    {
+      "question": "Which two members were supposed to debut in a group called 'Tempest' before SEVENTEEN was formed?",
+      "options": ["S.Coups and Woozi", "Hoshi and Wonwoo", "Jeonghan and Joshua", "This group is a fan rumor"],
+      "answer": "This group is a fan rumor"
+    },
+    {
+      "question": "What is the name of the book Wonwoo was reading in the 'Don't Wanna Cry' MV?",
+      "options": ["Demian by Hermann Hesse", "'Me Before You' by Jojo Moyes", "'The Catcher in the Rye' by J.D. Salinger", "A prop book with no title"],
+      "answer": "'Me Before You' by Jojo Moyes"
+    },
+    {
+      "question": "The song 'What's Good' by the Hip-Hop unit samples 'Get Money' by which rap duo?",
+      "options": ["Mobb Deep", "Junior M.A.F.I.A.", "Eric B. & Rakim", "A Tribe Called Quest"],
+      "answer": "Junior M.A.F.I.A."
+    },
+    {
+      "question": "In the GOING SEVENTEEN 'Best Friends' episode, which two members were revealed to be 'best friends' at the end?",
+      "options": ["Hoshi and Woozi", "Jun and The8", "Jeonghan and Wonwoo", "S.Coups and Jeonghan"],
+      "answer": "Jeonghan and Wonwoo"
+    },
+    {
+      "question": "Which member is known to have composed a song for the girl group fromis_9?",
+      "options": ["Woozi", "S.Coups", "Hoshi", "No member has done this"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "What is the BPM (Beats Per Minute) of the song 'HIT'?",
+      "options": ["120", "135", "150", "165"],
+      "answer": "150"
+    },
+    {
+      "question": "The song 'Flower' from 'TEEN, AGE' features lyrics written by which four members?",
+      "options": ["S.Coups, Jeonghan, Wonwoo, Dino", "S.Coups, Woozi, Dino, Seungkwan", "S.Coups, Wonwoo, Mingyu, Vernon", "S.Coups, Wonwoo, The8, Dino"],
+      "answer": "S.Coups, Jeonghan, Wonwoo, Dino"
+    },
+    {
+      "question": "What is the name of the special stage where Jeonghan and Wonwoo performed a cover of 'Falling' by Harry Styles?",
+      "options": ["Be The Sun Concert", "Power of Love Concert", "Ideal Cut Concert", "They have not performed this cover"],
+      "answer": "Power of Love Concert"
+    },
+    {
+      "question": "Which member can speak conversational Indonesian?",
+      "options": ["The8", "Mingyu", "Hoshi", "Dino"],
+      "answer": "Dino"
+    },
+    {
+      "question": "The choreography for 'Thanks' includes sign language for what phrase?",
+      "options": ["'I love you'", "'Thank you'", "'Promise'", "'You are my everything'"],
+      "answer": "'Thank you'"
+    },
+    {
+      "question": "Which member appeared on the Chinese show 'Chao Yin Zhan Ji' (The Collaboration)?",
+      "options": ["Jun and Hoshi", "The8 and Hoshi", "Jun and The8", "Jun and Dino"],
+      "answer": "Jun and The8"
+    },
+    {
+      "question": "What is the name of the song that was released as an OST for the drama 'Chocolate', sung by the Vocal Unit?",
+      "options": ["Miracle", "Sweetest Thing", "Is It Still Beautiful", "There is no such song"],
+      "answer": "Sweetest Thing"
+    },
+    {
+      "question": "In the 'Ad-lib: TTT' episode of GOING SEVENTEEN, what was the name of the company they were roleplaying?",
+      "options": ["GoSe Inc.", "Pledis Entertainment", "SVT Corporation", "There was no company name"],
+      "answer": "GoSe Inc."
+    },
+    {
+      "question": "Which member has a solo song titled 'Drift Away' on the Chinese music platform QQ Music?",
+      "options": ["Jun", "The8", "Joshua", "Vernon"],
+      "answer": "The8"
+    },
+    {
+      "question": "The song 'Do Re Mi' is performed by which unit?",
+      "options": ["95 Line", "96 Line", "97 Line", "Maknae Line (Seungkwan, Vernon, Dino)"],
+      "answer": "Maknae Line (Seungkwan, Vernon, Dino)"
+    },
+    {
+      "question": "Which member is known to be a fan of the American TV show 'Friends'?",
+      "options": ["Joshua", "Vernon", "DK", "Seungkwan"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "The Vocal Unit song '20' from the debut album is about the feelings of turning 20 years old. Who wrote the lyrics?",
+      "options": ["Woozi and Bumzu", "Woozi and Dino", "Woozi and S.Coups", "Woozi only"],
+      "answer": "Woozi only"
+    },
+    {
+      "question": "In GOING SEVENTEEN 'Tribal Games', which member was the 'Chieftain' of the winning tribe?",
+      "options": ["S.Coups", "Jeonghan", "Hoshi", "Dino"],
+      "answer": "Dino"
+    },
+    {
+      "question": "What brand of instant noodles did Jun and The8 promote in China?",
+      "options": ["Samyang", "Nongshim", "Kang Shi Fu", "The brand is not widely known"],
+      "answer": "Kang Shi Fu"
+    },
+    {
+      "question": "What is the name of the song from 'An Ode' that is performed by Joshua, Jun, The8 and Vernon?",
+      "options": ["247", "Network Love", "Let me hear you say", "Second Life"],
+      "answer": "Network Love"
+    },
+    {
+      "question": "Which member is known for his imitation of the 'Marge Simpson' sound?",
+      "options": ["Hoshi", "DK", "Seungkwan", "Vernon"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "What is the name of the cafe that Vernon's parents own?",
+      "options": ["Bonnon Cafe", "Sofia's Cafe", "They do not own a cafe", "The name is private"],
+      "answer": "They do not own a cafe"
+    },
+    {
+      "question": "The song 'Still Lonely' from 'Love & Letter' is a duet by which two members?",
+      "options": ["Hoshi and Woozi", "Wonwoo and Vernon", "Jun and Hoshi", "There is no such duet on the album"],
+      "answer": "There is no such duet on the album"
+    },
+    {
+      "question": "Which member has a patent registered for a phone case design?",
+      "options": ["The8", "Mingyu", "S.Coups", "No member has a patent"],
+      "answer": "No member has a patent"
+    },
+    {
+      "question": "The song 'God of Music' is the title track of which album?",
+      "options": ["Face the Sun", "FML", "Seventeenth Heaven", "Attacca"],
+      "answer": "Seventeenth Heaven"
+    },
+    {
+      "question": "Which member is allergic to tomatoes?",
+      "options": ["S.Coups", "Wonwoo", "Mingyu", "Vernon"],
+      "answer": "S.Coups"
+    },
+    {
+      "question": "What is the name of the unreleased song that was the original version of 'Adore U'?",
+      "options": ["Shining Diamond", "Pretty You", "No Fun", "There was no other version"],
+      "answer": "No Fun"
+    },
+    {
+      "question": "Which member is known for the 'Crying Hoshi' meme from a fan sign event?",
+      "options": ["Jeonghan", "Hoshi", "DK", "Seungkwan"],
+      "answer": "Hoshi"
+    },
+    {
+      "question": "The song 'Bring It' from 'Director's Cut' is a duet by which two members?",
+      "options": ["S.Coups and Woozi", "Hoshi and Woozi", "Wonwoo and Mingyu", "Jun and The8"],
+      "answer": "Hoshi and Woozi"
+    },
+    {
+      "question": "Which member is known for being unable to eat spicy food?",
+      "options": ["S.Coups", "Jeonghan", "Joshua", "Hoshi"],
+      "answer": "S.Coups"
+    },
+    {
+      "question": "What is the name of the song from 'Semicolon' performed by the American line (Joshua, Vernon)?",
+      "options": ["2 MINUS 1", "ROCKET", "AH! LOVE", "There is no such song on Semicolon"],
+      "answer": "There is no such song on Semicolon"
+    },
+    {
+      "question": "In the GOING SEVENTEEN 'Carnival' episode, who was the 'host' of the carnival?",
+      "options": ["DK", "Seungkwan", "The production staff", "Wonwoo"],
+      "answer": "Wonwoo"
+    },
+    {
+      "question": "The Hip-Hop Unit's song 'Lean On Me' from 'Going Seventeen' has a Korean title that means what?",
+      "options": ["Expectation", "Don't Worry", "My Shoulder", "Rest"],
+      "answer": "Expectation"
+    },
+    {
+      "question": "What is the name of the song that S.Coups released as a solo track for the '2021 Global Cover Project'?",
+      "options": ["Me", "I'm the one", "He did not release a solo track", "It was not for a cover project"],
+      "answer": "He did not release a solo track"
+    },
+    {
+      "question": "The song 'Imperfect love' from 'Attacca' is performed by which unit?",
+      "options": ["Hip-Hop Unit", "Vocal Unit", "Performance Unit", "95 Line"],
+      "answer": "Vocal Unit"
+    },
+    {
+      "question": "Which member is the global ambassador for the Italian luxury brand Marni?",
+      "options": ["S.Coups", "Jeonghan", "Joshua", "Jun"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "The choreography for 'My I' is a contemporary duet performed by which two members?",
+      "options": ["Hoshi and Dino", "Jun and The8", "DK and Hoshi", "Woozi and Hoshi"],
+      "answer": "Jun and The8"
+    },
+    {
+      "question": "In GOING SEVENTEEN 'Brain-fficial', what was the topic of Dino's winning presentation?",
+      "options": ["The history of SEVENTEEN", "Why Hoshi is a tiger", "The evolution of K-pop", "Why he is the future of K-pop"],
+      "answer": "Why Hoshi is a tiger"
+    },
+    {
+      "question": "Which member has the MBTI personality type INFJ?",
+      "options": ["S.Coups", "Jeonghan", "Wonwoo", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which member is known for his 'Wi-Fi' pose?",
+      "options": ["Seungkwan", "DK", "Hoshi", "Dino"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "The song 'Holiday' from 'You Make My Day' was co-written by which member?",
+      "options": ["S.Coups", "Jeonghan", "Woozi", "Seungkwan"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "Which member is a fan of the American artist Kehlani?",
+      "options": ["Vernon", "Joshua", "DK", "S.Coups"],
+      "answer": "DK"
+    },
+    {
+      "question": "What is the name of the Japanese song that means 'Power of Love'?",
+      "options": ["Hitorijanai", "Ima", "Ainochikara", "Dream"],
+      "answer": "Ainochikara"
+    },
+    {
+      "question": "Which member has a solo song titled 'Crow'?",
+      "options": ["Jun", "The8", "Hoshi", "Dino"],
+      "answer": "Jun"
+    },
+    {
+      "question": "The music video for 'Adore U' has a 'broadcast version' and a 'studio version'.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Which member is known for being scared of dogs?",
+      "options": ["Jeonghan", "Wonwoo", "The8", "S.Coups"],
+      "answer": "The8"
+    },
+    {
+      "question": "What is the title of the song from 'FML' that is a duet between S.Coups and Jeonghan?",
+      "options": ["F*ck My Life", "Dust", "April shower", "There is no such duet on the album"],
+      "answer": "There is no such duet on the album"
+    },
+    {
+      "question": "Which member has a driver's license but is known to be a scared driver?",
+      "options": ["S.Coups", "Jeonghan", "Mingyu", "Seungkwan"],
+      "answer": "Jeonghan"
+    },
+    {
+      "question": "The song 'All My Love' is a B-side from which album?",
+      "options": ["Heng:garæ", "Semicolon", "Your Choice", "Attacca"],
+      "answer": "Semicolon"
+    },
+    {
+      "question": "What is the name of the Chinese song that The8 released which means 'Falling Down'?",
+      "options": ["Hai Cheng", "Dreams Come True", "The song has no English title", "It's the title of the album, not a song"],
+      "answer": "Hai Cheng"
+    },
+    {
+      "question": "Which member is known to have a habit of talking in his sleep?",
+      "options": ["Hoshi", "DK", "Seungkwan", "Jeonghan"],
+      "answer": "DK"
+    },
+    {
+      "question": "The song 'Second Life' from the Vocal Unit is about wanting to live a second life to meet someone again.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member has a collection of vintage cameras?",
+      "options": ["Mingyu", "The8", "Wonwoo", "Vernon"],
+      "answer": "Mingyu"
+    },
+    {
+      "question": "The song 'Lilli Yabbay' (13th Month's Dance) is based on a dream that which member had?",
+      "options": ["Hoshi", "Jun", "The8", "Dino"],
+      "answer": "Dino"
+    },
+    {
+      "question": "Which member is known for the meme 'two-teen'?",
+      "options": ["Joshua", "Vernon", "DK", "Seungkwan"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "What is the name of the song that samples Pachelbel's 'Canon in D'?",
+      "options": ["Pretty U", "Healing", "Smile Flower", "There is no such song"],
+      "answer": "There is no such song"
+    },
+    {
+      "question": "Which member is a global ambassador for the French fashion house Kenzo?",
+      "options": ["Joshua", "Hoshi", "The8", "Vernon"],
+      "answer": "Vernon"
+    },
+    {
+      "question": "In the GOING SEVENTEEN 'Four-Wheeled Rider' episode, which member won the final race?",
+      "options": ["S.Coups", "Jeonghan", "Wonwoo", "Hoshi"],
+      "answer": "Wonwoo"
+    },
+    {
+      "question": "The song 'I Wish' from 'Heng:garæ' was written primarily by which member about a past regret?",
+      "options": ["S.Coups", "Wonwoo", "Woozi", "Hoshi"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "What is the name of the fictional university in GOING SEVENTEEN's 'Ad-lib: Going Company'?",
+      "options": ["Carat University", "SVT University", "There is no university mentioned", "GoSe University"],
+      "answer": "There is no university mentioned"
+    },
+    {
+      "question": "Which member wrote the song 'Same dream, same mind, same night' for the Vocal Unit?",
+      "options": ["Joshua", "DK", "Seungkwan", "Woozi"],
+      "answer": "Woozi"
+
+    },
+    {
+      "question": "Which member has a sister named Bohyun?",
+      "options": ["S.Coups", "Jeonghan", "DK", "Seungkwan"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "The song 'Swimming Fool' is by which unit?",
+      "options": ["Vocal Unit", "Performance Unit", "Hip-Hop Unit", "SVT Leaders"],
+      "answer": "Performance Unit"
+    },
+    {
+      "question": "What is the name of the song that was released as an OST for the drama 'Record of Youth'?",
+      "options": ["Go", "Sweetest Thing", "Miracle", "9-TEEN"],
+      "answer": "Go"
+    },
+    {
+      "question": "Which member is allergic to apples?",
+      "options": ["S.Coups", "Jeonghan", "Joshua", "Vernon"],
+      "answer": "Jeonghan"
+    },
+    {
+      "question": "In GOING SEVENTEEN's 'ONE MILLION WON', which member was the final winner?",
+      "options": ["Jeonghan", "Hoshi", "DK", "S.Coups"],
+      "answer": "Jeonghan"
+    },
+    {
+      "question": "Which member can play the flute?",
+      "options": ["Jeonghan", "Joshua", "Woozi", "Vernon"],
+      "answer": "Woozi"
+    },
+    {
+      "question": "The song 'Shhh' from the Performance Unit's album is about a secret.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member is known for his extensive knowledge of K-pop history and girl group dances?",
+      "options": ["Hoshi", "DK", "Seungkwan", "Dino"],
+      "answer": "Seungkwan"
+    },
+    {
+      "question": "What is the title of the song from 'TEEN, AGE' that features a marching band sound?",
+      "options": ["CLAP", "BRING IT", "Flower", "ROCKET"],
+      "answer": "CLAP"
+    },
+    {
+      "question": "Which member has a solo song titled 'Last Order' that he performed at a concert?",
+      "options": ["S.Coups", "Wonwoo", "Mingyu", "Vernon"],
+      "answer": "S.Coups"
+    },
+    {
+      "question": "Which member is known to have poor eyesight and often wears thick glasses off-stage?",
+      "options": ["S.Coups", "Jeonghan", "Wonwoo", "Woozi"],
+      "answer": "Wonwoo"
+    },
+    {
+      "question": "The song 'Hey Buddy' is performed by which unit?",
+      "options": ["95 Line", "96 Line", "97 Line", "Maknae Line"],
+      "answer": "97 Line"
+    },
+    {
+      "question": "Which member's father is a professional badminton coach?",
+      "options": ["S.Coups", "DK", "Mingyu", "Seungkwan"],
+      "answer": "DK"
+    },
+    {
+      "question": "The song 'Don't Wanna Cry' was the first SEVENTEEN MV to reach 100 million views on YouTube.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member is a brand ambassador for the Scottish whiskey brand Chivas Regal?",
+      "options": ["S.Coups", "Jeonghan", "Joshua", "DK"],
+      "answer": "Joshua"
+    },
+    {
+      "question": "What is the name of the song from 'An Ode' that is performed by S.Coups, Jeonghan, Joshua, Woozi, DK, and Seungkwan?",
+      "options": ["Second Life", "Lucky", "247", "Network Love"],
+      "answer": "Second Life"
+    },
+    {
+      "question": "Which member is known for his 'cabbage person' drawing?",
+      "options": ["Mingyu", "The8", "Wonwoo", "Joshua"],
+      "answer": "Mingyu"
+    },
+    {
+      "question": "Which member wrote the lyrics for his solo performance of 'The Great Dipper'?",
+      "options": ["Hoshi", "Woozi", "DK", "Dino"],
+      "answer": "Dino"
+    }
+  ]
+}

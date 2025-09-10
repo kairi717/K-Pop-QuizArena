@@ -1,0 +1,1479 @@
+{
+  "easy": [
+    {
+      "question": "How many members are in BTS?",
+      "options": ["5", "7", "9", "11"],
+      "answer": "7"
+    },
+    {
+      "question": "What is the official fandom name for BTS?",
+      "options": ["Bells", "Soldiers", "ARMY", "Bangtan"],
+      "answer": "ARMY"
+    },
+    {
+      "question": "Which entertainment company formed BTS?",
+      "options": ["SM Entertainment", "JYP Entertainment", "YG Entertainment", "Big Hit Music"],
+      "answer": "Big Hit Music"
+    },
+    {
+      "question": "Who is the leader of BTS?",
+      "options": ["Jin", "Suga", "J-Hope", "RM"],
+      "answer": "RM"
+    },
+    {
+      "question": "What was BTS's debut song?",
+      "options": ["Boy In Luv", "No More Dream", "Danger", "I Need U"],
+      "answer": "No More Dream"
+    },
+    {
+      "question": "Who is the oldest member of BTS?",
+      "options": ["Suga", "Jin", "RM", "J-Hope"],
+      "answer": "Jin"
+    },
+    {
+      "question": "Who is the youngest member (maknae) of BTS?",
+      "options": ["V", "Jimin", "Jungkook", "RM"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "Which BTS song was their first full-English single?",
+      "options": ["Butter", "Dynamite", "Permission to Dance", "My Universe"],
+      "answer": "Dynamite"
+    },
+    {
+      "question": "What does 'ARMY' stand for in the context of the BTS fandom?",
+      "options": ["Adorable Representative M.C. for Youth", "Armed Forces For BTS", "Army of Youngsters", "It has no meaning"],
+      "answer": "Adorable Representative M.C. for Youth"
+    },
+    {
+      "question": "What is the name of the character series created by BTS in collaboration with Line Friends?",
+      "options": ["TinyTAN", "BT21", "Bangtan Universe", "Hip Hop Monsters"],
+      "answer": "BT21"
+    },
+    {
+      "question": "Which member is known by the nickname 'Worldwide Handsome'?",
+      "options": ["V", "Jungkook", "Jimin", "Jin"],
+      "answer": "Jin"
+    },
+    {
+      "question": "In what year did BTS debut?",
+      "options": ["2012", "2013", "2014", "2015"],
+      "answer": "2013"
+    },
+    {
+      "question": "Which American artist collaborated with BTS on the song 'Boy With Luv'?",
+      "options": ["Ariana Grande", "Taylor Swift", "Halsey", "Sia"],
+      "answer": "Halsey"
+    },
+    {
+      "question": "What is the main theme of the 'Love Yourself' album series?",
+      "options": ["Finding love in others", "Self-acceptance and self-love", "Overcoming hardships", "The struggles of youth"],
+      "answer": "Self-acceptance and self-love"
+    },
+    {
+      "question": "Who are the three members of the 'rap line'?",
+      "options": ["RM, Suga, Jungkook", "J-Hope, Jin, V", "RM, Suga, J-Hope", "Suga, Jimin, RM"],
+      "answer": "RM, Suga, J-Hope"
+    },
+    {
+      "question": "Who are the four members of the 'vocal line'?",
+      "options": ["Jin, Jimin, V, Jungkook", "RM, Jin, V, Jungkook", "J-Hope, Jimin, Jin, V", "Jin, Suga, Jimin, Jungkook"],
+      "answer": "Jin, Jimin, V, Jungkook"
+    },
+    {
+      "question": "What is RM's real name?",
+      "options": ["Kim Seok-jin", "Min Yoon-gi", "Kim Nam-joon", "Jung Ho-seok"],
+      "answer": "Kim Nam-joon"
+    },
+    {
+      "question": "What is Jin's real name?",
+      "options": ["Kim Seok-jin", "Park Ji-min", "Kim Tae-hyung", "Jeon Jung-kook"],
+      "answer": "Kim Seok-jin"
+    },
+    {
+      "question": "What is Suga's real name?",
+      "options": ["Jung Ho-seok", "Min Yoon-gi", "Kim Nam-joon", "Park Ji-min"],
+      "answer": "Min Yoon-gi"
+    },
+    {
+      "question": "What is J-Hope's real name?",
+      "options": ["Kim Tae-hyung", "Jeon Jung-kook", "Jung Ho-seok", "Kim Seok-jin"],
+      "answer": "Jung Ho-seok"
+    },
+    {
+      "question": "What is Jimin's real name?",
+      "options": ["Min Yoon-gi", "Park Ji-min", "Kim Nam-joon", "Kim Tae-hyung"],
+      "answer": "Park Ji-min"
+    },
+    {
+      "question": "What is V's real name?",
+      "options": ["Jeon Jung-kook", "Jung Ho-seok", "Kim Tae-hyung", "Park Ji-min"],
+      "answer": "Kim Tae-hyung"
+    },
+    {
+      "question": "What is Jungkook's real name?",
+      "options": ["Kim Seok-jin", "Min Yoon-gi", "Kim Nam-joon", "Jeon Jung-kook"],
+      "answer": "Jeon Jung-kook"
+    },
+    {
+      "question": "Which member is from Busan first?",
+      "options": ["V", "Jin", "Jimin & Jungkook", "Suga"],
+      "answer": "Jimin & Jungkook"
+    },
+    {
+      "question": "Which member is from Daegu?",
+      "options": ["RM & Jin", "Jimin & V", "Suga & V", "J-Hope & Jungkook"],
+      "answer": "Suga & V"
+    },
+    {
+      "question": "What phrase did V coin to mean 'I love and trust you'?",
+      "options": ["'You got no jams'", "'I purple you'", "'Let's get it'", "'Pardon?'"],
+      "answer": "'I purple you'"
+    },
+    {
+      "question": "What is the name of BTS's variety show where they play games and complete challenges?",
+      "options": ["Bon Voyage", "In the SOOP", "Run BTS!", "American Hustle Life"],
+      "answer": "Run BTS!"
+    },
+    {
+      "question": "Which BTS song broke the record for the most YouTube views in its first 24 hours at the time of its release?",
+      "options": ["IDOL", "Boy With Luv", "Dynamite", "ON"],
+      "answer": "Dynamite"
+    },
+    {
+      "question": "Which member has a solo stage name 'Agust D'?",
+      "options": ["RM", "J-Hope", "Suga", "Jungkook"],
+      "answer": "Suga"
+    },
+    {
+      "question": "What is the title of the final album in the 'Love Yourself' series?",
+      "options": ["Love Yourself: Her", "Love Yourself: Tear", "Love Yourself: Answer", "Love Yourself: Wonder"],
+      "answer": "Love Yourself: Answer"
+    },
+    {
+      "question": "Which member is known as the 'Golden Maknae' for being good at everything?",
+      "options": ["Jimin", "V", "Jin", "Jungkook"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "What color is the microphone of V?",
+      "options": ["Pink", "Blue", "Green", "Gold"],
+      "answer": "Green"
+    },
+    {
+      "question": "What color is the microphone of Jin?",
+      "options": ["Pink", "Silver", "Black", "Purple"],
+      "answer": "Pink"
+    },
+    {
+      "question": "What is the name of the BT21 character created by Jin?",
+      "options": ["Koya", "RJ", "Shooky", "Mang"],
+      "answer": "RJ"
+    },
+    {
+      "question": "What is the name of the BT21 character created by RM?",
+      "options": ["Koya", "RJ", "Cooky", "Tata"],
+      "answer": "Koya"
+    },
+    {
+      "question": "Which member is the main dancer and lead rapper of the group?",
+      "options": ["Jimin", "J-Hope", "Suga", "Jungkook"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What does BTS stand for?",
+      "options": ["Behind The Scenes", "Boys To Success", "Bangtan Sonyeondan", "Big Time Sensations"],
+      "answer": "Bangtan Sonyeondan"
+    },
+    {
+      "question": "Which song features Nicki Minaj?",
+      "options": ["MIC Drop (Remix)", "IDOL", "ON", "Waste It On Me"],
+      "answer": "IDOL"
+    },
+    {
+      "question": "What is the title of the album that includes the song 'Spring Day'?",
+      "options": ["The Most Beautiful Moment in Life: Young Forever", "Wings", "You Never Walk Alone", "Love Yourself: Her"],
+      "answer": "You Never Walk Alone"
+    },
+    {
+      "question": "Which member is known for his boxy smile?",
+      "options": ["Jimin", "V", "Jungkook", "Jin"],
+      "answer": "V"
+
+    },
+    {
+      "question": "Which member gave a speech at the United Nations with the 'Speak Yourself' message?",
+      "options": ["All members", "Jin", "RM", "Suga"],
+      "answer": "RM"
+    },
+    {
+      "question": "What is the title of J-Hope's first mixtape?",
+      "options": ["Mono", "Agust D", "Hope World", "D-2"],
+      "answer": "Hope World"
+    },
+    {
+      "question": "Which member is known for his powerful and graceful contemporary dance skills?",
+      "options": ["V", "Jungkook", "J-Hope", "Jimin"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "The song 'Permission to Dance' was co-written by which famous British artist?",
+      "options": ["Harry Styles", "Ed Sheeran", "Sam Smith", "Adele"],
+      "answer": "Ed Sheeran"
+    },
+    {
+      "question": "What is the title of BTS's Japanese album released in 2021?",
+      "options": ["Face Yourself", "Wake Up", "Youth", "BTS, The Best"],
+      "answer": "BTS, The Best"
+    },
+    {
+      "question": "What is the intro song of the album 'Love Yourself: Her'?",
+      "options": ["Euphoria", "Singularity", "Serendipity", "Epiphany"],
+      "answer": "Serendipity"
+    },
+    {
+      "question": "Which member is often called 'Sunshine' by the fans and other members?",
+      "options": ["Jimin", "Jin", "J-Hope", "V"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What is the title of the webtoon based on the BTS Universe?",
+      "options": ["The Notes", "Save Me", "House of Army", "We On"],
+      "answer": "Save Me"
+    },
+    {
+      "question": "Which two members form the sub-unit that sang the 'Friends' duet?",
+      "options": ["RM and Jin", "Suga and J-Hope", "Jimin and V", "Jungkook and Jin"],
+      "answer": "Jimin and V"
+    },
+    {
+      "question": "What is the name of Suga's dog?",
+      "options": ["Yeontan", "Mickey", "Holly", "Rapmon"],
+      "answer": "Holly"
+    },
+    {
+      "question": "What is the name of V's dog?",
+      "options": ["Yeontan", "Gureum", "Mickey", "Holly"],
+      "answer": "Yeontan"
+    },
+    {
+      "question": "Which member is known for breaking things accidentally, earning the nickname 'God of Destruction'?",
+      "options": ["Jin", "V", "Jungkook", "RM"],
+      "answer": "RM"
+    },
+    {
+      "question": "What is the name of the album that won BTS their first 'Album of the Year' Daesang award?",
+      "options": ["Wings", "The Most Beautiful Moment in Life: Young Forever", "Love Yourself: Her", "Dark & Wild"],
+      "answer": "The Most Beautiful Moment in Life: Young Forever"
+    },
+    {
+      "question": "What is the name of Jungkook's BT21 character?",
+      "options": ["Tata", "Chimmy", "Shooky", "Cooky"],
+      "answer": "Cooky"
+    },
+    {
+      "question": "Which member is known for his 'windshield wiper' laugh?",
+      "options": ["Jimin", "J-Hope", "V", "Jin"],
+      "answer": "Jin"
+    },
+    {
+      "question": "The music video for which song is set in a museum and features the members as living works of art?",
+      "options": ["Fake Love", "Blood Sweat & Tears", "Spring Day", "ON"],
+      "answer": "Blood Sweat & Tears"
+    },
+    {
+      "question": "Which member made his official acting debut in the K-drama 'Hwarang'?",
+      "options": ["Jin", "V", "Jungkook", "Jimin"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the title of the song that is considered a tribute to the Sewol Ferry victims?",
+      "options": ["2! 3!", "Butterfly", "Spring Day", "Answer: Love Myself"],
+      "answer": "Spring Day"
+    },
+    {
+      "question": "What is the first song from the 'Skool Luv Affair' album?",
+      "options": ["Jump", "Boy in Luv", "Just One Day", "Intro: Skool Luv Affair"],
+      "answer": "Intro: Skool Luv Affair"
+    },
+    {
+      "question": "What is the name of the travel reality series where BTS members travel to different locations?",
+      "options": ["Run BTS!", "American Hustle Life", "Bon Voyage", "Rookie King"],
+      "answer": "Bon Voyage"
+    },
+    {
+      "question": "What does the 'V' in V's stage name stand for?",
+      "options": ["Vocal", "Visual", "Victory", "Virtue"],
+      "answer": "Victory"
+    },
+    {
+      "question": "Which BTS album was the first K-pop album to top the US Billboard 200 chart?",
+      "options": ["Love Yourself: Her", "Love Yourself: Tear", "Love Yourself: Answer", "Map of the Soul: Persona"],
+      "answer": "Love Yourself: Tear"
+    },
+    {
+      "question": "Which song's choreography is famous for its 'DNA' helix move?",
+      "options": ["Go Go", "MIC Drop", "DNA", "Not Today"],
+      "answer": "DNA"
+    },
+    {
+      "question": "Which member is the 'Ending Fairy' of the song 'Friends'?",
+      "options": ["Jimin", "V"],
+      "answer": "V"
+    },
+    {
+      "question": "In the song 'Go Go', what is the catchphrase the members shout?",
+      "options": ["'YOLO YOLO YOLO YO'", "'Sorry, sorry, sorry'", "'La la la la la'", "'Run, run, run again'"],
+      "answer": "'YOLO YOLO YOLO YO'"
+    },
+    {
+      "question": "Which member is known for his impressive high notes?",
+      "options": ["V", "Jimin", "Jin", "Jungkook"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "What is the title of the first album in the 'Map of the Soul' series?",
+      "options": ["Map of the Soul: 7", "Map of the Soul: The Journey", "Map of the Soul: Persona", "Map of the Soul: Ego"],
+      "answer": "Map of the Soul: Persona"
+    },
+    {
+      "question": "What is the name of RM's dog?",
+      "options": ["Holly", "Yeontan", "Rapmon", "Mickey"],
+      "answer": "Rapmon"
+    },
+    {
+      "question": "Which member plays the saxophone?",
+      "options": ["Jin", "Suga", "V", "Jungkook"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the title of Jin's first official solo song?",
+      "options": ["Epiphany", "Awake", "Moon", "The Astronaut"],
+      "answer": "Awake"
+    },
+    {
+      "question": "Which song starts with RM saying 'Kim Namjoon, Kim Seokjin, Min Yoongi...'?",
+      "options": ["2! 3!", "We are Bulletproof : the Eternal", "Answer: Love Myself", "Magic Shop"],
+      "answer": "We are Bulletproof : the Eternal"
+    },
+    {
+      "question": "Who is the main character in the BT21 universe?",
+      "options": ["Van", "Tata", "Cooky", "RJ"],
+      "answer": "Van"
+    },
+    {
+      "question": "Which member has the birthday on December 4th?",
+      "options": ["RM", "Jin", "V", "J-Hope"],
+      "answer": "Jin"
+    },
+    {
+      "question": "Which two members share the same birthday month, September?",
+      "options": ["Suga and J-Hope", "Jin and V", "RM and Jungkook", "Jimin and V"],
+      "answer": "RM and Jungkook"
+    },
+    {
+      "question": "What is the name of the healing-themed reality show where BTS stays in a secluded house?",
+      "options": ["Bon Voyage", "Run BTS!", "In the SOOP", "Summer Package"],
+      "answer": "In the SOOP"
+    },
+    {
+      "question": "Which song has the lyric 'Did you see my bag?'",
+      "options": ["Anpanman", "Airplane Pt. 2", "Go Go", "MIC Drop"],
+      "answer": "MIC Drop"
+    },
+    {
+      "question": "What is the title of Jungkook's solo song from the 'Wings' album?",
+      "options": ["Euphoria", "My Time", "Begin", "Still With You"],
+      "answer": "Begin"
+    },
+    {
+      "question": "What is the title of the anthology album released in 2022 that marked a new chapter for the group?",
+      "options": ["BE", "Proof", "The Best", "Love Yourself: Answer"],
+      "answer": "Proof"
+    },
+    {
+      "question": "Which member is known to be a big fan of art and frequently visits museums?",
+      "options": ["Jin", "J-Hope", "RM", "Jungkook"],
+      "answer": "RM"
+    },
+    {
+      "question": "What is the title track of the album 'Dark & Wild'?",
+      "options": ["War of Hormone", "Danger", "Let Me Know", "Hip Hop Phile"],
+      "answer": "Danger"
+    },
+    {
+      "question": "Which member's BT21 character is a heart-headed alien?",
+      "options": ["Cooky", "Shooky", "Tata", "Mang"],
+      "answer": "Tata"
+    },
+    {
+      "question": "Which song's music video features a large moving statue?",
+      "options": ["ON", "IDOL", "Fake Love", "N.O"],
+      "answer": "ON"
+    },
+    {
+      "question": "Which member is from Gwangju?",
+      "options": ["Jin", "J-Hope", "Jimin", "Suga"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What is the name of the concert film that was released in 2018?",
+      "options": ["Bring the Soul: The Movie", "Break the Silence: The Movie", "Burn the Stage: The Movie", "Love Yourself in Seoul"],
+      "answer": "Burn the Stage: The Movie"
+    },
+    {
+      "question": "What is the fan chant shouted during the chorus of 'Blood Sweat & Tears'?",
+      "options": ["Their full names", "'Wonhae manhi manhi'", "The song title", "There is no chant"],
+      "answer": "Their full names"
+    },
+    {
+      "question": "Which member is a brand ambassador for Louis Vuitton?",
+      "options": ["V", "Jungkook", "J-Hope", "All members were ambassadors"],
+      "answer": "All members were ambassadors"
+    },
+    {
+      "question": "What is the title of the song they collaborated on with Coldplay?",
+      "options": ["Higher Power", "My Universe", "Coloratura", "A Sky Full of Stars"],
+      "answer": "My Universe"
+    },
+    {
+      "question": "In which city did BTS film 'American Hustle Life'?",
+      "options": ["New York", "Chicago", "Los Angeles", "Miami"],
+      "answer": "Los Angeles"
+    },
+    {
+      "question": "What is the name of the 'hidden track' on the 'Love Yourself: Her' album?",
+      "options": ["Path", "Sea", "Skit: Hesitation and Fear", "Born Singer"],
+      "answer": "Sea"
+    },
+    {
+      "question": "Which member is known as the 'mood maker' of the group?",
+      "options": ["Jin", "J-Hope", "V", "Jimin"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What is the title of V's solo song from the 'Wings' album?",
+      "options": ["Singularity", "Inner Child", "Stigma", "Scenery"],
+      "answer": "Stigma"
+    },
+    {
+      "question": "The song 'Anpanman' is about a superhero who is...",
+      "options": ["The strongest in the world", "The richest in the world", "The weakest in the world", "The fastest in the world"],
+      "answer": "The weakest in the world"
+    },
+    {
+      "question": "Which member is known for his love of photography, often under the name 'Vante'?",
+      "options": ["Jungkook", "RM", "Jin", "V"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the name of the album that means 'to be'?",
+      "options": ["Proof", "BE", "Life Goes On", "ON"],
+      "answer": "BE"
+    },
+    {
+      "question": "What is the first song on their debut album '2 Cool 4 Skool'?",
+      "options": ["We Are Bulletproof Pt.2", "No More Dream", "Intro: 2 Cool 4 Skool", "Skit: Circle Room Talk"],
+      "answer": "Intro: 2 Cool 4 Skool"
+    },
+    {
+      "question": "Which member has a black belt in Taekwondo?",
+      "options": ["Jimin", "Jungkook", "RM", "Jin"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "Which member wrote and produced the solo song 'Promise'?",
+      "options": ["V", "Jungkook", "Jimin", "Jin"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "What is the theme of the 'Map of the Soul: Persona' album, based on a psychologist's theories?",
+      "options": ["Sigmund Freud", "Carl Jung", "B.F. Skinner", "Ivan Pavlov"],
+      "answer": "Carl Jung"
+    },
+    {
+      "question": "What is the name of the final stop on the 'Love Yourself: Speak Yourself' tour?",
+      "options": ["Wembley Stadium, London", "Rose Bowl, Los Angeles", "Olympic Stadium, Seoul", "Stade de France, Paris"],
+      "answer": "Olympic Stadium, Seoul"
+    },
+    {
+      "question": "Which member released a solo album titled 'Jack In The Box'?",
+      "options": ["RM", "Suga", "J-Hope", "Jin"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "Which member released a solo album titled 'Indigo'?",
+      "options": ["J-Hope", "RM", "Jimin", "V"],
+      "answer": "RM"
+    }
+  ],
+  "medium": [
+    {
+      "question": "What was RM's underground rap name before debuting with BTS?",
+      "options": ["Largo", "Steelo", "Runch Randa", "Gloss"],
+      "answer": "Runch Randa"
+    },
+    {
+      "question": "What was Suga's underground rap name before joining Big Hit?",
+      "options": ["Agust D", "Gloss", "Syub", "Min PD"],
+      "answer": "Gloss"
+    },
+    {
+      "question": "Which member was the last to be officially revealed as a member of BTS?",
+      "options": ["Jungkook", "Jin", "V", "Jimin"],
+      "answer": "V"
+    },
+    {
+      "question": "What date did BTS win their very first music show award for 'I Need U'?",
+      "options": ["April 29, 2015", "May 5, 2015", "May 1, 2015", "June 4, 2015"],
+      "answer": "May 5, 2015"
+    },
+    {
+      "question": "The 'Spring Day' music video contains a visual reference to which Ursula K. Le Guin short story?",
+      "options": ["'The Ones Who Walk Away from Omelas'", "'The Wind's Twelve Quarters'", "'A Wizard of Earthsea'", "'The Telling'"],
+      "answer": "'The Ones Who Walk Away from Omelas'"
+    },
+    {
+      "question": "Which member has perfect pitch?",
+      "options": ["Jin", "Jimin", "V", "Jungkook"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "What is the name of the dance crew J-Hope was a part of in Gwangju?",
+      "options": ["Neuron", "K-Tigers", "Just Jerk", "1MILLION"],
+      "answer": "Neuron"
+    },
+    {
+      "question": "What is the title of the song that RM recorded with Warren G pre-debut?",
+      "options": ["Do You", "P.D.D (Please Don't Die)", "Awakening", "Joke"],
+      "answer": "P.D.D (Please Don't Die)"
+    },
+    {
+      "question": "What is the name of Jungkook's film production label for his vlogs and travel videos?",
+      "options": ["JJK Films", "Hope Films", "Vante Productions", "G.C.F (Golden Closet Films)"],
+      "answer": "G.C.F (Golden Closet Films)"
+    },
+    {
+      "question": "What is the meaning behind Suga's stage name 'Agust D'?",
+      "options": ["His birthday", "A reference to a king", "DT Suga backwards, for Daegu Town", "An anagram of his real name"],
+      "answer": "DT Suga backwards, for Daegu Town"
+    },
+    {
+      "question": "Before joining Big Hit, Jin was scouted on the street by which of the 'Big 3' companies?",
+      "options": ["JYP Entertainment", "YG Entertainment", "SM Entertainment", "He was not scouted by them"],
+      "answer": "SM Entertainment"
+    },
+    {
+      "question": "In the BTS Universe (BU), what is the name of the high school the members attend?",
+      "options": ["Bangtan High", "Singeun High", "Hwayangyeonhwa High", "Gwangju High School of Arts"],
+      "answer": "Singeun High"
+    },
+    {
+      "question": "Which member is known to be ambidextrous?",
+      "options": ["Jungkook", "RM", "Jin", "V"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the name of the 2014 reality show where BTS learned about hip-hop culture from artists like Coolio?",
+      "options": ["Rookie King: Channel Bangtan", "BTS Gayo", "American Hustle Life", "Bon Voyage Season 1"],
+      "answer": "American Hustle Life"
+    },
+    {
+      "question": "The song 'Pied Piper' is a critique of what?",
+      "options": ["The government", "The education system", "Themselves", "The distracting nature of their own fandom"],
+      "answer": "The distracting nature of their own fandom"
+    },
+    {
+      "question": "What is the title of the 'hidden track' on their debut album '2 Cool 4 Skool'?",
+      "options": ["Born Singer", "Path", "Sea", "Skit: On the Start Line"],
+      "answer": "Path"
+    },
+    {
+      "question": "Which member co-composed his solo song 'Lie' from the 'Wings' album?",
+      "options": ["Jungkook", "V", "Jimin", "Jin"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "What is the name of the traditional Korean mask dance featured in the 'IDOL' music video?",
+      "options": ["Buchaechum", "Talchum", "Ganggangsullae", "Salpuri"],
+      "answer": "Talchum"
+    },
+    {
+      "question": "Who was the first BTS member to release an official, self-produced solo song on SoundCloud?",
+      "options": ["RM with 'Unpack Your Bags'", "Jungkook with 'Still With You'", "V with 'Scenery'", "Jin with 'Tonight'"],
+      "answer": "V with 'Scenery'"
+    },
+    {
+      "question": "Which member has the most songwriting credits registered with the Korea Music Copyright Association (KOMCA)?",
+      "options": ["Suga", "J-Hope", "Jungkook", "RM"],
+      "answer": "RM"
+    },
+    {
+      "question": "In Run BTS! Episode 45, the members create their own kimchi. What is the name of the kimchi V made?",
+      "options": ["Vimchi", "Taekimchi", "Kimchi-V", "It had no special name"],
+      "answer": "It had no special name"
+    },
+    {
+      "question": "What is the title of the song from 'Love Yourself: Answer' that is a solo by J-Hope, Jimin, and Jungkook?",
+      "options": ["I'm Fine", "Answer: Love Myself", "Trivia: Just Dance", "Outro: Tear"],
+      "answer": "Outro: Tear"
+    },
+    {
+      "question": "V's self-composed song 'Blue & Grey' was originally intended for what?",
+      "options": ["His solo mixtape", "The 'Hwarang' OST", "A collaboration with another artist", "A fan song"],
+      "answer": "His solo mixtape"
+    },
+    {
+      "question": "Which two members were born in the same city and attended the same high school?",
+      "options": ["Suga and V (Daegu)", "Jimin and V (Busan/Daegu, but same high school)", "RM and Jin (Gyeonggi)", "Jimin and Jungkook (Busan)"],
+      "answer": "Jimin and V (Busan/Daegu, but same high school)"
+    },
+    {
+      "question": "What university major did Jin graduate with from Konkuk University?",
+      "options": ["Music", "Dance", "Film Studies", "Business"],
+      "answer": "Film Studies"
+    },
+    {
+      "question": "The song 'Whalien 52' is about what kind of whale?",
+      "options": ["A blue whale", "A humpback whale", "The 52-hertz whale, known as the loneliest whale in the world", "A killer whale"],
+      "answer": "The 52-hertz whale, known as the loneliest whale in the world"
+    },
+    {
+      "question": "What is the name of the rock band Suga sampled for the title track of his 'D-2' mixtape, 'Daechwita'?",
+      "options": ["There was no sample", "A traditional Korean military song", "Sinawe", "Boohwal"],
+      "answer": "A traditional Korean military song"
+    },
+    {
+      "question": "What brand of camera does Jungkook primarily use for his G.C.F series?",
+      "options": ["Canon", "Nikon", "Sony", "Leica"],
+      "answer": "Sony"
+    },
+    {
+      "question": "In Bon Voyage Season 4 in New Zealand, what activity did the members try that made J-Hope and V extremely scared?",
+      "options": ["Bungee jumping", "Skydiving", "A giant swing over a canyon", "White water rafting"],
+      "answer": "A giant swing over a canyon"
+    },
+    {
+      "question": "The song 'Am I Wrong' contains a sample from which American blues artist?",
+      "options": ["B.B. King", "Keb' Mo'", "John Lee Hooker", "Muddy Waters"],
+      "answer": "Keb' Mo'"
+    },
+    {
+      "question": "Which member is a skilled painter, as seen in 'In the SOOP' and his personal vlogs?",
+      "options": ["V", "Jimin", "Jin", "Jungkook"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "What is the name of the character V played in the drama 'Hwarang'?",
+      "options": ["Sun-woo", "Ji-dwi", "Ban-ryu", "Han-sung"],
+      "answer": "Han-sung"
+    },
+    {
+      "question": "Which member had to undergo emergency appendicitis surgery during a tour in Japan in 2013?",
+      "options": ["RM", "Jin", "Suga", "Jimin"],
+      "answer": "Suga"
+    },
+    {
+      "question": "What does the 'Epilogue: Young Forever' music video show the members trying to escape from?",
+      "options": ["A burning building", "A maze", "A sinking ship", "A dark forest"],
+      "answer": "A maze"
+    },
+    {
+      "question": "Which two members performed a contemporary dance duet to 'Black Swan' on 'The Late Late Show with James Corden'?",
+      "options": ["J-Hope and Jungkook", "Jimin and Jungkook", "J-Hope and Jimin", "V and Jimin"],
+      "answer": "J-Hope and Jimin"
+    },
+    {
+      "question": "What is the name of the traditional Korean zither-like instrument that Suga learned to play for the 'Daechwita' music video?",
+      "options": ["Gayageum", "Geomungo", "Ajaeng", "Haegeum"],
+      "answer": "Geomungo"
+    },
+    {
+      "question": "RM's 2018 playlist/mixtape 'mono.' has a track featuring which indie rock band?",
+      "options": ["The 1975", "LANY", "Honne", "Nell"],
+      "answer": "Nell"
+    },
+    {
+      "question": "What is the name of the BTS-created mobile game where the player acts as their manager?",
+      "options": ["BTS World", "BTS Universe Story", "Rhythm Hive", "SuperStar BTS"],
+      "answer": "BTS World"
+    },
+    {
+      "question": "Which member is known for the catchphrase 'Lachimolala'?",
+      "options": ["V", "J-Hope", "Jimin", "Jin"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "What is the specific type of dog V's pet Yeontan is?",
+      "options": ["Pomeranian", "Maltese", "Chihuahua", "Bichon Frise"],
+      "answer": "Pomeranian"
+    },
+    {
+      "question": "The rap line's song 'Ddaeng' is a diss track that heavily uses wordplay from what traditional Korean game?",
+      "options": ["Yut Nori", "Gonggi", "Go-Stop (Hwatu)", "Jegichagi"],
+      "answer": "Go-Stop (Hwatu)"
+    },
+    {
+      "question": "Which member has a scar over his right eye from a childhood fight with his brother?",
+      "options": ["Jimin", "Jungkook", "Suga", "J-Hope"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "What is the name of the fictional flower that is central to the 'Love Yourself' era's story?",
+      "options": ["Smeraldo", "Agapanthe", "Eustoma", "Anemone"],
+      "answer": "Smeraldo"
+    },
+    {
+      "question": "Which member was a successful competitive snowboarder before becoming a trainee?",
+      "options": ["Jin", "V", "Jungkook", "RM"],
+      "answer": "RM"
+    },
+    {
+      "question": "J-Hope's 'Chicken Noodle Soup' features which American artist?",
+      "options": ["Cardi B", "Megan Thee Stallion", "Becky G", "Doja Cat"],
+      "answer": "Becky G"
+    },
+    {
+      "question": "Which member ranked first in the 'TC Candler 100 Most Handsome Faces of 2017'?",
+      "options": ["Jin", "Jungkook", "Jimin", "V"],
+      "answer": "V"
+    },
+    {
+      "question": "In Bon Voyage Season 1, where the members traveled to Northern Europe, which member lost his passport?",
+      "options": ["Jimin", "V", "Jungkook", "RM"],
+      "answer": "RM"
+    },
+    {
+      "question": "What is the title of the solo song by Jin that was released on his 28th birthday?",
+      "options": ["Tonight", "Abyss", "Moon", "Epiphany"],
+      "answer": "Abyss"
+    },
+    {
+      "question": "The music video for 'ON' Kinetic Manifesto Film was filmed at which California dam?",
+      "options": ["Hoover Dam", "Shasta Dam", "Sepulveda Dam", "Oroville Dam"],
+      "answer": "Sepulveda Dam"
+    },
+    {
+      "question": "Which member is known for his extensive collection of figurines from the brand KAWS?",
+      "options": ["Suga", "RM", "J-Hope", "Jin"],
+      "answer": "RM"
+    },
+    {
+      "question": "Which of these songs was NOT a title track from 'The Most Beautiful Moment in Life' trilogy?",
+      "options": ["I Need U", "Run", "Dope", "Fire"],
+      "answer": "Dope"
+    },
+    {
+      "question": "What is the name of the fashion collector's item that J-Hope is known for collecting?",
+      "options": ["Supreme hoodies", "Bearbrick figures", "Off-White sneakers", "Chrome Hearts jewelry"],
+      "answer": "Bearbrick figures"
+    },
+    {
+      "question": "Which member was the main character in the 'Wings' short film series, connecting all the other members' stories?",
+      "options": ["V", "Jungkook", "Jin", "RM"],
+      "answer": "Jin"
+    },
+    {
+      "question": "What is the Korean title of the song 'Boy With Luv'?",
+      "options": ["Jageun Geosdeureul Wihan Si", "Soneoncheoreom", "Sarange Ppajin Sonyeon", "Neoreul Wihan Norae"],
+      "answer": "Jageun Geosdeureul Wihan Si"
+    },
+    {
+      "question": "Which member is known for having a 'Midas touch' in Run BTS!, often winning games through sheer luck?",
+      "options": ["J-Hope", "Jin", "V", "Jimin"],
+      "answer": "Jin"
+    },
+    {
+      "question": "The song 'Paradise' from 'Love Yourself: Tear' was co-written by which British artist?",
+      "options": ["MNEK", "Labrinth", "Sampha", "James Blake"],
+      "answer": "MNEK"
+    },
+    {
+      "question": "What is the name of the animated characters that represent BTS in the 'TinyTAN' series?",
+      "options": ["They are just smaller versions of the members.", "Themselves", "The BT21 characters", "They have individual names."],
+      "answer": "They are just smaller versions of the members."
+    },
+    {
+      "question": "Which member has a habit of pouting his lips when he's focused?",
+      "options": ["Jungkook", "Jimin", "V", "Jin"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "Suga's song 'The Last' from his mixtape 'Agust D' deals with his personal struggles with what?",
+      "options": ["Poverty and hunger", "Depression and social anxiety", "His identity as an artist", "A difficult family relationship"],
+      "answer": "Depression and social anxiety"
+    },
+    {
+      "question": "In what year did BTS first attend the Billboard Music Awards and win Top Social Artist?",
+      "options": ["2016", "2017", "2018", "2019"],
+      "answer": "2017"
+    },
+    {
+      "question": "Which member studied modern dance at Busan High School of Arts, where he was a top student?",
+      "options": ["Jungkook", "V", "Jimin", "J-Hope"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "What is the title of the song that features Sia?",
+      "options": ["Black Swan", "Louder than bombs", "ON", "UGH!"],
+      "answer": "ON"
+    },
+    {
+      "question": "Which member is known for his love of the video game Overwatch, particularly the character Widowmaker?",
+      "options": ["Jin", "V", "Suga", "Jungkook"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "The name of Jimin's BT21 character, Chimmy, is a combination of his last name and what?",
+      "options": ["His nickname 'Mochi'", "The word 'puppy'", "His favorite color", "It has no specific meaning"],
+      "answer": "The word 'puppy'"
+    },
+    {
+      "question": "What city did BTS film G.C.F. in Tokyo?",
+      "options": ["Osaka", "Tokyo", "Helsinki", "Saipan"],
+      "answer": "Tokyo"
+    },
+    {
+      "question": "What is the name of the song from the 'BE' album that was written by V, with RM's help?",
+      "options": ["Stay", "Telepathy", "Dis-ease", "Blue & Grey"],
+      "answer": "Blue & Grey"
+    },
+    {
+      "question": "In the 'War of Hormone' music video, who is the girl the members are chasing?",
+      "options": ["A famous actress", "A Big Hit trainee", "A professional model", "A staff member"],
+      "answer": "A Big Hit trainee"
+    },
+    {
+      "question": "Which member is a fixed cast member of the variety show 'Jinny's Kitchen'?",
+      "options": ["Jin", "Jungkook", "Jimin", "V"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the name of the fictional disease V's character suffers from in the HYYH notes?",
+      "options": ["He doesn't have a disease.", "Munchausen syndrome", "Hanahaki Disease", "It is not named."],
+      "answer": "He doesn't have a disease."
+    },
+    {
+      "question": "Which member produced the song 'Autumn Leaves'?",
+      "options": ["RM", "J-Hope", "Jungkook", "Suga"],
+      "answer": "Suga"
+    },
+    {
+      "question": "Which member has a pet sugar glider named Gukmul?",
+      "options": ["Jimin", "V", "Jungkook", "Jin"],
+      "answer": "Jin"
+    },
+    {
+      "question": "What is the name of the contemporary art project BTS launched in 2020, connecting five cities around the world?",
+      "options": ["CONNECT, BTS", "Art for ARMY", "The BTS Exhibit", "Map of the Soul: Global"],
+      "answer": "CONNECT, BTS"
+    },
+    {
+      "question": "What are the three original songs from the 'Proof' anthology album?",
+      "options": ["Yet To Come, Run BTS, For Youth", "Yet To Come, Born Singer, Epilogue: Young Forever", "Run BTS, For Youth, Still With You", "Yet To Come, For Youth, The Planet"],
+      "answer": "Yet To Come, Run BTS, For Youth"
+    },
+    {
+      "question": "Which member collaborated with American singer-songwriter Lauv on the song 'Who'?",
+      "options": ["V and Jungkook", "Jimin and Jungkook", "Jin and V", "RM and Jimin"],
+      "answer": "Jimin and Jungkook"
+    },
+    {
+      "question": "What instrument did Suga play in the school band?",
+      "options": ["Piano", "Drums", "Trumpet", "Guitar"],
+      "answer": "Trumpet"
+    },
+    {
+      "question": "Which member famously cut his own bangs on a live broadcast?",
+      "options": ["V", "Jimin", "Jungkook", "Jin"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "Which member is known to have a driver's license but rarely drives?",
+      "options": ["Suga", "Jin", "RM", "J-Hope"],
+      "answer": "RM"
+    },
+    {
+      "question": "In the 'Dope' music video, what profession is Jungkook dressed as?",
+      "options": ["Race car driver", "Doctor", "Police officer", "Pilot"],
+      "answer": "Police officer"
+    },
+    {
+      "question": "What is the title of the song RM wrote for the K-pop group GLAM before BTS's debut?",
+      "options": ["I Like That", "Party (XXO)", "In Front of the Mirror", "He did not write for them"],
+      "answer": "Party (XXO)"
+    },
+    {
+      "question": "Which member has a solo song titled 'Filter'?",
+      "options": ["V", "Jimin", "Jungkook", "Jin"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "What is the name of the island where BTS filmed their 2018 Summer Package?",
+      "options": ["Jeju Island, South Korea", "Okinawa, Japan", "Saipan, Northern Mariana Islands", "Bali, Indonesia"],
+      "answer": "Saipan, Northern Mariana Islands"
+    },
+    {
+      "question": "Which member's BT21 character is a 'tiny prankster cookie'?",
+      "options": ["Cooky", "Tata", "Chimmy", "Shooky"],
+      "answer": "Shooky"
+    },
+    {
+      "question": "What is the name of the song that samples the main theme from the anime 'Cowboy Bebop'?",
+      "options": ["BTS Cypher 4", "Hip Hop Phile", "21st Century Girl", "There is no such song"],
+      "answer": "There is no such song"
+    },
+    {
+      "question": "In Run BTS! Episode 33, 'BTS x Manito', who was Jin's manito (secret santa)?",
+      "options": ["Suga", "J-Hope", "V", "Jungkook"],
+      "answer": "Suga"
+    },
+    {
+      "question": "What is the name of the stadium in London where BTS made history as the first Korean act to headline?",
+      "options": ["The O2 Arena", "Wembley Stadium", "London Stadium", "Emirates Stadium"],
+      "answer": "Wembley Stadium"
+    },
+    {
+      "question": "What is the name of the 'Skit' on the 'BE' album where the members react to their first Billboard Hot 100 #1?",
+      "options": ["Skit: Hot 100", "Skit: Billboard #1", "Skit", "Skit: Dynamite"],
+      "answer": "Skit"
+    },
+    {
+      "question": "Which member has a vocal range that spans from Eb2 to D6, one of the widest in the group?",
+      "options": ["Jin", "Jimin", "V", "Jungkook"],
+      "answer": "V"
+    },
+    {
+      "question": "The choreography for 'ON' features a dance break inspired by what?",
+      "options": ["A marching band", "A traditional Korean fan dance", "The Blue Devils Drum and Bugle Corps", "A Broadway musical"],
+      "answer": "The Blue Devils Drum and Bugle Corps"
+    },
+    {
+      "question": "Which member is known to be a big fan of the movie 'The Lion King'?",
+      "options": ["RM", "Jimin", "V", "Jungkook"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the title of the song Jimin and V wrote for the OST of the drama 'Our Blues'?",
+      "options": ["Christmas Tree", "With You", "Sweet Night", "Yours"],
+      "answer": "With You"
+    },
+    {
+      "question": "Which member collaborated with American artist Juice WRLD on the song 'All Night' for the 'BTS World' soundtrack?",
+      "options": ["RM and Jin", "Suga and J-Hope", "RM and Suga", "Jimin and Jungkook"],
+      "answer": "RM and Suga"
+    },
+    {
+      "question": "Which member released the solo album 'FACE' in 2023?",
+      "options": ["J-Hope", "RM", "Jimin", "Suga"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "Which member released the solo album 'D-DAY' in 2023, completing his Agust D trilogy?",
+      "options": ["Suga", "RM", "J-Hope", "Jungkook"],
+      "answer": "Suga"
+    },
+    {
+      "question": "What is the title of Jungkook's official solo debut single?",
+      "options": ["Still With You", "My You", "Seven", "3D"],
+      "answer": "Seven"
+    },
+    {
+      "question": "Which member is known for the iconic line 'You got no jams'?",
+      "options": ["Suga", "Jin", "RM", "J-Hope"],
+      "answer": "RM"
+    },
+    {
+      "question": "Which member released a solo album titled 'Layover'?",
+      "options": ["Jin", "Jimin", "V", "Jungkook"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the name of the concert BTS held in Busan in 2022 in support of the World Expo bid?",
+      "options": ["Permission to Dance on Stage - Busan", "Yet To Come in Busan", "Magic Shop in Busan", "Love Yourself: Busan"],
+      "answer": "Yet To Come in Busan"
+    }
+  ],
+  "hard": [
+    {
+      "question": "What was the original debut lineup of BTS supposed to be before it was changed to the current 7 members?",
+      "options": ["A 12-member group called 'Top Dogg'", "A hip-hop duo with RM and Iron", "A co-ed group with GLAM", "The lineup has always been the current 7 members"],
+      "answer": "A hip-hop duo with RM and Iron"
+    },
+    {
+      "question": "In the 'I Need U (Original Version)' music video, what is the specific brand of pills that J-Hope takes?",
+      "options": ["Advil", "Placebo", "Tylenol", "The brand is not visible"],
+      "answer": "The brand is not visible"
+    },
+    {
+      "question": "Suga's birth name is Min Yoon-gi. What does the 'gi' (其) in his name mean in Hanja (Chinese characters)?",
+      "options": ["Shine", "Grandfather", "That", "Wisdom"],
+      "answer": "That"
+    },
+    {
+      "question": "In the BTS Universe, what is the name of the character that represents Bang Si-Hyuk?",
+      "options": ["He is not a character.", "The principal", "The bus driver", "The cat"],
+      "answer": "He is not a character."
+    },
+    {
+      "question": "Which member was a part of a pre-debut rap crew called 'D-Town' along with RM?",
+      "options": ["Suga", "J-Hope", "Supreme Boi", "Iron"],
+      "answer": "Supreme Boi"
+    },
+    {
+      "question": "The song 'Moving On' from 'The Most Beautiful Moment in Life, Pt. 1' is about the members' experience of what?",
+      "options": ["Leaving their hometowns", "Graduating from school", "Moving out of their first dorm", "Ending a relationship"],
+      "answer": "Moving out of their first dorm"
+    },
+    {
+      "question": "What is the name of the underground venue in Hongdae where RM performed as Runch Randa?",
+      "options": ["Club FF", "Strange Fruit", "Geek Live House", "The specific venue is not widely known"],
+      "answer": "The specific venue is not widely known"
+    },
+    {
+      "question": "Jungkook's cover of 'We Don't Talk Anymore' was famously recognized by the original artist. Who is he?",
+      "options": ["Shawn Mendes", "Justin Bieber", "Charlie Puth", "Ed Sheeran"],
+      "answer": "Charlie Puth"
+    },
+    {
+      "question": "The 'Danger' music video was filmed in a specific location in Seoul. What was it?",
+      "options": ["A deserted subway station in Sinseol-dong", "The Dongdaemun Design Plaza", "An abandoned factory in Gyeonggi-do", "The YG Entertainment building"],
+      "answer": "A deserted subway station in Sinseol-dong"
+    },
+    {
+      "question": "The track 'Paldogangsan' (Satoori Rap) is unique because it features the members rapping in their regional dialects. Which three members participate?",
+      "options": ["RM, Suga, J-Hope", "Suga, J-Hope, Jimin", "Suga, J-Hope, V", "Suga, J-Hope, Jungkook"],
+      "answer": "Suga, J-Hope, Jimin"
+    },
+    {
+      "question": "What is the name of the Japanese artist that RM is a huge fan of and collaborated with for the 'CONNECT, BTS' project?",
+      "options": ["Yayoi Kusama", "Takashi Murakami", "Yoshitomo Nara", "Kohei Nawa"],
+      "answer": "Kohei Nawa"
+    },
+    {
+      "question": "What is the name of the book by Hermann Hesse that heavily influenced the 'Wings' album concept?",
+      "options": ["Steppenwolf", "Siddhartha", "Demian", "The Glass Bead Game"],
+      "answer": "Demian"
+    },
+    {
+      "question": "What specific art movement is referenced in V's solo music video for 'Singularity'?",
+      "options": ["Surrealism", "Cubism", "Expressionism", "Impressionism"],
+      "answer": "Expressionism"
+    },
+    {
+      "question": "How many hours did it take for BTS to sell out Wembley Stadium tickets for their first date?",
+      "options": ["24 hours", "12 hours", "90 minutes", "30 minutes"],
+      "answer": "90 minutes"
+    },
+    {
+      "question": "Which member is related to the Gwangsan Kim clan, a noble clan from the Goryeo Dynasty?",
+      "options": ["V", "Jin", "RM", "Jimin"],
+      "answer": "Jin"
+    },
+    {
+      "question": "What is the name of the producer who has worked with BTS since their debut and is often called the '8th member' by fans?",
+      "options": ["Bang Si-hyuk", "Slow Rabbit", "Supreme Boi", "Pdogg"],
+      "answer": "Pdogg"
+    },
+    {
+      "question": "The song '134340' is the designated number for which former planet?",
+      "options": ["Jupiter", "Mars", "Neptune", "Pluto"],
+      "answer": "Pluto"
+    },
+    {
+      "question": "In the pre-debut documentary 'Rookie King', what punishment did RM have to endure for losing a game?",
+      "options": ["Waxing his legs", "Shaving his head", "Wearing a sailor moon costume", "Cleaning the dorms for a week"],
+      "answer": "Shaving his head"
+    },
+    {
+      "question": "Jimin was the last member to join BTS. How long was his training period?",
+      "options": ["3 years", "2 years", "Just over a year", "6 months"],
+      "answer": "Just over a year"
+    },
+    {
+      "question": "What is the name of the contemporary dancer who collaborated on the choreography for Jimin's 'Lie'?",
+      "options": ["Lia Kim", "Keone Madrid", "Brian Puspos", "Kasper"],
+      "answer": "Brian Puspos"
+    },
+    {
+      "question": "What is the name of the cafe that Jimin's father owns in Busan?",
+      "options": ["The Min's", "Magnate", "Cafe Hyuga", "It is now closed"],
+      "answer": "Magnate"
+    },
+    {
+      "question": "What is the ISBN of the book 'The Notes 1'?",
+      "options": ["978-89-94320-13-7", "978-0-307-26543-2", "979-11-96577-0-0", "It does not have one."],
+      "answer": "979-11-96577-0-0"
+    },
+    {
+      "question": "What is the name of the font that Big Hit Entertainment created for BTS's branding?",
+      "options": ["Bangtan Sans", "ARMY Serif", "The official font does not have a public name", "Big Hit IP"],
+      "answer": "The official font does not have a public name"
+    },
+    {
+      "question": "Which member has a dog named Mickey?",
+      "options": ["RM", "J-Hope", "Suga", "Jungkook"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What is the name of the horse-riding location where Jin filmed his 'Epiphany' concept photos?",
+      "options": ["Jeju Island", "Nami Island", "Daegwallyeong Sheep Ranch", "It was a set"],
+      "answer": "Daegwallyeong Sheep Ranch"
+    },
+    {
+      "question": "Which BTS song was the first by a Korean group to receive a Gold certification from the RIAA?",
+      "options": ["DNA", "MIC Drop (Remix)", "Fake Love", "Blood Sweat & Tears"],
+      "answer": "MIC Drop (Remix)"
+    },
+    {
+      "question": "What is the name of the artist who designed the album cover for RM's 'mono.'?",
+      "options": ["RM himself", "A fan artist", "Thibaud Hérem", "Samdoesarts"],
+      "answer": "Thibaud Hérem"
+    },
+    {
+      "question": "What is the name of the director who has directed most of BTS's music videos, including 'Dope' and 'Fire'?",
+      "options": ["Lumpens (Choi Yong-seok)", "Joseph Kahn", "Seo Hyun-seung", "Han Sa-min"],
+      "answer": "Lumpens (Choi Yong-seok)"
+    },
+    {
+      "question": "Which member is known to have an IQ of 148?",
+      "options": ["Suga", "Jin", "RM", "Jungkook"],
+      "answer": "RM"
+    },
+    {
+      "question": "The outfits in the 'Airplane Pt. 2' music video are inspired by the style of which Latin American country?",
+      "options": ["Brazil", "Mexico", "Cuba", "Argentina"],
+      "answer": "Cuba"
+    },
+    {
+      "question": "In the original script for the 'Run' music video, which member was supposed to die?",
+      "options": ["V", "Jungkook", "Jin", "No one was supposed to die"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "What is the name of the traditional Korean storytelling art form that inspired the lyrics of 'Ma City'?",
+      "options": ["Pansori", "Gagok", "Sijo", "There was no such inspiration"],
+      "answer": "Pansori"
+    },
+    {
+      "question": "In a 2017 Festa performance, Suga and Jin swapped roles to perform which songs?",
+      "options": ["'First Love' and 'Awake'", "'Never Mind' and 'Awake'", "'Tony Montana' and 'Epiphany'", "They have not swapped roles"],
+      "answer": "'Never Mind' and 'Awake'"
+    },
+    {
+      "question": "What is the name of the city in Sweden where BTS filmed their 2016 Summer Package?",
+      "options": ["Stockholm", "Gothenburg", "Malmö", "Kiruna"],
+      "answer": "Kiruna"
+    },
+    {
+      "question": "The rap line's song 'Cypher Pt. 3: Killer' was produced by which acclaimed American hip-hop producer?",
+      "options": ["Dr. Dre", "Timbaland", "The Neptunes", "Supreme Boi"],
+      "answer": "Supreme Boi"
+    },
+    {
+      "question": "What is the specific model of the flip phone Jin used during the 'Love Yourself' era that became a trend?",
+      "options": ["Samsung Galaxy Folder 2", "LG Wine Smart", "Motorola Razr", "Nokia 2720 Flip"],
+      "answer": "Samsung Galaxy Folder 2"
+    },
+    {
+      "question": "Which member is a descendant of the Yeoheung Min clan, the same clan as Queen Inhyeon of the Joseon Dynasty?",
+      "options": ["RM", "Jimin", "Suga", "Jin"],
+      "answer": "Suga"
+    },
+    {
+      "question": "What is the name of the author that RM recommended on a V Live, causing the author's books to sell out?",
+      "options": ["Haruki Murakami", "J.K. Rowling", "Cho Nam-joo ('Kim Jiyoung, Born 1982')", "Han Kang ('The Vegetarian')"],
+      "answer": "Cho Nam-joo ('Kim Jiyoung, Born 1982')"
+    },
+    {
+      "question": "The 'Black Swan' art film features a performance by which contemporary dance troupe?",
+      "options": ["Alvin Ailey American Dance Theater", "Nederlands Dans Theater", "MN Dance Company", "Martha Graham Dance Company"],
+      "answer": "MN Dance Company"
+    },
+    {
+      "question": "Which member's BT21 character, Mang, was revealed to have a heart-shaped nose under its mask?",
+      "options": ["J-Hope", "Jimin", "V", "RM"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What is the name of the high-end audio brand that BTS has a custom microphone collaboration with?",
+      "options": ["Shure", "Sennheiser", "Neumann", "Audio-Technica"],
+      "answer": "Sennheiser"
+    },
+    {
+      "question": "In 'Bon Voyage 3' in Malta, who was Jimin's soulmate for the friendship trip?",
+      "options": ["V", "Jungkook", "J-Hope", "Jin"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What is the name of the 'hidden vocal' who sings the chorus guide for many of BTS's songs, including 'Fake Love'?",
+      "options": ["Bang Si-hyuk", "Adora", "Supreme Boi", "Slow Rabbit"],
+      "answer": "Adora"
+    },
+    {
+      "question": "Which member is known to have a habit of sleeping with his eyes slightly open?",
+      "options": ["Jimin", "V", "Jungkook", "Suga"],
+      "answer": "V"
+    },
+    {
+      "question": "The 'Mic Drop' choreography includes a move inspired by which legendary martial artist?",
+      "options": ["Bruce Lee", "Jackie Chan", "Jet Li", "Donnie Yen"],
+      "answer": "Bruce Lee"
+    },
+    {
+      "question": "Which member has a tattoo of a crown on his finger?",
+      "options": ["Jimin", "Jungkook", "V", "RM"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "What is the name of the composer who wrote the score for the 'BTS World' game?",
+      "options": ["Hans Zimmer", "Ramin Djawadi", "Ludwig Göransson", "Kang Minkook"],
+      "answer": "Kang Minkook"
+    },
+    {
+      "question": "What is the name of the song that BTS performed on Saturday Night Live in 2019?",
+      "options": ["'Boy With Luv' and 'DNA'", "'Fake Love' and 'Mic Drop'", "'Boy With Luv' and 'Mic Drop'", "'IDOL' and 'Fake Love'"],
+      "answer": "'Boy With Luv' and 'Mic Drop'"
+    },
+    {
+      "question": "Which member can solve a Rubik's cube in under a minute?",
+      "options": ["Jin", "V", "J-Hope", "RM"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What is the name of the online rhythm game that exclusively features music from Big Hit Music artists, including BTS?",
+      "options": ["SuperStar BTS", "Beat Fever", "Rhythm Hive", "Piano Tiles"],
+      "answer": "Rhythm Hive"
+    },
+    {
+      "question": "In the music video for 'No More Dream', what is the number on the back of Jungkook's jersey?",
+      "options": ["97", "01", "58", "There is no number"],
+      "answer": "58"
+    },
+    {
+      "question": "Which member is known to be the fastest typer in the group?",
+      "options": ["Suga", "RM", "J-Hope", "Jimin"],
+      "answer": "Suga"
+    },
+    {
+      "question": "The song 'Sea' was only available on the physical copy of which album?",
+      "options": ["Wings", "You Never Walk Alone", "Love Yourself: Her", "Love Yourself: Tear"],
+      "answer": "Love Yourself: Her"
+    },
+    {
+      "question": "What is the exact date of BTS's debut stage performance on M Countdown?",
+      "options": ["June 12, 2013", "June 13, 2013", "August 8, 2013", "September 1, 2013"],
+      "answer": "June 13, 2013"
+    },
+    {
+      "question": "Which member's earring collection is so vast that it has its own dedicated fan accounts?",
+      "options": ["V", "Jimin", "Jungkook", "Suga"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the name of the fashion designer that created the custom Dior outfits for the 'Love Yourself: Speak Yourself' tour?",
+      "options": ["Virgil Abloh", "Kim Jones", "Hedi Slimane", "Riccardo Tisci"],
+      "answer": "Kim Jones"
+    },
+    {
+      "question": "Which member is a big fan of the Korean indie band 'The Black Skirts'?",
+      "options": ["Jin", "Suga", "RM", "V"],
+      "answer": "RM"
+    },
+    {
+      "question": "What is the name of the song that Suga wrote for the artist Suran, which won him a 'Hot Trend' award?",
+      "options": ["'Wine'", "'1+1=0'", "'We Don't Talk Together'", "'Eight'"],
+      "answer": "'Wine'"
+    },
+    {
+      "question": "Which member has a mole on the tip of his nose?",
+      "options": ["J-Hope", "Jin", "V", "Jungkook"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the title of the song RM released in collaboration with the movie 'Fantastic Four'?",
+      "options": ["'Do You'", "'Joke'", "'Fantastic'", "'P.D.D'"],
+      "answer": "'Fantastic'"
+    },
+    {
+      "question": "Which member is known for his unique way of eating noodles, called 'sam-hap' (three-part combination)?",
+      "options": ["Jin", "J-Hope", "Jimin", "V"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What is the name of the fictional city in the BTS Universe where most of the story takes place?",
+      "options": ["Songju", "Gyeongju", "Hwayang", "Mudo"],
+      "answer": "Songju"
+    },
+    {
+      "question": "What is the name of the American marching band that performed with BTS at the 2018 Melon Music Awards?",
+      "options": ["The Ohio State University Marching Band", "USC Trojan Marching Band", "The Blue Devils", "The Cadets"],
+      "answer": "The Ohio State University Marching Band"
+    },
+    {
+      "question": "What is the name of the painter whose work 'The Wanderer Above the Sea of Fog' is referenced in the 'Epiphany' music video?",
+      "options": ["Vincent van Gogh", "Claude Monet", "Caspar David Friedrich", "Edvard Munch"],
+      "answer": "Caspar David Friedrich"
+    },
+    {
+      "question": "Which member is a brand ambassador for the Italian luxury brand Valentino?",
+      "options": ["RM", "Jimin", "Suga", "V"],
+      "answer": "Suga"
+    },
+    {
+      "question": "What is the name of the artist that Jungkook has cited as his biggest musical influence?",
+      "options": ["Justin Bieber", "G-Dragon", "Usher", "Chris Brown"],
+      "answer": "G-Dragon"
+    },
+    {
+      "question": "Which member is known to have a collection of traditional Korean bamboo flutes?",
+      "options": ["Jin", "Suga", "V", "Jimin"],
+      "answer": "V"
+    },
+    {
+      "question": "The 'Blood Sweat & Tears' music video features a quote from which German philosopher?",
+      "options": ["Immanuel Kant", "Arthur Schopenhauer", "Friedrich Nietzsche", "Martin Heidegger"],
+      "answer": "Friedrich Nietzsche"
+    },
+    {
+      "question": "What is the name of the song that was produced by The Chainsmokers on the 'Love Yourself: Her' album?",
+      "options": ["'DNA'", "'Pied Piper'", "'Best of Me'", "'Go Go'"],
+      "answer": "'Best of Me'"
+    },
+    {
+      "question": "Which member has the blood type AB?",
+      "options": ["Jimin", "V", "Jungkook", "Suga"],
+      "answer": "V"
+    },
+    {
+      "question": "What is the name of the restaurant in Seoul that was run by Jin's brother?",
+      "options": ["Yoojung Sikdang", "Ossu Seiromushi", "The Min's", "Gopchang Jeongol"],
+      "answer": "Ossu Seiromushi"
+    },
+    {
+      "question": "Which member's solo song 'My Time' discusses his experience of growing up in the public eye?",
+      "options": ["Jimin", "V", "Jungkook", "RM"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "Which member appeared on the Korean variety show 'King of Mask Singer' as 'Fencing Man'?",
+      "options": ["Jimin", "V", "Jin", "Jungkook"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "What is the name of the character Jungkook voices in the Korean dub of the movie 'Zootopia'?",
+      "options": ["Nick Wilde", "Flash", "He did not voice a character", "Finnick"],
+      "answer": "He did not voice a character"
+    },
+    {
+      "question": "Which member is known to be the best at drawing among the group?",
+      "options": ["Jimin", "V", "Jungkook", "Jin"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "What is the name of the song that BTS performed at the 2020 Grammy Awards alongside Lil Nas X?",
+      "options": ["'Old Town Road'", "'Panini'", "'Rodeo'", "'Montero'"],
+      "answer": "'Old Town Road'"
+    },
+    {
+      "question": "Which member is a brand ambassador for the French luxury brand Dior?",
+      "options": ["V", "Jimin", "J-Hope", "RM"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "The song 'UGH!' from 'Map of the Soul: 7' is a critique of what?",
+      "options": ["The music industry", "Sasaeng fans (obsessive fans)", "Online hate and malicious comments", "Political corruption"],
+      "answer": "Online hate and malicious comments"
+    },
+    {
+      "question": "What is the name of the British rock band that Jin is a huge fan of?",
+      "options": ["The Beatles", "Queen", "Coldplay", "Radiohead"],
+      "answer": "Coldplay"
+    },
+    {
+      "question": "Which member has a tattoo of the number '7' behind his ear?",
+      "options": ["Jimin", "RM", "J-Hope", "Suga"],
+      "answer": "RM"
+    },
+    {
+      "question": "What is the title of the song from the 'Skool Luv Affair' album that was later re-released as a ballad?",
+      "options": ["'Boy in Luv'", "'Just One Day'", "'Tomorrow'", "'Spine Breaker'"],
+      "answer": "'Just One Day'"
+    },
+    {
+      "question": "Which member is known to have a collection of scented candles?",
+      "options": ["Jin", "J-Hope", "V", "Jimin"],
+      "answer": "J-Hope"
+    },
+    {
+      "question": "What is the name of the song by American singer-songwriter Gallant that RM covered?",
+      "options": ["'Weight in Gold'", "'Skipping Stones'", "'Bourbon'", "'Miyazaki'"],
+      "answer": "'Weight in Gold'"
+    },
+    {
+      "question": "Which member has the smallest hands in the group?",
+      "options": ["Suga", "Jimin", "J-Hope", "Jin"],
+      "answer": "Jimin"
+    },
+    {
+      "question": "What is the name of the mobile game where players can decorate an island for the BTS characters to live on?",
+      "options": ["BTS World", "BTS Universe Story", "Rhythm Hive", "In the SEOM with BTS"],
+      "answer": "In the SEOM with BTS"
+    },
+    {
+      "question": "The 'Dynamite' music video was filmed at which location in South Korea?",
+      "options": ["Everland theme park", "A film set in Gyeonggi-do", "The Dongdaemun Design Plaza", "Incheon International Airport"],
+      "answer": "A film set in Gyeonggi-do"
+    },
+    {
+      "question": "What is the name of the Korean artist that V has cited as his role model?",
+      "options": ["Rain", "Se7en", "Kim Bum-soo", "Park Hyo-shin"],
+      "answer": "Park Hyo-shin"
+    },
+    {
+      "question": "Which member is known for his 'farmer's spirit' and love of strawberries?",
+      "options": ["J-Hope", "Jin", "V", "Jungkook"],
+      "answer": "Jin"
+    },
+    {
+      "question": "What is the name of the song that was used as the main theme for the Japanese movie 'Signal'?",
+      "options": ["'Lights'", "'Stay Gold'", "'Your eyes tell'", "'Don't Leave Me'"],
+      "answer": "'Don't Leave Me'"
+    },
+    {
+      "question": "Which member had shoulder surgery in 2020 for a recurring injury?",
+      "options": ["Jin", "Suga", "Jimin", "Jungkook"],
+      "answer": "Suga"
+    },
+    {
+      "question": "Which member has a tattoo of a microphone on his forearm?",
+      "options": ["RM", "J-Hope", "Jungkook", "Suga"],
+      "answer": "Jungkook"
+    },
+    {
+      "question": "What is the name of the song from 'Love Yourself: Answer' that is a solo by the rap line?",
+      "options": ["'Outro: Tear'", "'Intro: Persona'", "'Respect'", "'UGH!'"],
+      "answer": "'Outro: Tear'"
+    },
+    {
+      "question": "What is the name of the university where BTS filmed their '2021 Muster Sowoozoo' concert?",
+      "options": ["Seoul National University", "Yonsei University", "Korea University", "It was a custom-built stage"],
+      "answer": "It was a custom-built stage"
+    },
+    {
+      "question": "What is the name of the dog cafe that J-Hope and his sister own?",
+      "options": ["They do not own a dog cafe", "Hope World Cafe", "Mickey's Place", "The cafe is owned by his parents"],
+      "answer": "They do not own a dog cafe"
+    },
+    {
+      "question": "Which member is a brand ambassador for the French luxury brand Celine?",
+      "options": ["RM", "Jimin", "V", "Jungkook"],
+      "answer": "V"
+    },
+    {
+      "question": "Which member is known for having a fear of microwaves because he thinks they will explode?",
+      "options": ["J-Hope", "Jin", "V", "Jungkook"],
+      "answer": "J-Hope"
+    }
+  ]
+}
