@@ -33,9 +33,9 @@ const GoogleRedirectPage = () => {
           const response = await axios.post('/api/auth/google', {
             code: code, // 데이터를 body에 담아서 POST 방식으로 전송
           });
-
-
-          // 서버로부터 JWT 토큰과 사용자 정보를 받습니다.
+          
+          // ↓ eslint-config-react-app의 버그 방지용 주석
+          // eslint-disable-next-line no-undef
           const { token, user } = response.data;
 
           // AuthProvider의 setAuthData 함수를 호출해 앱의 로그인 상태를 직접 설정합니다.
