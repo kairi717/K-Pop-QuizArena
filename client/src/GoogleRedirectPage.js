@@ -23,6 +23,8 @@ const GoogleRedirectPage = () => {
     // 💥 이미 처리 중이거나 코드가 없으면 아무것도 하지 않습니다.
     if (isProcessing || !code) return;
 
+    let response;
+
     // 코드가 존재하는 경우에만 서버로 요청을 보냅니다.
     const sendCodeToServer = async () => {
       const sendCodeToServer = async () => {
@@ -30,7 +32,7 @@ const GoogleRedirectPage = () => {
           // 벡엔드 서버의 주소입니다. 실제 주소로 변경해주세요.
           //  const response = await axios.post('/api/auth/google', { code }) // 배포용
           // const response = await axios.post('http://localhost:5001/api/auth/google', { code }) //개발용
-          const response = await axios.post('/api/auth/google', {
+          response = await axios.post('/api/auth/google', {
             code: code, // 데이터를 body에 담아서 POST 방식으로 전송
           });
           
