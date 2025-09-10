@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server/server.js", // 서버 파일 경로
+      "use": "@vercel/node"
+    },
+    {
+      "src": "client/package.json", // 클라이언트 파일 경로
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build" // 클라이언트 빌드 결과물이 저장될 디렉토리
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/auth/google",
+      "dest": "/server/server.js", // 서버 파일의 라우트
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/server/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/client/$1" // 클라이언트 라우트
+    }
+  ]
+}
