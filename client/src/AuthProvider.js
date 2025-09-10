@@ -73,6 +73,13 @@ export function AuthProvider({ children }) {
     }
   };
 
+  // 내부: 외부에서 직접 인증 상태를 설정하는 함수 (OAuth 콜백용)
+  const setAuthData = (token, user) => {
+    saveToken(token);
+    setUser(user);
+  };
+
+
   // 로그인 함수: 서버에 로그인 요청 후 토큰 저장
   // serverResponse should include { token, user? }
   const login = async (credentials) => {
@@ -201,6 +208,7 @@ export function AuthProvider({ children }) {
     isAuthLoading,
     login,
     logout,
+    setAuthData, // OAuth 콜백에서 사용할 수 있도록 노출
     getToken,
     api, // 필요하면 API 인스턴스도 제공
   };

@@ -10,12 +10,21 @@ const rateLimit = require('express-rate-limit');
 const app = express();
 app.set('trust proxy', 1);
 app.use(cors({
-    origin: 'http://localhost:3000', // React 앱의 주소
+    // origin: 'http://localhost:3000', //개발용
+    // origin: 'https://k-pop-quiz-arena.vercel.app', // 배포용
+    origin: 'https://k-pop-quiz-arena.vercel.app', 
   credentials: true,
 }));
 app.use(express.json());
 
-const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+const oAuth2Client = new OAuth2Client(
+  process.env.GOOGLE_CLIENT_ID,
+  process.env.GOOGLE_CLIENT_SECRET, // .env 파일에 이 값이 반드시 있어야 합니다!
+  // 'http://localhost:3000/auth/google/callback'  // 개발용
+  // 'https://k-pop-quiz-arena.vercel.app/auth/google/callback' // 배포용
+      'https://k-pop-quiz-arena.vercel.app/auth/google/callback'
+  );
+console.log('✅ oAuth2Client redirectUri:', oAuth2Client.redirectUri);
 
 // --- 속도 제한 규칙(limiter) 설정 ---
 const isDev = process.env.NODE_ENV === 'development';
@@ -43,10 +52,40 @@ const submissionLimiter = rateLimit({
 // --- JWT 토큰 검증 미들웨어 ---
 const authenticateToken = (req, res, next) => { /* ... */ };
 
-// --- 모든 API 라우트 (이 부분은 모두 동일합니다) ---
-
 // Google 로그인 처리
-app.post('/api/auth/google', async (req, res) => { /* ... */ });
+app.post('/api/auth/google', async (req, res) => {
+  try {
+    const { code } = req.body; // 클라이언트가 보낸 'code'를 받습니다.
+    console.log('oAuth2Client redirectUri:', oAuth2Client.redirectUri);
+    
+    // 인증 코드를 사용하여 Google로부터 토큰(access_token, id_token 등)을 받아옵니다.
+    const { tokens } = await oAuth2Client.getToken({
+      code,
+      redirect_uri: oAuth2Client.redirectUri,
+    });
+    
+    // 받아온 id_token을 사용하여 사용자 정보를 검증하고 추출합니다.
+    const ticket = await oAuth2Client.verifyIdToken({
+      idToken: tokens.id_token,
+      audience: process.env.GOOGLE_CLIENT_ID,
+    });
+    const payload = ticket.getPayload();
+
+    // --- 여기에 DB에서 사용자를 조회하거나 생성하는 로직을 추가할 수 있습니다. ---
+
+    // 성공적으로 처리되었으므로, 클라이언트에 사용자 정보와 토큰을 보내줍니다.
+    res.status(200).json({
+      message: 'Login successful!',
+      user: payload,
+      // 필요하다면 앱 자체의 JWT 토큰을 여기서 생성하여 함께 보내줍니다.
+      // token: your_app_jwt,
+    });
+
+  } catch (error) {
+    console.error('🔴 Google 인증 코드 처리 중 오류 발생:', error.response ? error.response.data : error.message);
+    res.status(400).json({ message: 'Authentication failed', error: error.message });
+  }
+});
 
 // 포인트 적립
 app.post('/api/user/add-points', submissionLimiter, authenticateToken, async (req, res) => {
