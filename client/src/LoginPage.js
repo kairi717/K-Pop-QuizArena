@@ -13,7 +13,7 @@ function LoginPage({ onLoginSuccess }) {
 
     return (
         <div className="login-container">
-            <h2>Are you the Ultimate K-Pop Fan?</h2>
+            <h2>♡ Are you the Ultimate K-Pop Fan?</h2>
             <p>Prove your knowledge, climb the ranks, and get rewarded!</p>
             <button onClick={() => login()} className="google-login-button">
                 Sign in with Google
