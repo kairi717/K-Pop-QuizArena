@@ -55,7 +55,18 @@ const submissionLimiter = rateLimit({
 });
 
 // --- JWT 토큰 검증 미들웨어 ---
-const authenticateToken = (req, res, next) => { /* ... */ };
+const authenticateToken = (req, res, next) => {
+  const authHeader = req.headers['authorization'];
+  const token = authHeader && authHeader.split(' ')[1]; // Bearer TOKEN
+
+  if (token == null) return res.sendStatus(401); // 토큰이 없음
+
+  jwt.verify(token, process.env.JWT_SECRET, (err, user) => {
+    if (err) return res.sendStatus(403); // 토큰이 유효하지 않음
+    req.user = user; // { userId: ... }
+    next();
+  });
+};
 
 // Google 로그인 처리 - 먼저 OPTIONS 요청을 처리
 app.options('/api/auth/google', cors(corsOptions)); 

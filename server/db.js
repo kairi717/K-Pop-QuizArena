@@ -42,5 +42,6 @@ const checkDbConnection = async () => {
 // 💥 서버 시작 시 이 함수를 호출할 수 있도록 export 합니다.
 module.exports = {
   query: (text, params) => pool.query(text, params),
+  getClient: () => pool.connect(), // 💥 다른 파일에서 DB 클라이언트를 가져갈 수 있도록 getClient 함수를 추가합니다.
   checkDbConnection, 
 };
