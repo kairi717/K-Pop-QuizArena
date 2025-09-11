@@ -14,11 +14,16 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     },
     {
-      "handle": "filesystem"
+      "handle": "filesystem",
+      "continue": true
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
     },
     {
       "src": "/(.*)",
