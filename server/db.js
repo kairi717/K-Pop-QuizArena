@@ -3,8 +3,12 @@ require('dotenv').config();
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
+  
   // 💥 연결 타임아웃을 설정하여 무한정 기다리지 않도록 합니다.
   connectionTimeoutMillis: 5000, 
+    ssl: {
+    rejectUnauthorized: false
+  }
 });
 
 // 풀(Pool)에서 발생하는 모든 에러를 처리하는 이벤트 리스너를 추가합니다.
