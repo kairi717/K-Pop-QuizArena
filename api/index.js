@@ -4,7 +4,7 @@ const express = require('express');
 const cors = require('cors');
 const { OAuth2Client } = require('google-auth-library');
 const jwt = require('jsonwebtoken');
-const db = require('./db'); // 💥 db.js를 가져옵니다 (checkDbConnection 포함)
+const db = require('./server/db'); // 💥 db.js를 가져옵니다 (checkDbConnection 포함)
 const rateLimit = require('express-rate-limit');
 
 const app = express();
@@ -293,23 +293,6 @@ app.get('/api/quiz/ranking', async (req, res) => {
   }
 });
 
-// --- 👇 서버 시작 로직을 이 부분으로 교체합니다 ---
 
-const startServer = async () => {
-    try {
-        // 1. 데이터베이스 연결을 먼저 확인합니다.
-        await db.checkDbConnection();
 
-        // 2. 연결이 성공해야만 서버가 요청을 받기 시작합니다.
-        const PORT = process.env.PORT || 5001;
-        app.listen(PORT, () => {
-          console.log(`🚀 Server is running on http://localhost:${PORT}`);
-        });
-    } catch (error) {
-        // checkDbConnection에서 오류가 발생하면, 서버를 시작하지 않고 프로세스를 종료합니다.
-        console.error("Failed to start server due to database connection issues.");
-        // process.exit(1)은 db.js에서 이미 처리하므로 여기서는 로그만 남깁니다.
-    }
-};
-
-startServer();
+module.exports = app;
