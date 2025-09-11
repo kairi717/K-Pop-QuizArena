@@ -10,6 +10,7 @@ const db = require('./db.js');
 const rateLimit = require('express-rate-limit');
 
 const app = express();
+app.use(express.json());
 app.set('trust proxy', 1);
 const corsOptions = {
   origin: 'https://k-pop-quiz-arena.vercel.app', // Vercel 배포 주소
