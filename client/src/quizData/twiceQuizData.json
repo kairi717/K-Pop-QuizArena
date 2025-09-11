@@ -1,0 +1,1493 @@
+{
+  "easy": [
+    {
+      "question": "How many members are in TWICE?",
+      "options": ["7", "8", "9", "10"],
+      "answer": "9"
+    },
+    {
+      "question": "What is the official fandom name for TWICE?",
+      "options": ["Twinkles", "Once", "Thrice", "Day"],
+      "answer": "Once"
+    },
+    {
+      "question": "Which entertainment company formed TWICE? [2]",
+      "options": ["SM Entertainment", "JYP Entertainment", "YG Entertainment", "HYBE Corporation"],
+      "answer": "JYP Entertainment"
+    },
+    {
+      "question": "What was TWICE's debut song? [2]",
+      "options": ["Cheer Up", "TT", "Like Ooh-Ahh", "Signal"],
+      "answer": "Like Ooh-Ahh"
+    },
+    {
+      "question": "Which member is the leader of TWICE? [5]",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Sana"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "Which three members form the 'J-Line' (Japanese members)?",
+      "options": ["Nayeon, Jeongyeon, Jihyo", "Momo, Sana, Mina", "Dahyun, Chaeyoung, Tzuyu", "Sana, Mina, Tzuyu"],
+      "answer": "Momo, Sana, Mina"
+    },
+    {
+      "question": "Which member is the youngest (maknae) in TWICE? [23]",
+      "options": ["Chaeyoung", "Dahyun", "Tzuyu", "Mina"],
+      "answer": "Tzuyu"
+    },
+    {
+      "question": "Which member is the oldest in TWICE? [3]",
+      "options": ["Momo", "Jeongyeon", "Nayeon", "Sana"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "Which member is from Taiwan? [6]",
+      "options": ["Mina", "Sana", "Momo", "Tzuyu"],
+      "answer": "Tzuyu"
+    },
+    {
+      "question": "What is the name of the survival show that formed TWICE? [2]",
+      "options": ["Produce 101", "Finding Momoland", "Sixteen", "Idol School"],
+      "answer": "Sixteen"
+    },
+    {
+      "question": "Which song is famous for Sana's 'shy shy shy' line?",
+      "options": ["TT", "Likey", "Cheer Up", "What is Love?"],
+      "answer": "Cheer Up"
+    },
+    {
+      "question": "What pose is the choreography for 'TT' famous for?",
+      "options": ["A heart shape", "A crying face", "A flower blooming", "Waving hands"],
+      "answer": "A crying face"
+    },
+    {
+      "question": "In what year did TWICE debut? [2]",
+      "options": ["2014", "2015", "2016", "2017"],
+      "answer": "2015"
+    },
+    {
+      "question": "What are TWICE's official colors? [6]",
+      "options": ["Blue and Yellow", "Pink and White", "Apricot and Neon Magenta", "Purple and Black"],
+      "answer": "Apricot and Neon Magenta"
+    },
+    {
+      "question": "Who is the main dancer of TWICE? [5]",
+      "options": ["Mina", "Momo", "Sana", "Tzuyu"],
+      "answer": "Momo"
+    },
+    {
+      "question": "Who is the main vocalist of TWICE? [5]",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Sana"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "Which member is known as the 'Tofu' of the group because of her pale skin?",
+      "options": ["Chaeyoung", "Dahyun", "Nayeon", "Jihyo"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "What is the title of TWICE's first full-length Korean album? [9]",
+      "options": ["Page Two", "Twicetagram", "Signal", "The Story Begins"],
+      "answer": "Twicetagram"
+    },
+    {
+      "question": "What is the lead single from the album 'Twicetagram'?",
+      "options": ["Signal", "TT", "Likey", "Heart Shaker"],
+      "answer": "Likey"
+    },
+    {
+      "question": "Which member is known as the 'Nation's First Love' of the group?",
+      "options": ["Sana", "Tzuyu", "Nayeon", "Mina"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "What is the group's official greeting?",
+      "options": ["'Best of the best, we are TWICE!'", "'Hello, we are the shining TWICE!'", "'One in a Million! Hello, we are TWICE!'", "'Twice the fun, Twice the love! We are TWICE!'"],
+      "answer": "'One in a Million! Hello, we are TWICE!'"
+    },
+    {
+      "question": "Which song won 'Song of the Year' at the 2016 Mnet Asian Music Awards? [9]",
+      "options": ["Like Ooh-Ahh", "TT", "Cheer Up", "Signal"],
+      "answer": "Cheer Up"
+    },
+    {
+      "question": "Who is the main rapper of TWICE? [5]",
+      "options": ["Dahyun", "Momo", "Chaeyoung", "Jeongyeon"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "What is the title of Nayeon's solo debut album? [3]",
+      "options": ["Pop!", "Nayeon", "Im Nayeon", "Solo"],
+      "answer": "Im Nayeon"
+    },
+    {
+      "question": "Which member is known for her 'eagle dance'?",
+      "options": ["Momo", "Sana", "Dahyun", "Chaeyoung"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "What is the name of the first sub-unit from TWICE, consisting of the Japanese members?",
+      "options": ["J-Trinity", "MISAMO", "J-Line", "Sakura"],
+      "answer": "MISAMO"
+    },
+    {
+      "question": "What is the title of TWICE's first original English single?",
+      "options": ["Moonlight Sunrise", "The Feels", "Cry for Me", "I Can't Stop Me"],
+      "answer": "The Feels"
+    },
+    {
+      "question": "Which member has the nickname 'Thomas the Tank Engine' because of her big eyes?",
+      "options": ["Nayeon", "Jihyo", "Sana", "Momo"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "Which member plays the gayageum?",
+      "options": ["Dahyun", "Chaeyoung", "Jeongyeon", "No member plays it"],
+      "answer": "No member plays it"
+    },
+    {
+      "question": "What is the title track of their second EP 'Page Two'? [9]",
+      "options": ["TT", "Knock Knock", "Cheer Up", "Signal"],
+      "answer": "Cheer Up"
+    },
+    {
+      "question": "Which member is known for her quiet and elegant personality, often called the 'Black Swan'?",
+      "options": ["Sana", "Mina", "Tzuyu", "Jeongyeon"],
+      "answer": "Mina"
+    },
+    {
+      "question": "What song's music video features the members parodying famous movies?",
+      "options": ["Cheer Up", "TT", "What is Love?", "Signal"],
+      "answer": "What is Love?"
+    },
+    {
+      "question": "What is the name of Jihyo's solo debut album?",
+      "options": ["Zone", "Killin' Me Good", "Jihyo's Story", "First Time"],
+      "answer": "Zone"
+    },
+    {
+      "question": "Which member has a dog named Kookeu? [19]",
+      "options": ["Nayeon", "Momo", "Dahyun", "Tzuyu"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "Which member is known for being very flexible?",
+      "options": ["Momo", "Mina", "Dahyun", "Jeongyeon"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "The song 'Feel Special' was written by J.Y. Park for the group. What was the main inspiration?",
+      "options": ["A dream he had", "A movie he watched", "A conversation with the TWICE members", "A book he read"],
+      "answer": "A conversation with the TWICE members"
+    },
+    {
+      "question": "Who is the lead rapper of TWICE? [5]",
+      "options": ["Chaeyoung", "Momo", "Dahyun", "Sana"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "What song features the lyrics 'Just like TT'?",
+      "options": ["Likey", "TT", "Cheer Up", "Signal"],
+      "answer": "TT"
+    },
+    {
+      "question": "Which member is known for her clumsy but charming personality?",
+      "options": ["Momo", "Sana", "Jihyo", "Jeongyeon"],
+      "answer": "Sana"
+    },
+    {
+      "question": "Which TWICE album was their first to enter the top 10 of the US Billboard 200 chart? [4]",
+      "options": ["More & More", "Eyes Wide Open", "Taste of Love", "Formula of Love: O+T=<3"],
+      "answer": "Taste of Love"
+    },
+    {
+      "question": "What is the name of TWICE's debut Japanese album? [2]",
+      "options": ["#TWICE", "BDZ", "&TWICE", "Perfect World"],
+      "answer": "#TWICE"
+    },
+    {
+      "question": "Which member's name is Mina Myoui? [3]",
+      "options": ["Momo", "Sana", "Mina", "Tzuyu"],
+      "answer": "Mina"
+    },
+    {
+      "question": "What is the title of the song with the alien-themed music video where members have superpowers?",
+      "options": ["Likey", "Yes or Yes", "Signal", "Knock Knock"],
+      "answer": "Signal"
+    },
+    {
+      "question": "Which member is known as the 'strawberry princess'?",
+      "options": ["Nayeon", "Sana", "Chaeyoung", "Tzuyu"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "Which member is often called 'God Jihyo' by the other members and fans?",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Dahyun"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "What is the name of TWICE's first concert tour? [9]",
+      "options": ["Twicelights", "Twice Dome Tour", "Twiceland", "Ready to Be"],
+      "answer": "Twiceland"
+    },
+    {
+      "question": "Which member is known for her short hair and 'girl crush' image in the early years?",
+      "options": ["Jihyo", "Chaeyoung", "Jeongyeon", "Nayeon"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "The song 'Alcohol-Free' has a bossa nova-inspired sound.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member has dogs named Kaya and Butter? [7]",
+      "options": ["Momo", "Nayeon", "Dahyun", "Tzuyu"],
+      "answer": "Tzuyu"
+    },
+    {
+      "question": "What is the title of the song where the members ask 'Yes or Yes?'",
+      "options": ["Likey", "Heart Shaker", "Yes or Yes", "Fancy"],
+      "answer": "Yes or Yes"
+    },
+    {
+      "question": "Which member's name is Hirai Momo? [3]",
+      "options": ["Sana", "Mina", "Momo", "Tzuyu"],
+      "answer": "Momo"
+    },
+    {
+      "question": "Which song's choreography involves 'knocking' on a door?",
+      "options": ["Signal", "TT", "Knock Knock", "Likey"],
+      "answer": "Knock Knock"
+    },
+    {
+      "question": "What is Chaeyoung's representative animal?",
+      "options": ["Bunny", "Tiger Cub", "Penguin", "Eagle"],
+      "answer": "Tiger Cub"
+    },
+    {
+      "question": "What is Nayeon's representative animal?",
+      "options": ["Bunny", "Puppy", "Bear", "Cat"],
+      "answer": "Bunny"
+    },
+    {
+      "question": "What is Mina's representative animal?",
+      "options": ["Swan", "Deer", "Penguin", "Cat"],
+      "answer": "Penguin"
+    },
+    {
+      "question": "The song 'Fancy' is known for its mature and chic concept.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member is known as the 'energizer' of the group?",
+      "options": ["Sana", "Dahyun", "Jihyo", "Nayeon"],
+      "answer": "Sana"
+    },
+    {
+      "question": "What is the name of TWICE's YouTube reality show series?",
+      "options": ["TWICE TV", "Going TWICE", "TWICE: Seize the Light", "TIME TO TWICE"],
+      "answer": "TIME TO TWICE"
+    },
+    {
+      "question": "Which member's name is Minatozaki Sana? [3]",
+      "options": ["Momo", "Mina", "Sana", "Tzuyu"],
+      "answer": "Sana"
+    },
+    {
+      "question": "Which member has dogs named Boo and Dobby? [19]",
+      "options": ["Momo", "Nayeon", "Jeongyeon", "Dahyun"],
+      "answer": "Momo"
+    },
+    {
+      "question": "Which song opens with the line 'Me likey likey likey'?",
+      "options": ["TT", "Signal", "Heart Shaker", "Likey"],
+      "answer": "Likey"
+    },
+    {
+      "question": "What is the title of their third EP, which includes the song 'TT'? [9]",
+      "options": ["Page Two", "Twicecoaster: Lane 1", "Signal", "The Story Begins"],
+      "answer": "Twicecoaster: Lane 1"
+    },
+    {
+      "question": "Which member is known for her unique and artistic personality?",
+      "options": ["Dahyun", "Mina", "Jeongyeon", "Chaeyoung"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "Which member has the nickname 'No-Jam Brother' (Funless Brother)?",
+      "options": ["Nayeon", "Jeongyeon", "Momo", "Jihyo"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "The title 'BDZ' from their first Japanese studio album stands for what?",
+      "options": ["Brand Day Zone", "Bulldozer", "Be Dazzled", "Beyond Dream Zone"],
+      "answer": "Bulldozer"
+    },
+    {
+      "question": "Which member is the face of the Korean beauty brand A'pieu?",
+      "options": ["Nayeon", "Sana", "Dahyun", "Tzuyu"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "Which member's real name is Park Jihyo (formerly Park Jisoo)? [3]",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Dahyun"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "Which song's music video is set on a summery, tropical island?",
+      "options": ["What is Love?", "Feel Special", "Dance The Night Away", "Alcohol-Free"],
+      "answer": "Dance The Night Away"
+    },
+    {
+      "question": "What is the name of TWICE's official light stick?",
+      "options": ["Once Bong", "Twinkle Stick", "Candy Bong", "Lovely Stick"],
+      "answer": "Candy Bong"
+    },
+    {
+      "question": "Which member is known for making gimbap for the other members?",
+      "options": ["Jihyo", "Sana", "Momo", "Jeongyeon"],
+      "answer": "Sana"
+    },
+    {
+      "question": "The song 'I Can't Stop Me' has a retro, synth-pop sound.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member is the tallest in the group? [29]",
+      "options": ["Jeongyeon", "Mina", "Tzuyu", "Sana"],
+      "answer": "Tzuyu"
+    },
+    {
+      "question": "Which member is the shortest in the group? [25]",
+      "options": ["Nayeon", "Momo", "Dahyun", "Chaeyoung"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "What song is a fan-dedicated song from the 'Twicecoaster: Lane 1' album?",
+      "options": ["Jelly Jelly", "1 to 10", "Ponytail", "One in a Million"],
+      "answer": "One in a Million"
+    },
+    {
+      "question": "Which member is known for being a huge fan of Jokbal (pig's feet)?",
+      "options": ["Sana", "Mina", "Momo", "Nayeon"],
+      "answer": "Momo"
+    },
+    {
+      "question": "What is the first song on their debut mini-album 'The Story Begins'? [11]",
+      "options": ["Do It Again", "Candy Boy", "Like Ooh-Ahh", "Truth"],
+      "answer": "Like Ooh-Ahh"
+    },
+    {
+      "question": "Which member's real name is Yoo Jeongyeon (formerly Yoo Kyungwan)? [3]",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Dahyun"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "Which member's real name is Kim Dahyun? [3]",
+      "options": ["Nayeon", "Jihyo", "Dahyun", "Chaeyoung"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "Which member's real name is Son Chaeyoung? [3]",
+      "options": ["Dahyun", "Chaeyoung", "Tzuyu", "Mina"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "Which member's real name is Chou Tzuyu? [3]",
+      "options": ["Momo", "Sana", "Mina", "Tzuyu"],
+      "answer": "Tzuyu"
+    },
+    {
+      "question": "Which member's real name is Im Nayeon? [3]",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Dahyun"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "What year did the sub-unit MISAMO debut?",
+      "options": ["2021", "2022", "2023", "2024"],
+      "answer": "2023"
+    },
+    {
+      "question": "Which member is known for having very flexible shoulders?",
+      "options": ["Mina", "Momo", "Dahyun", "Sana"],
+      "answer": "Momo"
+    },
+    {
+      "question": "What is the theme of the 'MORE & MORE' music video?",
+      "options": ["Space and aliens", "A royal palace", "A garden of Eden / whimsical forest", "A retro disco"],
+      "answer": "A garden of Eden / whimsical forest"
+    },
+    {
+      "question": "Which member has a mole on the tip of her nose?",
+      "options": ["Nayeon", "Sana", "Jeongyeon", "Tzuyu"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "What is the title of the song where they sing about being 'scientists of love'?",
+      "options": ["Talk that Talk", "Scientist", "Formula", "The Feels"],
+      "answer": "Scientist"
+    },
+    {
+      "question": "Which member is afraid of dogs and cats?",
+      "options": ["Momo", "Jihyo", "Mina", "Dahyun"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "What is the title track for their first Japanese single album?",
+      "options": ["Candy Pop", "Wake Me Up", "One More Time", "BDZ"],
+      "answer": "One More Time"
+    },
+    {
+      "question": "Which member plays the piano? [5]",
+      "options": ["Mina", "Chaeyoung", "Dahyun", "Sana"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "Which member trained for 10 years before debuting?",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Sana"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "The song 'Heart Shaker' is a Christmas-themed song.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member is known for her aegyo (cute display of affection)?",
+      "options": ["Jeongyeon", "Mina", "Sana", "Jihyo"],
+      "answer": "Sana"
+    },
+    {
+      "question": "Which song's music video features the members in a supermarket?",
+      "options": ["Knock Knock", "Heart Shaker", "Yes or Yes", "Likey"],
+      "answer": "Heart Shaker"
+    },
+    {
+      "question": "Which member's father is a famous chef? [3]",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Dahyun"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "Which song's choreography involves spinning a wheel?",
+      "options": ["Signal", "Likey", "Yes or Yes", "Fancy"],
+      "answer": "Yes or Yes"
+    },
+    {
+      "question": "What is the title of TWICE's second full-length Korean album?",
+      "options": ["&TWICE", "Twicetagram", "Eyes Wide Open", "Formula of Love: O+T=<3"],
+      "answer": "Eyes Wide Open"
+    },
+    {
+      "question": "Which member is a fan of the singer IU?",
+      "options": ["Nayeon", "Jihyo", "Dahyun", "Chaeyoung"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "What is the name of the 'repackage' album for 'Twicecoaster: Lane 1'?",
+      "options": ["Merry & Happy", "The Year of Yes", "Twicecoaster: Lane 2", "Summer Nights"],
+      "answer": "Twicecoaster: Lane 2"
+    },
+    {
+      "question": "Which member is fluent in English because she was born in San Antonio, Texas, USA?",
+      "options": ["Sana", "Mina", "Tzuyu", "Nayeon"],
+      "answer": "Mina"
+    }
+  ],
+  "medium": [
+    {
+      "question": "On the show 'Sixteen', which two members were added to the final lineup after the initial seven were chosen? [11]",
+      "options": ["Mina and Dahyun", "Sana and Jihyo", "Momo and Tzuyu", "Jeongyeon and Chaeyoung"],
+      "answer": "Momo and Tzuyu"
+    },
+    {
+      "question": "Which member wrote the lyrics for the song '21:29'?",
+      "options": ["Jihyo and Chaeyoung", "Nayeon and Dahyun", "All members of TWICE", "J.Y. Park"],
+      "answer": "All members of TWICE"
+    },
+    {
+      "question": "What is the B-side track from the 'Signal' EP that is a fan favorite and often performed at concerts?",
+      "options": ["Three Times a Day", "Only You", "Hold Me Tight", "Eye Eye Eyes"],
+      "answer": "Only You"
+    },
+    {
+      "question": "What is the name of Jeongyeon's sister, who is a famous actress? [3]",
+      "options": ["Gong Yoo", "Gong Myung", "Gong Hyo-jin", "Gong Seung-yeon"],
+      "answer": "Gong Seung-yeon"
+    },
+    {
+      "question": "Mina trained in ballet for how many years before becoming a trainee?",
+      "options": ["5 years", "8 years", "11 years", "14 years"],
+      "answer": "11 years"
+    },
+    {
+      "question": "Which member was eliminated from 'Sixteen' but brought back by J.Y. Park himself in the finale? [29]",
+      "options": ["Sana", "Momo", "Tzuyu", "Chaeyoung"],
+      "answer": "Momo"
+    },
+    {
+      "question": "What is the name of TWICE's first reality show that documented their daily lives after debut?",
+      "options": ["SIXTEEN", "TWICE TV", "Time to TWICE", "TWICE's Elegant Private Life"],
+      "answer": "TWICE's Elegant Private Life"
+    },
+    {
+      "question": "Which member appeared in GOT7's 'Girls Girls Girls' music video before her debut?",
+      "options": ["Jihyo", "Nayeon", "Sana", "Mina"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "Which member appeared in miss A's 'Only You' music video before her debut?",
+      "options": ["Dahyun", "Chaeyoung", "Tzuyu", "All of them"],
+      "answer": "All of them"
+    },
+    {
+      "question": "The song 'Sweet Talker' from the 'What is Love?' EP was co-written by which two members? [8]",
+      "options": ["Nayeon and Momo", "Jihyo and Mina", "Jeongyeon and Chaeyoung", "Sana and Dahyun"],
+      "answer": "Jeongyeon and Chaeyoung"
+    },
+    {
+      "question": "What is the title of the song used as the theme for the Japanese movie 'Sensei Kunshu'? [8]",
+      "options": ["Candy Pop", "Wake Me Up", "I Want You Back", "BDZ"],
+      "answer": "I Want You Back"
+    },
+    {
+      "question": "What is the name of the project group Nayeon, Jeongyeon, Jihyo, and Sana were supposed to debut in before 'Sixteen'?",
+      "options": ["Pink Punk", "6MIX", "Twinkle", "JYP Sisters"],
+      "answer": "6MIX"
+    },
+    {
+      "question": "Dahyun first gained viral fame before debut for a video of her doing what?",
+      "options": ["Singing a high note", "Her 'eagle dance' in church", "A powerful rap performance", "A funny imitation"],
+      "answer": "Her 'eagle dance' in church"
+    },
+    {
+      "question": "Which song by another artist did TWICE famously cover, helping it go viral?",
+      "options": ["'Gee' by Girls' Generation", "'Sorry Sorry' by Super Junior", "'Tell Me' by Wonder Girls", "'So Hot' by Wonder Girls"],
+      "answer": "'So Hot' by Wonder Girls"
+    },
+    {
+      "question": "In the 'TT' music video, what costume is Chaeyoung wearing?",
+      "options": ["Tinkerbell", "Pinocchio", "A mermaid", "A vampire"],
+      "answer": "A mermaid"
+    },
+    {
+      "question": "In the 'TT' music video, what costume is Dahyun wearing?",
+      "options": ["A white rabbit", "A black cat", "A pirate", "A racecar driver"],
+      "answer": "A white rabbit"
+    },
+    {
+      "question": "Which Japanese single was the first by a foreign female artist to receive a 'Double Platinum' certification from the RIAJ? [16]",
+      "options": ["One More Time", "Candy Pop", "Wake Me Up", "Happy Happy"],
+      "answer": "Wake Me Up"
+    },
+    {
+      "question": "What is the B-side track from 'Feel Special' that Dahyun and Chaeyoung co-wrote the rap for?",
+      "options": ["Rainbow", "Get Loud", "Trick It", "Love Foolish"],
+      "answer": "Trick It"
+    },
+    {
+      "question": "Which member is known for her calligraphy skills?",
+      "options": ["Mina", "Nayeon", "Sana", "Dahyun"],
+      "answer": "Sana"
+    },
+    {
+      "question": "What is the title of the song from the album 'Eyes Wide Open' that was written by British singer Dua Lipa?",
+      "options": ["Hell in Heaven", "Up No More", "Believer", "Behind The Mask"],
+      "answer": "Behind The Mask"
+    },
+    {
+      "question": "Which member has a driver's license, which she got for filming a variety show?",
+      "options": ["Jihyo", "Nayeon", "Sana", "Momo"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "What is the title of the promotional song released for the gaming company K/DA, featuring Nayeon, Sana, Jihyo, and Chaeyoung? [2]",
+      "options": ["THE BADDEST", "MORE", "DRUM GO DUM", "I'LL SHOW YOU"],
+      "answer": "I'LL SHOW YOU"
+    },
+    {
+      "question": "Which member is the 'mother' of the group, often taking care of the others?",
+      "options": ["Nayeon", "Jihyo", "Jeongyeon", "Mina"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "Which member appeared on the show 'King of Mask Singer' as 'Little Ghost'?",
+      "options": ["Nayeon", "Sana", "Jihyo", "Chaeyoung"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "What is the name of the web drama that Nayeon made a cameo in?",
+      "options": ["Dream High 2", "The Producers", "A-TEEN 2", "My First First Love"],
+      "answer": "A-TEEN 2"
+    },
+    {
+      "question": "What is the name of Sana's famous gimbap roll that she made on a variety show?",
+      "options": ["Shy Shy Shy Roll", "Cheese Gimbap", "Sana Gimbap", "It had no special name"],
+      "answer": "Cheese Gimbap"
+    },
+    {
+      "question": "Which member is known to be a big fan of the game 'Minecraft'?",
+      "options": ["Chaeyoung", "Dahyun", "Mina", "Momo"],
+      "answer": "Mina"
+    },
+    {
+      "question": "What is the Korean title of the fan song 'One in a Million'?",
+      "options": ["Hana in Baekman", "Neo Hanaman", "Saranghae", "It's the same"],
+      "answer": "It's the same"
+    },
+    {
+      "question": "Which album is the repackage of 'What is Love?'",
+      "options": ["The Year of Yes", "Merry & Happy", "Summer Nights", "Twicecoaster: Lane 2"],
+      "answer": "Summer Nights"
+    },
+    {
+      "question": "How many music show wins did 'Cheer Up' get in total?",
+      "options": ["8", "10", "11", "13"],
+      "answer": "11"
+    },
+    {
+      "question": "How many music show wins did 'TT' get in total?",
+      "options": ["10", "12", "13", "15"],
+      "answer": "13"
+    },
+    {
+      "question": "The choreography for 'Fancy' was created by which famous dance crew?",
+      "options": ["1MILLION Dance Studio", "Kiel Tutin & TZECHAR", "Lia Kim", "The Lab"],
+      "answer": "Kiel Tutin & TZECHAR"
+    },
+    {
+      "question": "Which member has the blood type A?",
+      "options": ["Nayeon, Jeongyeon, Jihyo, Dahyun", "Momo, Sana, Mina, Chaeyoung", "Nayeon, Momo, Mina, Tzuyu", "All of them"],
+      "answer": "Nayeon, Momo, Mina, Tzuyu"
+    },
+    {
+      "question": "Which member has the blood type O?",
+      "options": ["Jeongyeon, Jihyo, Dahyun", "Sana, Chaeyoung, Nayeon", "Momo, Mina, Tzuyu", "All of them"],
+      "answer": "Jeongyeon, Jihyo, Dahyun"
+    },
+    {
+      "question": "Which two members have the blood type B?",
+      "options": ["Nayeon and Momo", "Sana and Chaeyoung", "Jeongyeon and Jihyo", "Mina and Tzuyu"],
+      "answer": "Sana and Chaeyoung"
+    },
+    {
+      "question": "What is the title of the song where Chaeyoung raps a verse in Spanish?",
+      "options": ["Firework", "Shadow", "Oxygen", "Up No More"],
+      "answer": "Up No More"
+    },
+    {
+      "question": "Which member is known for her 'no-face' selfie pose?",
+      "options": ["Momo", "Mina", "Dahyun", "Chaeyoung"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "What is the title of the song that samples the 'James Bond' theme?",
+      "options": ["Get Loud", "Trick It", "Love Foolish", "Turn It Up"],
+      "answer": "Turn It Up"
+    },
+    {
+      "question": "In which city did Mina get scouted by a JYP agent? [28]",
+      "options": ["Kobe", "Tokyo", "Osaka", "Kyoto"],
+      "answer": "Osaka"
+    },
+    {
+      "question": "What is the B-side from the album 'Twicetagram' that the members often say they love?",
+      "options": ["Turtle", "Look at Me", "Rollin'", "You in My Heart"],
+      "answer": "Turtle"
+    },
+    {
+      "question": "Which member has a beauty mark right under her bottom lip?",
+      "options": ["Sana", "Mina", "Nayeon", "Tzuyu"],
+      "answer": "Sana"
+    },
+    {
+      "question": "What song won Song of the Year (Daesang) at the 2018 Mnet Asian Music Awards?",
+      "options": ["Likey", "Heart Shaker", "What is Love?", "Dance The Night Away"],
+      "answer": "What is Love?"
+    },
+    {
+      "question": "In which 'Time to TWICE' series do the members run a restaurant?",
+      "options": ["TDOONG High School", "Crime Scene", "TDOONG Forest", "TDOONG Kitchen"],
+      "answer": "TDOONG Kitchen"
+    },
+    {
+      "question": "Which member is known to be a big fan of eating mayonaise?",
+      "options": ["Jihyo", "Nayeon", "Momo", "Dahyun"],
+      "answer": "Momo"
+    },
+    {
+      "question": "The song 'CRY FOR ME' was first performed as a surprise at which event?",
+      "options": ["A concert encore", "2020 Mnet Asian Music Awards", "A fan meeting", "Their anniversary live stream"],
+      "answer": "2020 Mnet Asian Music Awards"
+    },
+    {
+      "question": "Which member has her own 'Melody Project' where she covered 'Can't Help Falling in Love'?",
+      "options": ["Jihyo", "Mina", "Nayeon", "Sana"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "Which two members are known as the 'Meal Club President and Vice President'?",
+      "options": ["Nayeon & Jihyo", "Jeongyeon & Momo", "Dahyun & Tzuyu", "Momo & Tzuyu"],
+      "answer": "Dahyun & Tzuyu"
+    },
+    {
+      "question": "What is Dahyun's favorite color?",
+      "options": ["Red", "Blue", "White", "Yellow"],
+      "answer": "White"
+    },
+    {
+      "question": "Which member is known for being able to find the camera lens no matter where it is?",
+      "options": ["Sana", "Jihyo", "Nayeon", "Dahyun"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "The album 'Formula of Love: O+T=<3' is TWICE's third full-length Korean album.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member's zodiac sign is Aquarius?",
+      "options": ["Nayeon", "Jihyo", "Mina", "Dahyun"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "Which two members share the zodiac sign Sagittarius?",
+      "options": ["Momo and Sana", "Jeongyeon and Momo", "Sana and Tzuyu", "There are none"],
+      "answer": "There are none"
+    },
+    {
+      "question": "Which member wrote the lyrics for the song 'Handle It'?",
+      "options": ["Jihyo", "Nayeon", "Dahyun", "Chaeyoung"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "What is the name of Dahyun's pet dog? [38]",
+      "options": ["Kookeu", "Gucci", "Ari", "Bbosong"],
+      "answer": "Ari"
+    },
+    {
+      "question": "Which member appeared on the variety show 'Real Men'?",
+      "options": ["Jihyo", "Sana", "Dahyun", "Momo"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "Which member has the nickname 'No-Sana No-Life' among fans?",
+      "options": ["Momo", "Sana", "Mina", "Nayeon"],
+      "answer": "Sana"
+    },
+    {
+      "question": "Which of these is NOT a title of a TWICE Japanese album?",
+      "options": ["BDZ", "Celebrate", "Twice's Recipe", "Perfect World"],
+      "answer": "Twice's Recipe"
+    },
+    {
+      "question": "In the 'What is Love?' music video, which movie does Sana and Tzuyu parody?",
+      "options": ["La La Land", "Pulp Fiction", "Ghost", "Romeo + Juliet"],
+      "answer": "Pulp Fiction"
+    },
+    {
+      "question": "The song 'KNOCK KNOCK' is the title track of which album?",
+      "options": ["Signal", "Twicecoaster: Lane 2", "Page Two", "The Story Begins"],
+      "answer": "Twicecoaster: Lane 2"
+    },
+    {
+      "question": "Which member's English name is Sharon?",
+      "options": ["Momo", "Sana", "Mina", "Tzuyu"],
+      "answer": "Mina"
+    },
+    {
+      "question": "What does the O+T=<3 in 'Formula of Love: O+T=<3' stand for?",
+      "options": ["Once + Twice = Love", "Over The Top = <3", "Our Time = Love", "It has no meaning"],
+      "answer": "Once + Twice = Love"
+    },
+    {
+      "question": "Which member is known to be a homebody who enjoys staying in?",
+      "options": ["Sana", "Nayeon", "Mina", "Momo"],
+      "answer": "Mina"
+    },
+    {
+      "question": "Which two members are known as the 'Dumb and Dumber' or 'Tom and Jerry' pair?",
+      "options": ["Nayeon and Jeongyeon", "Momo and Sana", "Dahyun and Chaeyoung", "Jihyo and Tzuyu"],
+      "answer": "Nayeon and Jeongyeon"
+    },
+    {
+      "question": "What is the title of the song written by Nayeon for the fans in the 'Formula of Love' album?",
+      "options": ["CANDY", "REWIND", "PUSH & PULL", "F.I.L.A (Fall In Love Again)"],
+      "answer": "F.I.L.A (Fall In Love Again)"
+    },
+    {
+      "question": "Which member has a mole on her chin?",
+      "options": ["Momo", "Chaeyoung", "Dahyun", "Jeongyeon"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "In 'TIME TO TWICE - Crime Scene', who was the first victim?",
+      "options": ["Detective Nayeon", "Professor Sana", "Dancer Momo", "Vocalist Jihyo"],
+      "answer": "Professor Sana"
+    },
+    {
+      "question": "Which member co-composed the song 'How U Doin'' for their Japanese album '&TWICE'?",
+      "options": ["Nayeon", "Jihyo", "Dahyun", "Chaeyoung"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "What is the name of Chaeyoung's younger brother?",
+      "options": ["Jeong-hoon", "Jun-seo", "Min-jun", "Seung-min"],
+      "answer": "Jeong-hoon"
+    },
+    {
+      "question": "Before joining JYP, Momo was part of a dance crew in Japan that posted a video online. What was the name of the crew?",
+      "options": ["Osaka Queens", "J-Sisters", "It was a video with her sister", "Dance Lab"],
+      "answer": "It was a video with her sister"
+    },
+    {
+      "question": "Which two members attended Hanlim Multi Art School?",
+      "options": ["Nayeon and Jeongyeon", "Mina and Momo", "Dahyun and Chaeyoung", "Jihyo and Tzuyu"],
+      "answer": "Dahyun and Chaeyoung"
+    },
+    {
+      "question": "What food is Sana known for being unable to eat? [25]",
+      "options": ["Cucumbers", "Eggplant", "Tomatoes", "Mushrooms"],
+      "answer": "Eggplant"
+    },
+    {
+      "question": "The title of their 2nd Japanese album is '&TWICE'.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which member is known to be the most scared of everything (ghosts, bugs, heights)?",
+      "options": ["Nayeon", "Momo", "Sana", "Dahyun"],
+      "answer": "Momo"
+    },
+    {
+      "question": "Which member is the brand ambassador for the luxury fashion brand Prada?",
+      "options": ["Nayeon", "Sana", "Mina", "Tzuyu"],
+      "answer": "Sana"
+    },
+    {
+      "question": "What is the name of Jeongyeon's two dogs and one cat?",
+      "options": ["Gucci, Kaya, Butter", "Kookeu, Ari, Ray", "Lucky, Pudding, Petco", "Bbosong, Nanan, Bami"],
+      "answer": "Bbosong, Nanan, Bami"
+    },
+    {
+      "question": "Which member is known for her iconic line 'Is Sana gay?' which came from a misunderstanding?",
+      "options": ["Nayeon", "Momo", "Sana", "Jihyo"],
+      "answer": "Sana"
+    },
+    {
+      "question": "What is the title of the song they released as a pre-release for 'Eyes Wide Open'?",
+      "options": ["BELIEVER", "UP NO MORE", "GO HARD", "There was no pre-release song"],
+      "answer": "There was no pre-release song"
+    },
+    {
+      "question": "Which member is known for their drawing skills, even designing a limited edition album cover?",
+      "options": ["Mina", "Dahyun", "Chaeyoung", "Tzuyu"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "The track 'Shot Thru the Heart' was co-written by which three members?",
+      "options": ["Nayeon, Jeongyeon, Jihyo", "Momo, Sana, Mina", "Dahyun, Chaeyoung, Tzuyu", "Jihyo, Momo, Sana"],
+      "answer": "Momo, Sana, Mina"
+    },
+    {
+      "question": "What is the name of the 'repackage' album for 'twicetagram'?",
+      "options": ["Summer Nights", "The Year of Yes", "Merry & Happy", "Twicecoaster: Lane 2"],
+      "answer": "Merry & Happy"
+    },
+    {
+      "question": "Which member has the nickname 'MC Rail' because of how she hosts events?",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Sana"],
+      "answer": "Sana"
+    },
+    {
+      "question": "Which member collaborated with Heize on the song 'We Don't Talk Together' as a producer?",
+      "options": ["Chaeyoung", "Jihyo", "Suga (of BTS), not a TWICE member", "Nayeon"],
+      "answer": "Suga (of BTS), not a TWICE member"
+    },
+    {
+      "question": "What is the name of the special Christmas-themed album released in 2017?",
+      "options": ["The Gift", "Winter Wonderland", "Merry & Happy", "Twice's Christmas"],
+      "answer": "Merry & Happy"
+    },
+    {
+      "question": "Which member is a fan of the singer Sunmi?",
+      "options": ["Nayeon", "Chaeyoung", "Dahyun", "Sana"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "In the music video for 'Signal', what is Jihyo's superpower?",
+      "options": ["Super speed", "Hypnosis", "X-ray vision", "Time control"],
+      "answer": "X-ray vision"
+    },
+    {
+      "question": "Which member is known for her love of Lego?",
+      "options": ["Nayeon", "Jeongyeon", "Mina", "Chaeyoung"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "The song 'Turtle' is from which album?",
+      "options": ["Page Two", "Signal", "Twicetagram", "What is Love?"],
+      "answer": "Twicetagram"
+    },
+    {
+      "question": "Which member has a birthmark on her right arm?",
+      "options": ["Dahyun", "Chaeyoung", "Tzuyu", "Mina"],
+      "answer": "Mina"
+    },
+    {
+      "question": "Which of these songs is NOT a title track?",
+      "options": ["Fancy", "Breakthrough", "Feel Special", "I Can't Stop Me"],
+      "answer": "Breakthrough"
+    },
+    {
+      "question": "The music video for 'Like Ooh-Ahh' is set in a building infested with what?",
+      "options": ["Ghosts", "Zombies", "Aliens", "Robots"],
+      "answer": "Zombies"
+    },
+    {
+      "question": "Which member's mother owns a cafe in Taiwan?",
+      "options": ["Sana", "Mina", "Momo", "Tzuyu"],
+      "answer": "Tzuyu"
+    },
+    {
+      "question": "What is the name of the variety show where the members had to take care of babies?",
+      "options": ["Hello Baby", "The Return of Superman", "TWICE's Private Life", "They have not been on such a show"],
+      "answer": "They have not been on such a show"
+    },
+    {
+      "question": "Which member is left-handed?",
+      "options": ["Nayeon", "Jeongyeon", "Chaeyoung", "No one is"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "What is the title of the B-side from the 'MORE & MORE' album that MNEK produced?",
+      "options": ["OXYGEN", "FIREWORK", "MAKE ME GO", "SHADOW"],
+      "answer": "MAKE ME GO"
+    },
+    {
+      "question": "In 'SIXTEEN', the contestants were divided into two groups: Major and Minor. What accessory did the Major team wear?",
+      "options": ["A crown", "A gold bracelet", "A special necklace", "A pink sash"],
+      "answer": "A special necklace"
+    },
+    {
+      "question": "What city was Mina born in?",
+      "options": ["Kobe, Japan", "Osaka, Japan", "San Antonio, Texas, USA", "Kyoto, Japan"],
+      "answer": "San Antonio, Texas, USA"
+    },
+    {
+      "question": "Which member composed the music for the song 'Cactus'?",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Chaeyoung"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "What is the name of the first full English album by TWICE?",
+      "options": ["The Feels", "Taste of Love", "Formula of Love", "They have not released a full English album"],
+      "answer": "They have not released a full English album"
+    },
+    {
+      "question": "Which member is known as the 'acorn collector' because she looks like a squirrel when she eats?",
+      "options": ["Nayeon", "Sana", "Momo", "Dahyun"],
+      "answer": "Sana"
+    }
+  ],
+  "hard": [
+    {
+      "question": "What was Jihyo's original birth name before she legally changed it?",
+      "options": ["Park Ji-won", "Park Ji-yeon", "Park Ji-soo", "Park Ji-eun"],
+      "answer": "Park Ji-soo"
+    },
+    {
+      "question": "What was Jeongyeon's original birth name before she legally changed it?",
+      "options": ["Yoo Kyung-wan", "Yoo Seo-yeon", "Yoo Na-young", "Yoo Min-jung"],
+      "answer": "Yoo Kyung-wan"
+    },
+    {
+      "question": "Which member was scouted by JYP after they saw a video of her and her sister dancing?",
+      "options": ["Sana", "Momo", "Mina", "Tzuyu"],
+      "answer": "Momo"
+    },
+    {
+      "question": "In the movie parody segment of the 'What is Love?' MV, which film does Dahyun and Chaeyoung parody?",
+      "options": ["The Princess Diaries", "Léon: The Professional", "La Boum", "Love Letter"],
+      "answer": "Léon: The Professional"
+    },
+    {
+      "question": "Which member has a certificate for making sommelier-grade coffee?",
+      "options": ["Jihyo", "Nayeon", "Mina", "Jeongyeon"],
+      "answer": "Mina"
+    },
+    {
+      "question": "What is the name of the B-side track from the 'twicetagram' album that was composed by former Wonder Girls member Hyerim?",
+      "options": ["Look At Me", "24/7", "Love Line", "Rollin'"],
+      "answer": "Look At Me"
+    },
+    {
+      "question": "What is the exact date of TWICE's official debut?",
+      "options": ["October 7, 2015", "October 20, 2015", "November 5, 2015", "May 5, 2015"],
+      "answer": "October 20, 2015"
+    },
+    {
+      "question": "Which company did Sana work part-time for in Japan before becoming a trainee?",
+      "options": ["7-Eleven", "Lawson", "FamilyMart", "She did not work part-time"],
+      "answer": "She did not work part-time"
+    },
+    {
+      "question": "The song 'Don't Give Up' from the 'twicetagram' album was written by Chaeyoung. What is the Korean title?",
+      "options": ["Himnae!", "Gwaenchana", "Pogihajima", "It has no Korean title"],
+      "answer": "Himnae!"
+    },
+    {
+      "question": "Which member is related to the famous Joseon dynasty painter, Danwon Kim Hong-do?",
+      "options": ["Nayeon", "Jihyo", "Dahyun", "This is a rumor and not confirmed"],
+      "answer": "This is a rumor and not confirmed"
+    },
+    {
+      "question": "What is the name of the Japanese children's show character that Dahyun was compared to, leading to a collaboration?",
+      "options": ["Pikachu", "Hello Kitty", "Anpanman", "Monchichi"],
+      "answer": "Monchichi"
+    },
+    {
+      "question": "In their first reality show, 'TWICE's Elegant Private Life', what was the members' mission in the first episode?",
+      "options": ["To cook a meal for J.Y. Park", "To clean their dorm", "To escape a 'haunted' house", "To perform a guerilla concert"],
+      "answer": "To escape a 'haunted' house"
+    },
+    {
+      "question": "Which two members were born in the same hospital?",
+      "options": ["Nayeon and Jeongyeon", "Dahyun and Chaeyoung", "Momo and Sana", "Jihyo and Mina"],
+      "answer": "Dahyun and Chaeyoung"
+    },
+    {
+      "question": "What is the specific type of dog Nayeon's pet Kookeu is?",
+      "options": ["Pomeranian", "Maltese", "Bichon Frise", "Poodle"],
+      "answer": "Pomeranian"
+    },
+    {
+      "question": "Which member wrote the song 'Strawberry' because she loves strawberries?",
+      "options": ["Nayeon", "Sana", "Chaeyoung", "Tzuyu"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "The melody for 'TT' was originally created for which type of project?",
+      "options": ["A different JYP group", "A solo artist", "A commercial jingle", "A video game soundtrack"],
+      "answer": "A video game soundtrack"
+    },
+    {
+      "question": "What is the name of the Japanese artist that TWICE collaborated with for the cover art of 'BDZ'?",
+      "options": ["Takashi Murakami", "Yoshitomo Nara", "Loundraw", "Yayoi Kusama"],
+      "answer": "Loundraw"
+    },
+    {
+      "question": "Which member is known to have passed the JLPT (Japanese-Language Proficiency Test) N2 level?",
+      "options": ["Nayeon", "Jihyo", "Dahyun", "This is not officially confirmed"],
+      "answer": "This is not officially confirmed"
+    },
+    {
+      "question": "The B-side track 'UP NO MORE' from 'Eyes Wide Open' was written by Jihyo about her struggles with what?",
+      "options": ["Her long trainee period", "Hate comments", "Insomnia", "Missing her family"],
+      "answer": "Insomnia"
+    },
+    {
+      "question": "Before 'Sixteen', Jeongyeon and her sister Gong Seung-yeon were the hosts of which music show?",
+      "options": ["M Countdown", "Music Bank", "Show! Music Core", "Inkigayo"],
+      "answer": "Inkigayo"
+    },
+    {
+      "question": "What is the title of the Japanese B-side track that is sung entirely in English by the J-Line?",
+      "options": ["Be as ONE", "21:29", "How U Doin'", "The Reason Why"],
+      "answer": "The Reason Why"
+    },
+    {
+      "question": "Which member's mother runs a market in her hometown?",
+      "options": ["Jihyo", "Dahyun", "Chaeyoung", "Jeongyeon"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "What is the specific breed of Jeongyeon's cat, Bami? [38]",
+      "options": ["Persian", "Scottish Fold", "Siamese", "Sphynx"],
+      "answer": "Scottish Fold"
+    },
+    {
+      "question": "What is the title of the song from the 'Fancy You' EP that Jihyo wrote the lyrics for?",
+      "options": ["STUCK IN MY HEAD", "GIRLS LIKE US", "TURN IT UP", "HOT"],
+      "answer": "GIRLS LIKE US"
+    },
+    {
+      "question": "Which member was a JYP trainee for the shortest amount of time?",
+      "options": ["Mina", "Sana", "Tzuyu", "Dahyun"],
+      "answer": "Mina"
+    },
+    {
+      "question": "In which city did Sana get scouted by a JYP agent? [28]",
+      "options": ["Kyoto", "Osaka", "Tokyo", "Nara"],
+      "answer": "Osaka"
+    },
+    {
+      "question": "What is the name of the TV program where Nayeon, Jihyo, and Chaeyoung appeared to promote animal adoption?",
+      "options": ["Animal Farm", "Dogs Are Incredible", "The Pet Vitamin", "There is no such program"],
+      "answer": "Dogs Are Incredible"
+    },
+    {
+      "question": "Which member has a tattoo of a tomato on her arm?",
+      "options": ["Dahyun", "Mina", "Chaeyoung", "Nayeon"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "The song 'LALALA' from the 'Summer Nights' album was written by which member?",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Sana"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "What is the title of the promotional song TWICE released for a sports drink brand, Pocari Sweat?",
+      "options": ["Touchdown", "Woohoo", "Ponytail", "Like a Fool"],
+      "answer": "Touchdown"
+    },
+    {
+      "question": "Which member is known for her 'sa-ke-bi' (scream) on Japanese variety shows?",
+      "options": ["Momo", "Sana", "Mina", "None of them"],
+      "answer": "Momo"
+    },
+    {
+      "question": "Which member is related to the famous Korean children's music composer, Yoo Chi-hwan?",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "Dahyun"],
+      "answer": "This is a rumor and not confirmed"
+    },
+    {
+      "question": "How many days did it take for the 'Like Ooh-Ahh' music video to reach 100 million views?",
+      "options": ["200 days", "365 days", "401 days", "550 days"],
+      "answer": "401 days"
+    },
+    {
+      "question": "In their 'TIME TO TWICE - The Great Escape' series, which member was the first to successfully escape?",
+      "options": ["Jihyo", "Nayeon", "Mina", "Jeongyeon"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "Which two members have the same birthday month (November)?",
+      "options": ["Sana and Tzuyu", "Jihyo and Mina", "Jeongyeon and Momo", "Dahyun and Chaeyoung"],
+      "answer": "Jeongyeon and Momo"
+    },
+    {
+      "question": "The song 'Ice Cream' on the 'Twicecoaster: Lane 2' album is a remake of a song by which artist?",
+      "options": ["Britney Spears", "Hyuna", "It's an original song", "It is not a remake"],
+      "answer": "It is not a remake"
+    },
+    {
+      "question": "Which member is known to be a big fan of the singer-songwriter Dean?",
+      "options": ["Nayeon", "Jihyo", "Chaeyoung", "Dahyun"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "What is the title of the song that samples Beethoven's 'Für Elise'?",
+      "options": ["Fancy", "Breakthrough", "Feel Special", "There is no such song"],
+      "answer": "There is no such song"
+    },
+    {
+      "question": "Which member's father owns a hospital in their hometown?",
+      "options": ["Nayeon", "Mina", "Jeongyeon", "This is a rumor and not confirmed"],
+      "answer": "Mina"
+    },
+    {
+      "question": "What is the name of the B-side track from 'Taste of Love' that is entirely in English?",
+      "options": ["Scandal", "Conversation", "First Time", "Baby Blue Love"],
+      "answer": "First Time"
+    },
+    {
+      "question": "Which member was a contestant on the show 'Girls Spirit'?",
+      "options": ["Jihyo", "Nayeon", "Jeongyeon", "No member was on this show"],
+      "answer": "No member was on this show"
+    },
+    {
+      "question": "What is the name of the Japanese fashion magazine that Mina had a solo photoshoot for in 2019?",
+      "options": ["Vogue Japan", "Elle Japan", "anan", "CanCam"],
+      "answer": "anan"
+    },
+    {
+      "question": "In the Japanese music video for 'Candy Pop', what is the name of the animation studio that produced the animated scenes?",
+      "options": ["Studio Ghibli", "Toei Animation", "Kyoto Animation", "The director's own team"],
+      "answer": "The director's own team"
+    },
+    {
+      "question": "Which member is known for her habit of biting her nails?",
+      "options": ["Nayeon", "Momo", "Jihyo", "Mina"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "The song 'What is Love?' won 'Song of the Year' at the Golden Disc Awards.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "What is the name of the American singer that Nayeon, Sana, Jihyo and Chaeyoung collaborated with on the K/DA track?",
+      "options": ["Madison Beer", "Jaira Burns", "(G)I-DLE members", "Bekuh BOOM and Annika Wells"],
+      "answer": "Bekuh BOOM and Annika Wells"
+    },
+    {
+      "question": "What instrument does Jeongyeon know how to play?",
+      "options": ["Piano", "Guitar", "Saxophone", "Drums"],
+      "answer": "Saxophone"
+    },
+    {
+      "question": "Which member has a tattoo of lips on her wrist?",
+      "options": ["Dahyun", "Mina", "Chaeyoung", "Nayeon"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "Which member is allergic to cats but still has one?",
+      "options": ["Momo", "Jeongyeon", "Nayeon", "Jihyo"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "Which member is allergic to dogs but has three? [38]",
+      "options": ["Sana", "Dahyun", "Momo", "Mina"],
+      "answer": "Momo"
+    },
+    {
+      "question": "What is the title of the song that was produced by the DJ duo Galactika for TWICE?",
+      "options": ["SCIENTIST", "CRY FOR ME", "There is no such song", "MORE & MORE"],
+      "answer": "There is no such song"
+    },
+    {
+      "question": "Which member appeared on the show 'Idol Chef King' and won?",
+      "options": ["Momo and Sana", "Jihyo and Dahyun", "No one won", "Nayeon and Jeongyeon"],
+      "answer": "No one won"
+    },
+    {
+      "question": "What is the name of the high school Tzuyu attended in South Korea?",
+      "options": ["School of Performing Arts Seoul (SOPA)", "Hanlim Multi Art School", "Korea Kent Foreign School", "Anyang Arts High School"],
+      "answer": "Hanlim Multi Art School"
+    },
+    {
+      "question": "Which member can do the 'splits' while sleeping? [15]",
+      "options": ["Mina", "Dahyun", "Momo", "Sana"],
+      "answer": "Momo"
+    },
+    {
+      "question": "What is the name of the city in Switzerland that TWICE visited for 'TWICE TV5'?",
+      "options": ["Zurich", "Geneva", "Bern", "Interlaken"],
+      "answer": "Bern"
+    },
+    {
+      "question": "Which member's mother is a beautician?",
+      "options": ["Nayeon", "Dahyun", "Chaeyoung", "Sana"],
+      "answer": "Sana"
+    },
+    {
+      "question": "The choreography for 'Signal' was created by J.Y. Park and which other famous choreographer?",
+      "options": ["Kiel Tutin", "Lia Kim", "The choreographers of 'Pen-Pineapple-Apple-Pen'", "It was only J.Y. Park"],
+      "answer": "The choreographers of 'Pen-Pineapple-Apple-Pen'"
+    },
+    {
+      "question": "What is the name of the B-side from 'Formula of Love' that features a talkbox effect?",
+      "options": ["MOONLIGHT", "ICON", "CRUEL", "1, 3, 2"],
+      "answer": "1, 3, 2"
+    },
+    {
+      "question": "Which member has a severe fear of butterflies?",
+      "options": ["Nayeon", "Momo", "Sana", "Jihyo"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "Which member is known as the 'acrostic poem master'?",
+      "options": ["Dahyun", "Jeongyeon", "Sana", "Chaeyoung"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "In the 'Cheer Up' music video, which movie character is Nayeon parodying?",
+      "options": ["Mia Thermopolis from The Princess Diaries", "Juliet from Romeo + Juliet", "Sidney Prescott from Scream", "Holly Golightly from Breakfast at Tiffany's"],
+      "answer": "Sidney Prescott from Scream"
+    },
+    {
+      "question": "Which two members are known as the 'snake line' because they were born in the year of the snake (1997)?",
+      "options": ["Sana and Tzuyu", "Jihyo and Mina", "Momo and Jeongyeon", "Nayeon and Dahyun"],
+      "answer": "Jihyo and Mina"
+    },
+    {
+      "question": "What is the name of the song that TWICE performed on 'The Kelly Clarkson Show' in 2021?",
+      "options": ["I CAN'T STOP ME", "CRY FOR ME", "Alcohol-Free", "SCIENTIST"],
+      "answer": "CRY FOR ME"
+    },
+    {
+      "question": "Which member has a solo photography book titled 'Yes, I am Chaeyoung'?",
+      "options": ["Nayeon", "Mina", "Chaeyoung", "Tzuyu"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "What is the title of the Japanese song for which the music video was filmed in one take?",
+      "options": ["BDZ", "Breakthrough", "Fake & True", "Fanfare"],
+      "answer": "Breakthrough"
+    },
+    {
+      "question": "Which member has a fear of heights and microwaves?",
+      "options": ["Jihyo", "Nayeon", "Momo", "Jeongyeon"],
+      "answer": "Jihyo"
+    },
+    {
+      "question": "What is the title of the B-side from the '&TWICE' album that was composed by collapsedone, who also made 'Knock Knock'?",
+      "options": ["The Reason Why", "Changing!", "What You Waiting For", "How U Doin'"],
+      "answer": "Changing!"
+    },
+    {
+      "question": "Which member is the brand muse for the skincare brand 'SK-II'?",
+      "options": ["Nayeon", "Sana", "Mina", "Tzuyu"],
+      "answer": "Mina"
+    },
+    {
+      "question": "What is the name of the first TWICE song to win a 'Triple Crown' on a music show?",
+      "options": ["Like Ooh-Ahh", "Cheer Up", "TT", "Knock Knock"],
+      "answer": "Cheer Up"
+    },
+    {
+      "question": "Which member has a black belt in Kendo?",
+      "options": ["Mina", "Jeongyeon", "Momo", "No member has one"],
+      "answer": "No member has one"
+    },
+    {
+      "question": "The track '24/7' from the 'twicetagram' album was co-written by which two members?",
+      "options": ["Nayeon and Jihyo", "Jeongyeon and Momo", "Sana and Dahyun", "Mina and Chaeyoung"],
+      "answer": "Nayeon and Jihyo"
+    },
+    {
+      "question": "Which member said she joined JYP because she was a huge fan of Rain?",
+      "options": ["Nayeon", "Jihyo", "Sana", "Dahyun"],
+      "answer": "Sana"
+    },
+    {
+      "question": "What is the name of the song that was a collaboration between Jihyo and NCT's Doyoung?",
+      "options": ["'Starry Night'", "'Deep'", "'Nightfall'", "'Starlight'"],
+      "answer": "'Starlight'"
+    },
+    {
+      "question": "Which two members have the same MBTI personality type, ISFP?",
+      "options": ["Nayeon and Sana", "Mina and Tzuyu", "Jihyo and Dahyun", "Jeongyeon and Chaeyoung"],
+      "answer": "Mina and Tzuyu"
+    },
+    {
+      "question": "Which member's father is an architect?",
+      "options": ["Nayeon", "Jeongyeon", "Mina", "Chaeyoung"],
+      "answer": "Chaeyoung"
+    },
+    {
+      "question": "Which member can write with both hands? [25]",
+      "options": ["Nayeon", "Jeongyeon", "Mina", "Dahyun"],
+      "answer": "Jeongyeon"
+    },
+    {
+      "question": "What is the name of the song that was used in a commercial for the Nintendo Switch in Japan?",
+      "options": ["Happy Happy", "Breakthrough", "Swing", "Fanfare"],
+      "answer": "Swing"
+    },
+    {
+      "question": "What is the name of the B-side track on Nayeon's solo album that features Felix of Stray Kids?",
+      "options": ["POP!", "NO PROBLEM", "CANDYFLOSS", "ALL OR NOTHING"],
+      "answer": "NO PROBLEM"
+    },
+    {
+      "question": "In the 'Alcohol-Free' music video, what type of drink does each member represent?",
+      "options": ["Smoothies", "Sodas", "Cocktails", "Juices"],
+      "answer": "Cocktails"
+    },
+    {
+      "question": "Which member has a mole that forms a small heart shape on her cheek?",
+      "options": ["Sana", "Mina", "Nayeon", "Tzuyu"],
+      "answer": "Nayeon"
+    },
+    {
+      "question": "What is the title of the song from the 'Yes or Yes' EP that was written by Jihyo?",
+      "options": ["LALALA", "YOUNG & WILD", "SUNSET", "AFTER MOON"],
+      "answer": "SUNSET"
+    },
+    {
+      "question": "Which member is known for the 'toilet paper aegyo' incident?",
+      "options": ["Momo", "Sana", "Dahyun", "Nayeon"],
+      "answer": "Dahyun"
+    },
+    {
+      "question": "What is the name of the B-side from 'Formula of Love' that is performed only by Nayeon, Jeongyeon, and Momo?",
+      "options": ["CRUEL", "REAL YOU", "PUSH & PULL", "HELLO"],
+      "answer": "HELLO"
+    },
+    {
+      "question": "The song 'Better' is a Japanese single. What is the name of its B-side track?",
+      "options": ["Scorpion", "Promise", "Strawberry Moon", "Four-leaf Clover"],
+      "answer": "Scorpion"
+    },
+    {
+      "question": "What is the name of the program where Momo competed against other girl group main dancers?",
+      "options": ["Hit the Stage", "Good Girl", "Queendom", "Street Woman Fighter"],
+      "answer": "Hit the Stage"
+    },
+    {
+      "question": "Which two members have the same height, officially listed as 163cm? [25]",
+      "options": ["Nayeon and Sana", "Momo and Mina", "Jihyo and Dahyun", "Jeongyeon and Chaeyoung"],
+      "answer": "Nayeon and Sana"
+    },
+    {
+      "question": "What is the name of the song TWICE released in collaboration with the artist K/DA for the game League of Legends?",
+      "options": ["THE BADDEST", "MORE", "I'LL SHOW YOU", "DRUM GO DUM"],
+      "answer": "I'LL SHOW YOU"
+    },
+    {
+      "question": "Which member has a birthmark on her left cheek that she often covers with makeup?",
+      "options": ["Jihyo", "Mina", "Tzuyu", "Dahyun"],
+      "answer": "Tzuyu"
+    },
+    {
+      "question": "Which member is known for her love of the 'SpongeBob SquarePants' character, Patrick Star?",
+      "options": ["Momo", "Sana", "Chaeyoung", "Tzuyu"],
+      "answer": "Sana"
+    },
+    {
+      "question": "The song 'Say Yes' from the 'What is Love?' album was composed by which famous K-Pop songwriter?",
+      "options": ["Teddy Park", "Kenzie", "e.one", " collapsedone "],
+      "answer": "e.one"
+    },
+    {
+      "question": "Which member has a brother who is a famous composer and producer?",
+      "options": ["Nayeon", "Jihyo", "Chaeyoung", "This is a rumor and not confirmed"],
+      "answer": "This is a rumor and not confirmed"
+    },
+    {
+      "question": "What is the Korean title for the Japanese single 'Brand New Girl'?",
+      "options": ["It has no Korean title", "Saeroun Sonyeo", "Brand New Day", "Sae Sonyeo"],
+      "answer": "It has no Korean title"
+    },
+    {
+      "question": "Which member is known to have auditioned for JYP on the same day as BTS's Jimin?",
+      "options": ["Nayeon", "Jeongyeon", "Jihyo", "This is a fan theory"],
+      "answer": "This is a fan theory"
+    },
+    {
+      "question": "What is the title of the song that TWICE released for the OST of the drama 'Hospital Playlist'?",
+      "options": ["'I Love You More Than Anyone'", "'Aloha'", "'Introduce Me a Good Person'", "They did not release an OST for this drama"],
+      "answer": "'Introduce Me a Good Person'"
+    },
+    {
+      "question": "Which member's father was a candidate for political office in their hometown?",
+      "options": ["Nayeon", "Jeongyeon", "Tzuyu", "This is a rumor and not confirmed"],
+      "answer": "This is a rumor and not confirmed"
+    },
+    {
+      "question": "What is the name of the B-side from 'Between 1&2' that is a fan favorite for its rock-inspired sound?",
+      "options": ["Basics", "Trouble", "Brave", "Gone"],
+      "answer": "Brave"
+    },
+    {
+      "question": "Which member has a driving license but no car?",
+      "options": ["Jihyo", "Nayeon", "Sana", "All of them"],
+      "answer": "All of them"
+    },
+    {
+      "question": "What is the name of the song from the 'Signal' album that Jeongyeon said she dislikes the most?",
+      "options": ["Signal", "Three Times a Day", "Only You", "Hold Me Tight"],
+      "answer": "Signal"
+    },
+    {
+      "question": "Which member is the global ambassador for the luxury brand 'Tod's'?",
+      "options": ["Nayeon", "Jeongyeon", "Momo", "Jihyo"],
+      "answer": "Jeongyeon"
+    }
+  ]
+}

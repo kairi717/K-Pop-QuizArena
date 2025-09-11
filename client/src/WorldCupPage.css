@@ -1,0 +1,178 @@
+.world-cup-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.round-info {
+    font-size: 2em;
+    font-weight: bold;
+    color: #7F5283;
+    margin-bottom: 30px;
+}
+
+.match-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.participant-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.participant-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.participant-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.participant-card h3 {
+    margin: 15px 0 5px 0;
+    font-size: 1.8em;
+}
+
+.participant-card p {
+    margin: 0;
+    color: #888;
+    font-size: 1.1em;
+}
+
+.vs-text {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.winner-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.winner-screen h2 {
+    font-size: 3em;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.participant-card.winner {
+    border: 5px solid #ffd700;
+    cursor: default;
+}
+
+.home-button {
+    margin-top: 30px;
+    background-color: #7F5283;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.listen-button {
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+    transition: background-color 0.2s;
+}
+
+.listen-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* --- 👇 Mobile Responsive Styles (for screens smaller than 600px) --- */
+
+@media screen and (max-width: 600px) {
+    .world-cup-container h2 {
+        font-size: 1.2em; /* 월드컵 제목 크기 줄이기 */
+        margin-bottom: 3px; /* 제목과 라운드 정보 간격 줄이기 */
+    }
+
+    .round-info {
+        font-size: 1.2em; /* 라운드 정보 크기 줄이기 */
+        margin-bottom: 20px; /* 라운드 정보와 카드 간격 줄이기 */
+    }
+
+    .match-container {
+        flex-direction: column;
+        gap: 8px; /* 카드와 VS 텍스트 사이 간격을 최소화 */
+    }
+
+    .participant-card {
+        width: 90%;
+        max-width: 300px;
+        padding: 15px; /* 카드 내부 여백 줄이기 */
+    }
+
+    .participant-card img {
+        height: 160px; /* 💥 핵심: 이미지의 높이를 대폭 줄여서 공간 확보 */
+        object-fit: cover;
+        border-radius: 10px; /* 모서리 둥글게 */
+    }
+    
+    .card-title-container {
+        display: flex; /* 제목과 버튼을 가로로 배치 */
+        justify-content: space-between; /* 양쪽 끝으로 정렬 */
+        align-items: center; /* 세로 중앙 정렬 */
+        margin-top: 10px; /* 이미지와의 간격 */
+    }
+
+    .participant-card h3 {
+        font-size: 1.2em;
+        margin: 0; /* h3의 기본 마진 제거 */
+        text-align: left; /* 제목은 왼쪽 정렬 */
+    }
+
+    .listen-button {
+        background-color: transparent; /* 배경색 투명하게 */
+        border: none;
+        padding: 5px; /* 패딩 최소화 */
+        font-size: 0; /* 💥 핵심: 기존 텍스트(Listen)를 숨김 */
+        width: 40px; /* 버튼 크기 고정 */
+        height: 40px;
+        border-radius: 50%; /* 동그란 모양으로 */
+        transition: background-color 0.2s;
+    }
+    
+    .listen-button:hover {
+        background-color: #e0e0e0;
+    }
+
+    /* 💥 핵심: 가상요소를 사용해 이모지를 아이콘처럼 삽입 */
+    .listen-button::before {
+        content: '🎧';
+        font-size: 24px; /* 이모지 아이콘 크기 */
+    }
+
+    .vs-text {
+        font-size: 1.8em;
+        margin: 0; /* VS 텍스트의 불필요한 여백 제거 */
+    }
+
+    .progress-info {
+        margin-top: 15px; /* 하단 진행 정보와의 간격 조정 */
+        font-size: 0.9em;
+    }
+}
