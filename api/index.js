@@ -20,6 +20,7 @@ app.use(cors(corsOptions));
 // OPTIONS 요청에 대한 사전 처리 (preflight)
 app.options('*', cors(corsOptions)); 
 
+/* api/auth/google.js 로 옮김
 const oAuth2Client = new OAuth2Client(
   process.env.GOOGLE_CLIENT_ID,
   process.env.GOOGLE_CLIENT_SECRET, // .env 파일에 이 값이 반드시 있어야 합니다!
@@ -28,6 +29,7 @@ const oAuth2Client = new OAuth2Client(
       'https://k-pop-quiz-arena.vercel.app/auth/google/callback'
   );
 console.log('✅ oAuth2Client redirectUri:', oAuth2Client.redirectUri);
+*/
 
 // --- 속도 제한 규칙(limiter) 설정 ---
 const isDev = process.env.NODE_ENV === 'development';
