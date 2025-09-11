@@ -1,11 +1,12 @@
 // Vercel 환경에서는 .env 파일 대신 Vercel 대시보드의 환경 변수를 사용하므로 dotenv 호출을 제거합니다.
 // require('dotenv').config();
 
+const path = require('path');
 const express = require('express');
 const cors = require('cors');
 const { OAuth2Client } = require('google-auth-library');
 const jwt = require('jsonwebtoken');
-const db = require('./db.js'); // 
+const db = require('./db.js');
 const rateLimit = require('express-rate-limit');
 
 const app = express();
@@ -20,17 +21,11 @@ const corsOptions = {
 app.use(cors(corsOptions));
 // OPTIONS 요청에 대한 사전 처리 (preflight)
 app.options('*', cors(corsOptions)); 
-
-/* api/auth/google.js 로 옮김
 const oAuth2Client = new OAuth2Client(
   process.env.GOOGLE_CLIENT_ID,
-  process.env.GOOGLE_CLIENT_SECRET, // .env 파일에 이 값이 반드시 있어야 합니다!
-  // 'http://localhost:3000/auth/google/callback'  // 개발용
-  // 'https://k-pop-quiz-arena.vercel.app/auth/google/callback' // 배포용
-      'https://k-pop-quiz-arena.vercel.app/auth/google/callback'
-  );
-console.log('✅ oAuth2Client redirectUri:', oAuth2Client.redirectUri);
-*/
+  process.env.GOOGLE_CLIENT_SECRET,
+  process.env.GOOGLE_REDIRECT_URI
+);
 
 // --- 속도 제한 규칙(limiter) 설정 ---
 const isDev = process.env.NODE_ENV === 'development';
@@ -70,7 +65,58 @@ const authenticateToken = (req, res, next) => {
 };
 
 // Google 로그인 처리 - 먼저 OPTIONS 요청을 처리
-app.options('/api/auth/google', cors(corsOptions)); 
+app.options('/api/auth/google', cors(corsOptions));
+
+// 💥 Google 로그인 로직을 express 라우트로 통합
+app.get('/api/auth/google', async (req, res) => {
+  try {
+    const { code } = req.query;
+
+    const { tokens } = await oAuth2Client.getToken({
+      code,
+      redirect_uri: process.env.GOOGLE_REDIRECT_URI,
+    });
+
+    const ticket = await oAuth2Client.verifyIdToken({
+      idToken: tokens.id_token,
+      audience: process.env.GOOGLE_CLIENT_ID,
+    });
+
+    const payload = ticket.getPayload();
+    const { sub: googleId, email, name: nickname, picture: pictureUrl } = payload;
+
+    const client = await db.getClient();
+    let user;
+
+    try {
+      const userResult = await client.query('SELECT * FROM users WHERE google_id = $1', [googleId]);
+
+      if (userResult.rows.length > 0) {
+        user = userResult.rows[0];
+        await client.query(
+          'UPDATE users SET nickname = $1, picture_url = $2 WHERE user_id = $3',
+          [nickname, pictureUrl, user.user_id]
+        );
+      } else {
+        const newUserResult = await client.query(
+          'INSERT INTO users (google_id, email, nickname, picture_url, points) VALUES ($1, $2, $3, $4, 0) RETURNING *',
+          [googleId, email, nickname, pictureUrl]
+        );
+        user = newUserResult.rows[0];
+      }
+
+      const appToken = jwt.sign({ userId: user.user_id }, process.env.JWT_SECRET, { expiresIn: '1d' });
+
+      res.status(200).json({ token: appToken, user: user });
+
+    } finally {
+      client.release();
+    }
+  } catch (error) {
+    console.error('🔴 Google Auth-DB-JWT 처리 중 오류:', error);
+    res.status(400).json({ message: "Authentication failed", error: error.message });
+  }
+});
 
 // 포인트 적립
 app.post('/api/user/add-points', submissionLimiter, authenticateToken, async (req, res) => {
