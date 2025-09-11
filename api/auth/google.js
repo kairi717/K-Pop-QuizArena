@@ -11,8 +11,11 @@ export default async function handler(req, res) {
   try {
     const { code } = req.query; // GET 파라미터로 받기
 
-    // oAuth2Client 생성 시 redirect_uri를 설정했으므로, getToken에서는 생략 가능합니다.
-    const { tokens } = await oAuth2Client.getToken(code);
+    // getToken 호출 시 code와 함께 redirect_uri를 명시적으로 전달하는 것이 더 안정적입니다.
+    const { tokens } = await oAuth2Client.getToken({
+      code,
+      redirect_uri: process.env.GOOGLE_REDIRECT_URI,
+    });
 
     const ticket = await oAuth2Client.verifyIdToken({
       idToken: tokens.id_token,

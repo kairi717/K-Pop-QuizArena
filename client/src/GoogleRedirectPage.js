@@ -11,19 +11,14 @@ const GoogleRedirectPage = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const { setAuthData } = useAuth(); // AuthProvider의 setAuthData 함수를 가져옵니다.
-  const [isProcessing, setIsProcessing] = useState(false); // 💥 요청 처리 중인지 상태를 추적합니다.
 
   useEffect(() => {
     // URL의 쿼리 파라미터에서 'code'를 추출합니다.
     const code = searchParams.get('code');
     console.log("받아온 인증 코드:", code);
 
-    // 💥 이미 처리 중이거나 코드가 없으면 아무것도 하지 않습니다.
-    if (isProcessing || !code) return;
-
-    // 코드가 존재하는 경우에만 서버로 요청을 보냅니다.
     const sendCodeToServer = async () => {
-      setIsProcessing(true); // 💥 요청 시작을 표시합니다.
+      if (!code) return; // 코드가 없으면 아무것도 하지 않습니다.
       try {
         // 벡엔드 서버의 주소입니다.
         const response = await axios.get('/api/auth/google', { params: { code } });
@@ -46,7 +41,7 @@ const GoogleRedirectPage = () => {
     sendCodeToServer();
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchParams, navigate, setAuthData, isProcessing]); // 의존성 배열에 필요한 값들을 추가합니다.
+  }, []); // 이 효과는 컴포넌트가 처음 마운트될 때 한 번만 실행되어야 합니다.
 
   // 서버와 통신하는 동안 사용자에게 로딩 중임을 보여줍니다.
   return <LoadingSpinner />;
