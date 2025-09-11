@@ -71,7 +71,7 @@ app.options('/api/auth/google', cors(corsOptions));
 app.post('/api/auth/google', async (req, res) => {
   console.log('[API] /api/auth/google - 요청 수신');
   try {
-    const { code } = req.query;
+    const { code } = req.body;
     if (!code) {
       console.log('[API] 오류: 인증 코드가 없습니다.');
       return res.status(400).json({ message: "Authorization code is missing." });
