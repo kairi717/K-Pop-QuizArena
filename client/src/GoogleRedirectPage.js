@@ -34,11 +34,24 @@ const GoogleRedirectPage = () => {
         setAuthData(token, user);
 
         // 페이지 이동은 App.js의 useEffect가 담당하므로 여기서는 호출하지 않습니다.
-      } catch (error) {
-        console.error('Google 로그인 서버 인증 실패:', error);
-        // 실패 시 로그인 페이지로 다시 이동시킵니다.
-        navigate('/login');
-      }
+} catch (error) {
+  if (error.response) {
+    // 서버가 응답을 준 경우 (status code 4xx, 5xx)
+    console.error('🔴 서버 응답 에러:', {
+      status: error.response.status,
+      data: error.response.data,
+      headers: error.response.headers,
+    });
+  } else if (error.request) {
+    // 요청은 보냈는데 응답이 안 온 경우
+    console.error('🟠 요청 보냈지만 응답 없음:', error.request);
+  } else {
+    // 요청 설정 중 에러
+    console.error('⚠️ 요청 설정 에러:', error.message);
+  }
+  navigate('/login');
+}
+
     };
 
     sendCodeToServer();
