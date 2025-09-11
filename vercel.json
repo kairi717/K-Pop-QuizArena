@@ -2,89 +2,26 @@
   "version": 2,
   "builds": [
     {
-      "src": "client/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "client/build"
-      }
+      "src": "package.json",
+      "use": "@vercel/node"
     },
     {
       "src": "api/**/*.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/api/auth/google",
-      "methods": ["POST"],
-      "dest": "/api/auth/google.js"
-    },
-    {
-      "src": "/api/user/add-points",
-      "methods": ["POST"],
-      "dest": "/api/user/add-points.js"
-    },
-    {
-      "src": "/api/user/me",
-      "methods": ["GET"],
-      "dest": "/api/user/me.js"
-    },
-    {
-      "src": "/api/user/point-history",
-      "methods": ["GET"],
-      "dest": "/api/user/point-history.js"
-    },
-    {
-      "src": "/api/quiz/ranking",
-      "methods": ["GET"],
-      "dest": "/api/quiz/ranking.js"
-    },
-    {
-      "src": "/api/ranking/weekly",
-      "methods": ["GET"],
-      "dest": "/api/ranking/weekly.js"
-    },
-    {
-      "src": "/api/ranking/my-weekly-rank",
-      "methods": ["GET"],
-      "dest": "/api/ranking/my-weekly-rank.js"
-    },
-    {
-      "src": "/api/user/my-stats",
-      "methods": ["GET"],
-      "dest": "/api/user/my-stats.js"
-    },
-    {
-      "src": "/api/quiz/submit-score",
-      "methods": ["POST"],
-      "dest": "/api/quiz/submit-score.js"
-    },
-    {
-      "src": "/api/ads/check-cooldown",
-      "methods": ["GET"],
-      "dest": "/api/ads/check-cooldown.js"
-    },
-    {
-      "src": "/api/worldcup/vote",
-      "methods": ["POST"],
-      "dest": "/api/worldcup/vote.js"
-    },
-    {
-      "src": "/api/worldcup/results",
-      "methods": ["GET"],
-      "dest": "/api/worldcup/results.js"
-    },
-    {
-      "src": "/static/(.*)",
-      "dest": "/client/build/static/$1"
-    },
-    {
-      "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot))",
-      "dest": "/client/build/$1"
+      "src": "/api/(.*)",
+      "dest": "/api/$1.js"
     },
     {
       "src": "/(.*)",
-      "dest": "/client/build/index.html"
+      "dest": "/index.html"
     }
   ]
 }
