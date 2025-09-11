@@ -3,10 +3,12 @@ const { OAuth2Client } = require("google-auth-library");
 const jwt = require("jsonwebtoken");
 const db = require("../db.js");
 
+const GOOGLE_REDIRECT_URI = process.env.GOOGLE_REDIRECT_URI || "https://k-pop-quiz-arena.vercel.app/auth/google/callback";
+
 const oAuth2Client = new OAuth2Client(
   process.env.GOOGLE_CLIENT_ID,
   process.env.GOOGLE_CLIENT_SECRET,
-  process.env.GOOGLE_REDIRECT_URI || "https://k-pop-quiz-arena.vercel.app/auth/google/callback"
+  GOOGLE_REDIRECT_URI
 );
 
 module.exports = async (req, res) => {
@@ -23,9 +25,7 @@ module.exports = async (req, res) => {
     // 1. 구글 토큰 교환
     const { tokens } = await oAuth2Client.getToken({
       code,
-      redirect_uri:
-        process.env.GOOGLE_REDIRECT_URI ||
-        "https://k-pop-quiz-arena.vercel.app/auth/google/callback",
+      redirect_uri: GOOGLE_REDIRECT_URI,
     });
 
     // 2. 토큰 검증

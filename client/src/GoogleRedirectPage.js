@@ -59,8 +59,8 @@ const GoogleRedirectPage = () => {
     const code = searchParams.get('code');
     console.log("받아온 인증 코드:", code);
     sendCodeToServer(code);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []); // 이 효과는 컴포넌트가 처음 마운트될 때 한 번만 실행되어야 합니다.
+    // sendCodeToServer는 컴포넌트 렌더링 간에 변경되지 않으므로 안전하게 의존성 배열에 추가할 수 있습니다.
+  }, [searchParams, sendCodeToServer]);
 
   // 서버와 통신하는 동안 사용자에게 로딩 중임을 보여줍니다.
   return <LoadingSpinner />;
