@@ -59,7 +59,7 @@ const authenticateToken = (req, res, next) => { /* ... */ };
 app.options('/api/auth/google', cors(corsOptions)); 
 
 // Google 로그인 처리
-app.post('/api/auth/google', async (req, res) => {
+app.get('/api/auth/google', async (req, res) => {
   try {
     const { code } = req.body; // 클라이언트가 보낸 'code'를 받습니다.
     console.log('oAuth2Client redirectUri:', oAuth2Client.redirectUri);

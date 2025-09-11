@@ -28,9 +28,7 @@ const GoogleRedirectPage = () => {
       const sendCodeToServer = async () => {
         try {
           // 벡엔드 서버의 주소입니다. 실제 주소로 변경해주세요.
-          //  const response = await axios.post('/api/auth/google', { code }) // 배포용
-          // const response = await axios.post('http://localhost:5001/api/auth/google', { code }) //개발용
-          const response = await axios.post('/api/auth/google', { code });
+          const response = await axios.get('/api/auth/google', { code });
 
 
           // 서버로부터 JWT 토큰과 사용자 정보를 받습니다.
