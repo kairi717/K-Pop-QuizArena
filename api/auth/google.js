@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 
     const { tokens } = await oAuth2Client.getToken({
       code,
-      redirect_uri: process.env.GOOGLE_REDIRECT_URI,
+      redirect_uri: 'https://k-pop-quiz-arena.vercel.app/auth/google/callback', // 프론트엔드와 동일한 리디렉션 URI
     });
 
     const ticket = await oAuth2Client.verifyIdToken({
