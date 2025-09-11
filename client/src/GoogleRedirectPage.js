@@ -11,6 +11,7 @@ const LoadingSpinner = () => (
 
 const GoogleRedirectPage = () => {
   const [searchParams] = useSearchParams();
+  const { loginWithToken } = useAuth();
   const navigate = useNavigate();
   const { setAuthData } = useAuth(); // AuthProvider의 setAuthData 함수를 가져옵니다.
   const [isProcessing, setIsProcessing] = useState(false); // 💥 요청 처리 중인지 상태를 추적합니다.
@@ -37,10 +38,15 @@ const GoogleRedirectPage = () => {
           const { token, user } = response.data;
 
           // AuthProvider의 setAuthData 함수를 호출해 앱의 로그인 상태를 직접 설정합니다.
-          localStorage.setItem('token', token);
+          const loginSuccess = loginWithToken(token);
 
-          // 홈페이지로 이동하면서, 페이지를 완전히 새로고침합니다.
-          window.location.href = '/'; 
+                if (loginSuccess) {
+                    // AuthProvider의 상태가 업데이트된 후, 홈페이지로 이동
+                    navigate('/');
+                } else {
+                    // 토큰이 잘못된 경우
+                    navigate('/login');
+                }
 
         } catch (error) {
           console.error('Google 로그인 서버 인증 실패:', error);

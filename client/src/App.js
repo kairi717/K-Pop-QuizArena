@@ -74,14 +74,13 @@ function AnimatedRoutes() {
 
 
 function AppContent() {
-    const { user, isAuthLoading, logout } = useAuth();
+    const { user, logout } = useAuth();
     const [adBlockerDetected, setAdBlockerDetected] = useState(false);
 
     useEffect(() => {
         // ... 기존 애드블록 감지 로직은 그대로 둡니다 ...
     }, []);
 
-    if (isAuthLoading) return <LoadingSpinner />;
     if (adBlockerDetected) return <AdBlockModal />;
 
     return (

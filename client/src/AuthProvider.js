@@ -48,8 +48,22 @@ function setAuthHeader(token) {
 }
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(null); // 유저 정보 (예: { id, name, email })
-  const [isAuthLoading, setIsAuthLoading] = useState(true);
+  const [user, setUser] = useState(() => {
+    try {
+      const token = localStorage.getItem("token");
+      if (token) {
+        const payload = parseJwt(token);
+        // 토큰이 유효기간이 지났는지 간단히 확인
+        if (payload && payload.exp * 1000 > Date.now()) {
+          setAuthHeader(token); // axios 헤더 설정
+          return payload; // 초기 user 상태를 바로 설정!
+        }
+      }
+      return null;
+    } catch (error) {
+      return null;
+    }
+  });
 
   // 내부: 현재 token 가져오기
   const getToken = () => {
@@ -64,13 +78,26 @@ export function AuthProvider({ children }) {
   };
 
   // 내부: 로그아웃
-  const logout = (opts = {}) => {
-    saveToken(null);
+  const logout = () => {
+    localStorage.removeItem("token");
+    setAuthHeader(null);
     setUser(null);
-    // 필요시 서버에 로그아웃 API 호출(세션/refresh 삭제)
-    if (!opts.silent) {
-      // 예: api.post('/auth/logout') ...
-    }
+  };
+
+  // GoogleRedirectPage에서 호출될 함수
+  const loginWithToken = (token) => {
+      try {
+          localStorage.setItem("token", token);
+          const payload = parseJwt(token);
+          if (payload) {
+              setAuthHeader(token);
+              setUser(payload);
+              return true;
+          }
+          return false;
+      } catch (error) {
+          return false;
+      }
   };
 
   // 내부: 외부에서 직접 인증 상태를 설정하는 함수 (OAuth 콜백용)
@@ -134,88 +161,13 @@ export function AuthProvider({ children }) {
     return payload.exp ? payload.exp <= nowSec + leeway : false;
   }
 
-  // 앱 시작 시 초기화: localStorage에서 token 로드하고 필요하면 refresh 시도
-  useEffect(() => {
-    let mounted = true;
-    (async () => {
-      try {
-        const token = getToken();
-        if (!token) {
-          // 토큰 없음 → 비로그인 상태
-          setIsAuthLoading(false);
-          return;
-        }
-
-        /* refreshToken failed: 에러 삭제용
-        // 토큰이 만료되었거나 곧 만료된다면 refresh 시도
-        if (isTokenExpired(token)) {
-          // refreshToken 함수에서 실패 시 자동 로그아웃 처리
-          const newToken = await refreshToken();
-          if (!mounted) return;
-          if (!newToken) {
-            setIsAuthLoading(false);
-            return;
-          }
-        } else {
-          */
-          // 토큰 유효: axios header 설정 및 user 복원
-          setAuthHeader(token);
-          const payload = parseJwt(token);
-          if (mounted) setUser(payload || null);
-        /*
-        }
-        */
-      } catch (e) {
-        console.error("Auth init error", e);
-        logout({ silent: true });
-      } finally {
-        if (mounted) setIsAuthLoading(false);
-      }
-    })();
-
-    return () => {
-      mounted = false;
-    };
-    // 빈 deps: 앱 최초 마운트 시 한 번 실행
-  }, []);
-
-  // axios 응답 인터셉터: 401 발생 시 자동 refresh 시도
-  useEffect(() => {
-    const resInterceptor = api.interceptors.response.use(
-      (res) => res,
-      /* refreshToken failed: 에러 삭제용
-      async (error) => {
-        const originalReq = error.config;
-        if (
-          error.response &&
-          error.response.status === 401 &&
-          !originalReq._retry
-        ) {
-          originalReq._retry = true;
-          const newToken = await refreshToken();
-          if (newToken) {
-            originalReq.headers["Authorization"] = `Bearer ${newToken}`;
-            return api(originalReq); // 원 요청 재시도
-          }
-        }
-        return Promise.reject(error);
-      }
-      */
-    );
-
-    return () => {
-      api.interceptors.response.eject(resInterceptor);
-    };
-  }, []);
-
   // Context value
   const value = {
     user,
     isAuthLoading,
     login,
     logout,
-    setAuthData, // OAuth 콜백에서 사용할 수 있도록 노출
-    getToken,
+    loginWithToken,
     api, // 필요하면 API 인스턴스도 제공
   };
 
