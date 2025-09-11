@@ -1,3 +1,38 @@
+import { useEffect } from "react";
+import { useSearchParams, useNavigate } from "react-router-dom";
+
+function GoogleRedirectPage() {
+  const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const code = searchParams.get("code");
+
+    if (code) {
+      // 👉 code를 서버 API로 보내서 토큰 교환
+      fetch("/api/auth/google", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code }),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.token) {
+            localStorage.setItem("token", data.token);
+            navigate("/"); // 로그인 성공 후 메인으로 이동
+           } else {
+          console.error("Login failed", data);
+          }
+        })
+        .catch((err) => console.error(err));
+    }
+  }, [searchParams, navigate]);
+
+  return <div>Loading...</div>;
+}
+
+export default GoogleRedirectPage;
+/*
 import React, { useEffect, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
@@ -47,3 +82,4 @@ const GoogleRedirectPage = () => {
 };
 
 export default GoogleRedirectPage;
+*/
