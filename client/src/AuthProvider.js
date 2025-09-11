@@ -164,7 +164,6 @@ export function AuthProvider({ children }) {
   // Context value
   const value = {
     user,
-    isAuthLoading,
     login,
     logout,
     loginWithToken,
