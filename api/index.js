@@ -1,4 +1,5 @@
-require('dotenv').config();
+// Vercel 환경에서는 .env 파일 대신 Vercel 대시보드의 환경 변수를 사용하므로 dotenv 호출을 제거합니다.
+// require('dotenv').config();
 
 const express = require('express');
 const cors = require('cors');

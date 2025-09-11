@@ -1,12 +1,13 @@
 const { Pool } = require('pg');
-require('dotenv').config();
+// Vercel 환경에서는 .env 파일 대신 Vercel 대시보드의 환경 변수를 사용하므로 dotenv 호출을 제거합니다.
+// require('dotenv').config();
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   
   // 💥 연결 타임아웃을 설정하여 무한정 기다리지 않도록 합니다.
-  connectionTimeoutMillis: 5000, 
-    ssl: {
+  connectionTimeoutMillis: 5000, // 5초 이상 응답이 없으면 연결 시도 중단
+  ssl: {
     rejectUnauthorized: false
   }
 });
