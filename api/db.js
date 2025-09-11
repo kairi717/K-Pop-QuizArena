@@ -6,7 +6,12 @@ const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   
   // 💥 연결 타임아웃을 설정하여 무한정 기다리지 않도록 합니다.
-  connectionTimeoutMillis: 5000, // 5초 이상 응답이 없으면 연결 시도 중단
+  connectionTimeoutMillis: 5000, // 5초
+  // 💥 Vercel 환경에서의 안정성을 위한 추가 옵션
+  idleTimeoutMillis: 10000, // 유휴 클라이언트 타임아웃 10초
+  allowExitOnIdle: true,    // 유휴 상태에서 프로세스 종료 허용
+  max: 10,                  // 최대 클라이언트 수
+
   ssl: {
     rejectUnauthorized: false
   }
