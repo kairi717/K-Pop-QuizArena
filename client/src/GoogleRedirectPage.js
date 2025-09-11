@@ -37,10 +37,10 @@ const GoogleRedirectPage = () => {
           const { token, user } = response.data;
 
           // AuthProvider의 setAuthData 함수를 호출해 앱의 로그인 상태를 직접 설정합니다.
-          setAuthData(token, user);
+          localStorage.setItem('token', token);
 
-          // 로그인이 성공했으므로 홈페이지로 이동시킵니다.
-          navigate('/');
+          // 홈페이지로 이동하면서, 페이지를 완전히 새로고침합니다.
+          window.location.href = '/'; 
 
         } catch (error) {
           console.error('Google 로그인 서버 인증 실패:', error);
