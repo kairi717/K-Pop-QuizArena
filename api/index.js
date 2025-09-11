@@ -21,12 +21,6 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 // OPTIONS 요청에 대한 사전 처리 (preflight)
-app.options('*', cors(corsOptions)); 
-const oAuth2Client = new OAuth2Client(
-  process.env.GOOGLE_CLIENT_ID,
-  process.env.GOOGLE_CLIENT_SECRET,
-  process.env.GOOGLE_REDIRECT_URI
-);
 
 // --- 속도 제한 규칙(limiter) 설정 ---
 const isDev = process.env.NODE_ENV === 'development';
