@@ -5,7 +5,7 @@ const express = require('express');
 const cors = require('cors');
 const { OAuth2Client } = require('google-auth-library');
 const jwt = require('jsonwebtoken');
-const db = require('../server/db'); // 💥💥 경로 수정: ./server/db -> ../server/db
+const db = require('../server/db.js'); // 💥💥 경로 수정: ../server/db -> ../server/db.js
 const rateLimit = require('express-rate-limit');
 
 const app = express();
