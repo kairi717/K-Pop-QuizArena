@@ -5,7 +5,7 @@ const express = require('express');
 const cors = require('cors');
 const { OAuth2Client } = require('google-auth-library');
 const jwt = require('jsonwebtoken');
-const db = require('./server/db'); // 💥 db.js를 가져옵니다 (checkDbConnection 포함)
+const db = require('../server/db'); // 💥💥 경로 수정: ./server/db -> ../server/db
 const rateLimit = require('express-rate-limit');
 
 const app = express();
