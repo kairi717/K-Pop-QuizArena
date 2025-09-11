@@ -7,17 +7,18 @@ const db = require('../db.js');
 const oAuth2Client = new OAuth2Client(
   process.env.GOOGLE_CLIENT_ID,
   process.env.GOOGLE_CLIENT_SECRET,
-  process.env.GOOGLE_REDIRECT_URI
+  // Vercel 환경에서는 기본 URL을 자동으로 감지합니다.
+  process.env.GOOGLE_REDIRECT_URI || 'https://k-pop-quiz-arena.vercel.app/auth/google/callback'
 );
 
 export default async function handler(req, res) {
   // POST 요청이 아니면 405 오류 반환
   if (req.method !== 'POST') {
+    console.log('[API] /api/auth/google - Method Not Allowed:', req.method);
     return res.status(405).json({ message: 'Method Not Allowed' });
   }
 
-  // 이제 req.body를 직접 사용할 수 있습니다. Vercel이 자동으로 JSON을 파싱합니다.
-  console.log('[API] /api/auth/google - 요청 수신');
+  console.log('[API] /api/auth/google - POST 요청 수신');
   try {
     const { code } = req.body;
     if (!code) {
@@ -28,7 +29,7 @@ export default async function handler(req, res) {
 
     const { tokens } = await oAuth2Client.getToken({
       code,
-      redirect_uri: process.env.GOOGLE_REDIRECT_URI,
+      redirect_uri: process.env.GOOGLE_REDIRECT_URI || 'https://k-pop-quiz-arena.vercel.app/auth/google/callback',
     });
     console.log('[API] 2. Google로부터 토큰을 성공적으로 받았습니다.');
 
