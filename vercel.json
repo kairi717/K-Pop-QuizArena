@@ -75,6 +75,10 @@
       "dest": "/api/worldcup/results.js"
     },
     {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
       "src": "/static/(.*)",
       "dest": "/client/static/$1"
     },
