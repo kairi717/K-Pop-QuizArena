@@ -2,9 +2,9 @@
 import { OAuth2Client } from "google-auth-library";
 
 const oAuth2Client = new OAuth2Client(
-  process.env.GOOGLE_CLIENT_ID,
-  process.env.GOOGLE_CLIENT_SECRET,
-  process.env.GOOGLE_REDIRECT_URI
+    process.env.GOOGLE_CLIENT_ID,
+    process.env.GOOGLE_CLIENT_SECRET,
+    'https://k-pop-quiz-arena.vercel.app/auth/google/callback' // 배포용 리디렉션 URI
 );
 
 export default async function handler(req, res) {

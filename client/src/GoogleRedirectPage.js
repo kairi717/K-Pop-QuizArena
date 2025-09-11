@@ -23,34 +23,24 @@ const GoogleRedirectPage = () => {
 
     // 코드가 존재하는 경우에만 서버로 요청을 보냅니다.
     const sendCodeToServer = async () => {
-      const sendCodeToServer = async () => {
-        try {
-          // 벡엔드 서버의 주소입니다. 실제 주소로 변경해주세요.
-          const response = await axios.get('/api/auth/google', {params: { code }});
-
-          // 서버로부터 JWT 토큰과 사용자 정보를 받습니다.
-          const { token, user } = response.data;
-
-          setAuthData(token, user);
-          navigate('/');
-
-          /*
-          // AuthProvider의 setAuthData 함수를 호출해 앱의 로그인 상태를 직접 설정합니다.
-          setAuthData(token, user);
-
-          // 로그인이 성공했으므로 홈페이지로 이동시킵니다.
-          navigate('/');
-          */
-
-        } catch (error) {
-          console.error('Google 로그인 서버 인증 실패:', error);
-          // 실패 시 로그인 페이지로 다시 이동시킵니다.
-          navigate('/login');
-        }
-      };
-      
       setIsProcessing(true); // 💥 요청 시작을 표시합니다.
-      await sendCodeToServer();
+      try {
+        // 벡엔드 서버의 주소입니다.
+        const response = await axios.get('/api/auth/google', { params: { code } });
+
+        // 서버로부터 JWT 토큰과 사용자 정보를 받습니다.
+        const { token, user } = response.data;
+
+        // AuthProvider의 setAuthData 함수를 호출해 앱의 로그인 상태를 직접 설정합니다.
+        setAuthData(token, user);
+
+        // 로그인이 성공했으므로 홈페이지로 이동시킵니다.
+        navigate('/');
+      } catch (error) {
+        console.error('Google 로그인 서버 인증 실패:', error);
+        // 실패 시 로그인 페이지로 다시 이동시킵니다.
+        navigate('/login');
+      }
     };
 
     sendCodeToServer();

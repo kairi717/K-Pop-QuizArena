@@ -6,9 +6,7 @@ function LoginPage({ onLoginSuccess }) {
         flow: 'auth-code',
         ux_mode: 'redirect',
         // 로그인 후 코드를 처리할 전용 페이지의 전체 주소를 입력합니다.
-        // redirect_uri: 'http://localhost:3000/auth/google/callback', // 개발용
-        // redirect_uri: 'https://k-pop-quiz-arena.vercel.app/auth/google/callback', // 배포용
-        redirect_uri: 'https://k-pop-quiz-arena.vercel.app/api/auth/google', 
+        redirect_uri: 'https://k-pop-quiz-arena.vercel.app/auth/google/callback', // 배포용
     });
 
     return (
