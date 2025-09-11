@@ -60,7 +60,7 @@ const authenticateToken = (req, res, next) => {
 };
 
 // Google 로그인 처리 - 먼저 OPTIONS 요청을 처리
-app.options('/api/auth/google', cors(corsOptions));
+// app.options('/api/auth/google', cors(corsOptions));
 
 // 포인트 적립
 app.post('/api/user/add-points', submissionLimiter, authenticateToken, async (req, res) => {
