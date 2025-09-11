@@ -2,19 +2,17 @@
 import { OAuth2Client } from "google-auth-library";
 
 const oAuth2Client = new OAuth2Client(
-    process.env.GOOGLE_CLIENT_ID,
-    process.env.GOOGLE_CLIENT_SECRET,
-    'https://k-pop-quiz-arena.vercel.app/auth/google/callback' // 배포용 리디렉션 URI
+  process.env.GOOGLE_CLIENT_ID,
+  process.env.GOOGLE_CLIENT_SECRET,
+  process.env.GOOGLE_REDIRECT_URI // 환경 변수 사용
 );
 
 export default async function handler(req, res) {
   try {
     const { code } = req.query; // GET 파라미터로 받기
 
-    const { tokens } = await oAuth2Client.getToken({
-      code,
-      redirect_uri: 'https://k-pop-quiz-arena.vercel.app/auth/google/callback', // 프론트엔드와 동일한 리디렉션 URI
-    });
+    // oAuth2Client 생성 시 redirect_uri를 설정했으므로, getToken에서는 생략 가능합니다.
+    const { tokens } = await oAuth2Client.getToken(code);
 
     const ticket = await oAuth2Client.verifyIdToken({
       idToken: tokens.id_token,
