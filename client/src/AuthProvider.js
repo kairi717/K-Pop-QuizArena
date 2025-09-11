@@ -146,6 +146,7 @@ export function AuthProvider({ children }) {
           return;
         }
 
+        /* 405 Method Not Allowed 오류 수정용 주석
         // 토큰이 만료되었거나 곧 만료된다면 refresh 시도
         if (isTokenExpired(token)) {
           // refreshToken 함수에서 실패 시 자동 로그아웃 처리
@@ -155,7 +156,8 @@ export function AuthProvider({ children }) {
             setIsAuthLoading(false);
             return;
           }
-        } else {
+          
+        } */ else {
           // 토큰 유효: axios header 설정 및 user 복원
           setAuthHeader(token);
           const payload = parseJwt(token);
@@ -179,20 +181,8 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     const resInterceptor = api.interceptors.response.use(
       (res) => res,
-      async (error) => {
-        const originalReq = error.config;
-        if (
-          error.response &&
-          error.response.status === 401 &&
-          !originalReq._retry
-        ) {
-          originalReq._retry = true;
-          const newToken = await refreshToken();
-          if (newToken) {
-            originalReq.headers["Authorization"] = `Bearer ${newToken}`;
-            return api(originalReq); // 원 요청 재시도
-          }
-        }
+            // 401 에러가 발생해도, 그냥 에러를 그대로 반환하도록 단순화합니다.
+      (error) => {
         return Promise.reject(error);
       }
     );
