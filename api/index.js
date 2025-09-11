@@ -9,13 +9,16 @@ const rateLimit = require('express-rate-limit');
 
 const app = express();
 app.set('trust proxy', 1);
-app.use(cors({
-    // origin: 'http://localhost:3000', //개발용
-    // origin: 'https://k-pop-quiz-arena.vercel.app', // 배포용
-    origin: 'https://k-pop-quiz-arena.vercel.app', 
-  credentials: true,
-}));
-app.use(express.json());
+const corsOptions = {
+  origin: 'https://k-pop-quiz-arena.vercel.app', // Vercel 배포 주소
+  methods: ['GET', 'POST', 'OPTIONS'], // 허용할 HTTP 메소드
+  allowedHeaders: ['Content-Type', 'Authorization'], // 허용할 헤더
+  credentials: true
+};
+
+app.use(cors(corsOptions));
+// OPTIONS 요청에 대한 사전 처리 (preflight)
+app.options('*', cors(corsOptions)); 
 
 const oAuth2Client = new OAuth2Client(
   process.env.GOOGLE_CLIENT_ID,
@@ -51,6 +54,9 @@ const submissionLimiter = rateLimit({
 
 // --- JWT 토큰 검증 미들웨어 ---
 const authenticateToken = (req, res, next) => { /* ... */ };
+
+// Google 로그인 처리 - 먼저 OPTIONS 요청을 처리
+app.options('/api/auth/google', cors(corsOptions)); 
 
 // Google 로그인 처리
 app.post('/api/auth/google', async (req, res) => {
