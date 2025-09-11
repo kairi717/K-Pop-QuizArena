@@ -20,8 +20,12 @@ const GoogleRedirectPage = () => {
     const sendCodeToServer = async () => {
       if (!code) return; // 코드가 없으면 아무것도 하지 않습니다.
       try {
-        // 벡엔드 서버의 주소입니다.
-        const response = await axios.post('/api/auth/google',  { code });
+        // Vercel 배포 환경에서는 프록시 설정이 작동하지 않을 수 있으므로,
+        // API의 전체 URL을 명시적으로 지정하는 것이 더 안전합니다.
+        const response = await axios.post(
+          'https://k-pop-quiz-arena.vercel.app/api/auth/google',
+          { code }
+        );
 
         // 서버로부터 JWT 토큰과 사용자 정보를 받습니다.
         const { token, user } = response.data;
