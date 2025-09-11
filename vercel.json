@@ -60,6 +60,21 @@
       "dest": "/api/quiz/submit-score.js"
     },
     {
+      "src": "/api/ads/check-cooldown",
+      "methods": ["GET"],
+      "dest": "/api/ads/check-cooldown.js"
+    },
+    {
+      "src": "/api/worldcup/vote",
+      "methods": ["POST"],
+      "dest": "/api/worldcup/vote.js"
+    },
+    {
+      "src": "/api/worldcup/results",
+      "methods": ["GET"],
+      "dest": "/api/worldcup/results.js"
+    },
+    {
       "src": "/static/(.*)",
       "dest": "/client/static/$1"
     },
