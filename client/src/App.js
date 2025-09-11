@@ -1,6 +1,6 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
 // --- 👇 1. 애니메이션에 필요한 useLocation을 import 합니다 ---
-import { BrowserRouter as Router, Routes, Route, Navigate, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, Link, useLocation, useNavigate } from 'react-router-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 // --- 👇 2. Framer Motion을 import 합니다 ---
 import { AnimatePresence, motion } from 'framer-motion';
