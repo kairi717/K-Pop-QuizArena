@@ -11,7 +11,7 @@
     {
       "src": "api/index.js",
       "use": "@vercel/node"
-    },
+    }
   ],
   "routes": [
     {
