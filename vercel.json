@@ -14,16 +14,50 @@
     }
   ],
   "routes": [
-    
     {
       "src": "/api/auth/google",
       "methods": ["POST"],
       "dest": "/api/auth/google.js"
     },
-    
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
+      "src": "/api/user/add-points",
+      "methods": ["POST"],
+      "dest": "/api/user/add-points.js"
+    },
+    {
+      "src": "/api/user/me",
+      "methods": ["GET"],
+      "dest": "/api/user/me.js"
+    },
+    {
+      "src": "/api/user/point-history",
+      "methods": ["GET"],
+      "dest": "/api/user/point-history.js"
+    },
+    {
+      "src": "/api/quiz/ranking",
+      "methods": ["GET"],
+      "dest": "/api/quiz/ranking.js"
+    },
+    {
+      "src": "/api/ranking/weekly",
+      "methods": ["GET"],
+      "dest": "/api/ranking/weekly.js"
+    },
+    {
+      "src": "/api/ranking/my-weekly-rank",
+      "methods": ["GET"],
+      "dest": "/api/ranking/my-weekly-rank.js"
+    },
+    {
+      "src": "/api/user/my-stats",
+      "methods": ["GET"],
+      "dest": "/api/user/my-stats.js"
+    },
+    {
+      "src": "/api/quiz/submit-score",
+      "methods": ["POST"],
+      "dest": "/api/quiz/submit-score.js"
     },
     {
       "src": "/static/(.*)",
