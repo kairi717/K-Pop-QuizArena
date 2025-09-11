@@ -26,16 +26,13 @@ const GoogleRedirectPage = () => {
       const sendCodeToServer = async () => {
         try {
           // 벡엔드 서버의 주소입니다. 실제 주소로 변경해주세요.
-          const response = await axios.get('/api/auth/google', { code });
+          const response = await axios.get('/api/auth/google', {params: { code }});
 
           // 서버로부터 JWT 토큰과 사용자 정보를 받습니다.
           const { token, user } = response.data;
 
-                          // 1. 받은 토큰을 localStorage에 저장합니다.
-                localStorage.setItem('token', token);
-                
-                // 2. 홈페이지로 이동하면서, 페이지를 완전히 새로고침합니다.
-                window.location.href = '/'; 
+          setAuthData(token, user);
+          navigate('/');
 
           /*
           // AuthProvider의 setAuthData 함수를 호출해 앱의 로그인 상태를 직접 설정합니다.
