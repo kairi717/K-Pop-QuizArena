@@ -21,7 +21,7 @@ const GoogleRedirectPage = () => {
       if (!code) return; // 코드가 없으면 아무것도 하지 않습니다.
       try {
         // 벡엔드 서버의 주소입니다.
-        const response = await axios.get('/api/auth/google', { params: { code } });
+        const response = await axios.post('/api/auth/google', { params: { code } });
 
         // 서버로부터 JWT 토큰과 사용자 정보를 받습니다.
         const { token, user } = response.data;
