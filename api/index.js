@@ -68,7 +68,7 @@ const authenticateToken = (req, res, next) => {
 app.options('/api/auth/google', cors(corsOptions));
 
 // 💥 Google 로그인 로직을 express 라우트로 통합
-app.get('/api/auth/google', async (req, res) => {
+app.post('/api/auth/google', async (req, res) => {
   console.log('[API] /api/auth/google - 요청 수신');
   try {
     const { code } = req.query;
