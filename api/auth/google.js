@@ -1,6 +1,6 @@
 // api/auth/google.js
 import { OAuth2Client } from "google-auth-library";
-import db from "../../server/db.js"; // 💥💥 경로 수정: ../../ -> ../../server/db.js
+import db from "../db.js"; // 💥💥 경로 수정: ../../ -> ../../server/db.js
 import jwt from "jsonwebtoken"; // 💥 JWT 모듈 import
 
 const oAuth2Client = new OAuth2Client(
