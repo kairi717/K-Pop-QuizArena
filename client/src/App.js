@@ -75,11 +75,21 @@ function AnimatedRoutes() {
 
 function AppContent() {
     const { user, isAuthLoading, logout } = useAuth();
+    const navigate = useNavigate();
+    const location = useLocation();
     const [adBlockerDetected, setAdBlockerDetected] = useState(false);
 
     useEffect(() => {
         // ... 기존 애드블록 감지 로직은 그대로 둡니다 ...
     }, []);
+
+    // user 상태가 변경될 때마다 실행됩니다.
+    useEffect(() => {
+        // 사용자가 로그인되었고, 현재 페이지가 로그인 관련 페이지라면 홈페이지로 리디렉션합니다.
+        if (user && (location.pathname === '/login' || location.pathname === '/auth/google/callback')) {
+            navigate('/');
+        }
+    }, [user, navigate, location.pathname]);
 
     if (isAuthLoading) return <LoadingSpinner />;
     if (adBlockerDetected) return <AdBlockModal />;
@@ -117,6 +127,7 @@ export default function App() {
         <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
             <AuthProvider>
                 {/* Router를 여기에 배치하여 useLocation Hook이 작동하도록 합니다. */}
+                {/* AppContent 내부에서 navigate를 사용하기 위해 Router가 AppContent를 감싸야 합니다. */}
                 <Router>
                     <AppContent />
                 </Router>
