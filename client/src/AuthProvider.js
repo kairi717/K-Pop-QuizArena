@@ -146,6 +146,7 @@ export function AuthProvider({ children }) {
           return;
         }
 
+        /* refreshToken failed: 에러 삭제용
         // 토큰이 만료되었거나 곧 만료된다면 refresh 시도
         if (isTokenExpired(token)) {
           // refreshToken 함수에서 실패 시 자동 로그아웃 처리
@@ -156,11 +157,14 @@ export function AuthProvider({ children }) {
             return;
           }
         } else {
+          */
           // 토큰 유효: axios header 설정 및 user 복원
           setAuthHeader(token);
           const payload = parseJwt(token);
           if (mounted) setUser(payload || null);
+        /*
         }
+        */
       } catch (e) {
         console.error("Auth init error", e);
         logout({ silent: true });
@@ -179,6 +183,7 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     const resInterceptor = api.interceptors.response.use(
       (res) => res,
+      /* refreshToken failed: 에러 삭제용
       async (error) => {
         const originalReq = error.config;
         if (
@@ -195,6 +200,7 @@ export function AuthProvider({ children }) {
         }
         return Promise.reject(error);
       }
+      */
     );
 
     return () => {
