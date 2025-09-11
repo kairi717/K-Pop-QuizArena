@@ -61,7 +61,7 @@ app.options('/api/auth/google', cors(corsOptions));
 // Google 로그인 처리
 app.get('/api/auth/google', async (req, res) => {
   try {
-    const { code } = req.body; // 클라이언트가 보낸 'code'를 받습니다.
+    const { code } = req.query; // 클라이언트가 보낸 'code'를 받습니다.
     console.log('oAuth2Client redirectUri:', oAuth2Client.redirectUri);
     
     // 인증 코드를 사용하여 Google로부터 토큰(access_token, id_token 등)을 받아옵니다.
