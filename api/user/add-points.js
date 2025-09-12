@@ -1,24 +1,7 @@
 // api/user/add-points.js
 
-const jwt = require('jsonwebtoken');
 const db = require('../db.js');
-
-// JWT 토큰 검증 미들웨어
-const authenticateToken = (req) => {
-  const authHeader = req.headers['authorization'];
-  const token = authHeader && authHeader.split(' ')[1];
-
-  if (!token) {
-    return { error: 'Authentication token is missing.', status: 401 };
-  }
-
-  try {
-    const user = jwt.verify(token, process.env.JWT_SECRET);
-    return { user: user };
-  } catch (err) {
-    return { error: 'Invalid or expired token.', status: 403 };
-  }
-};
+const { authenticateToken } = require('../utils/auth.js');
 
 export default async function handler(req, res) {
   // POST 요청이 아니면 405 Method Not Allowed 오류를 반환합니다.

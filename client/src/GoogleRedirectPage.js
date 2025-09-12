@@ -19,12 +19,9 @@ const GoogleRedirectPage = () => {
         return;
       }
       try {
-        // Vercel 배포 환경에서는 프록시 설정이 작동하지 않을 수 있으므로,
-        // API의 전체 URL을 명시적으로 지정하는 것이 더 안전합니다.
-        // .env 파일에 REACT_APP_API_URL=https://k-pop-quiz-arena.vercel.app 와 같이 설정합니다.
-        const apiUrl = process.env.REACT_APP_API_URL || 'https://k-pop-quiz-arena.vercel.app';
+        // 로컬(vercel dev)과 모든 배포 환경(프로덕션, 프리뷰)에서 동작하도록 상대 경로를 사용합니다.
         const response = await axios.post(
-          `${apiUrl}/api/auth/google`,
+          '/api/auth/google',
           { code }
         );
   
