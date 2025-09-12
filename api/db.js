@@ -35,9 +35,7 @@ const checkDbConnection = async () => {
     console.error('🔴🔴🔴 DATABASE CONNECTION FAILED 🔴🔴🔴');
     console.error('Please check your .env file and ensure the PostgreSQL server is running.');
     console.error('Error Details:', err.message);
-    // 서버리스 환경에서는 프로세스를 종료하는 대신, 오류를 던져서
-    // 호출한 쪽에서 처리하도록 하거나, 단순히 로그만 남기고 다음 요청을 준비하게 합니다.
-    // process.exit(1); 
+
   } finally {
     // 연결 테스트에 사용된 클라이언트는 즉시 반납합니다.
     if (client) {
