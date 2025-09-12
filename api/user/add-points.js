@@ -3,7 +3,7 @@
 const db = require('../db.js');
 const { authenticateToken } = require('../utils/auth.js');
 
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
   // POST 요청이 아니면 405 Method Not Allowed 오류를 반환합니다.
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method Not Allowed' });
@@ -48,4 +48,4 @@ export default async function handler(req, res) {
     // 클라이언트 연결 반환
     dbClient.release();
   }
-}
+};
