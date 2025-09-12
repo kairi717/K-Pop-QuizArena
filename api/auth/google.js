@@ -3,7 +3,9 @@ const { OAuth2Client } = require("google-auth-library");
 const jwt = require("jsonwebtoken");
 const db = require("../db.js");
 
-const GOOGLE_REDIRECT_URI = process.env.GOOGLE_REDIRECT_URI || "https://k-pop-quiz-arena.vercel.app/auth/google/callback";
+// Vercel 배포 환경에서는 VERCEL_URL을 사용하고, 로컬에서는 .env 파일 값을 사용합니다.
+const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.BASE_URL || 'http://localhost:3000';
+const GOOGLE_REDIRECT_URI = `${baseUrl}/auth/google/callback`;
 
 const oAuth2Client = new OAuth2Client(
   process.env.GOOGLE_CLIENT_ID,
