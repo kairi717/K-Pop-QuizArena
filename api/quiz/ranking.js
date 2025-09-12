@@ -2,7 +2,7 @@
 
 const db = require('../db.js');
 
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
   // GET 요청만 허용
   if (req.method !== 'GET') {
     return res.status(405).json({ message: 'Method Not Allowed' });
@@ -34,4 +34,4 @@ export default async function handler(req, res) {
     console.error('🔴 Error fetching quiz ranking:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
-}
+};
