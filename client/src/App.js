@@ -18,6 +18,7 @@ const ResultPage = lazy(() => import('./ResultPage'));
 const PrivacyPolicyPage = lazy(() => import('./PrivacyPolicyPage'));
 const TermsOfServicePage = lazy(() => import('./TermsOfServicePage'));
 const GoogleRedirectPage = lazy(() => import('./GoogleRedirectPage'));
+const ApiTestPage = lazy(() => import('./ApiTestPage')); // API 테스트 페이지 import
 
 const GOOGLE_CLIENT_ID = "312445077290-b4kjhscds8brpl8krrloes6gv7pe3m9s.apps.googleusercontent.com";
 
@@ -65,6 +66,9 @@ function AnimatedRoutes() {
                         <Route path="/privacy" element={<PrivacyPolicyPage />} />
                         <Route path="/terms" element={<TermsOfServicePage />} />
                         <Route path="/auth/google/callback" element={<GoogleRedirectPage />} />
+
+                        {/* 👇 API 테스트를 위한 페이지 라우트를 추가합니다. */}
+                        <Route path="/api-test" element={<ApiTestPage />} />
                     </Routes>
                 </motion.div>
             </Suspense>
