@@ -18,8 +18,7 @@
       "dest": "/static/$1"
     },
     {
-      "handle": "filesystem",
-      "continue": true
+      "handle": "filesystem"
     },
     {
       "src": "/api/(.*)",
