@@ -1,6 +1,6 @@
 // /api/test.js
 
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
   // 요청 메서드 확인
   if (req.method === 'GET') {
     // GET 요청 처리
@@ -24,4 +24,4 @@ export default async function handler(req, res) {
     // GET, POST 외 다른 요청 메서드 처리
     res.status(405).json({ message: 'Method Not Allowed' });
   }
-}
+};
