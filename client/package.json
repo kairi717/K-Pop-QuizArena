@@ -22,14 +22,12 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-
-"scripts": {
-  "start": "react-scripts start",
-  "clean": "rm -rf build node_modules/.cache",
-  "build": "npm run clean && react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-
+  "scripts": {
+    "start": "react-scripts start",
+    "clean": "rm -rf build node_modules/.cache",
+    "build": "npm run clean && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
