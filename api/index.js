@@ -1,10 +1,10 @@
-// /api/index.js
-const db = require('./db.js'); // 필요시 실제 DB 코드 연결
-const { authenticateToken } = require('./utils/auth.js');
-const userHandler = require('./user.js'); 
-const rankingHandler = require('./ranking.js');
+// index.js
+const db = require('../../db.js'); // DB 연결 모듈
+const { authenticateToken } = require('../../utils/auth.js'); // JWT 인증
+const userHandler = require('../../user.js');
+const rankingHandler = require('../../ranking.js');
 
-// POST body 직접 파싱
+// POST body 파싱
 async function parseBody(req) {
   return new Promise((resolve, reject) => {
     let body = '';
@@ -18,23 +18,24 @@ async function parseBody(req) {
 }
 
 module.exports = async (req, res) => {
-  const { method, headers } = req;
-  const urlObj = new URL(req.url, `http://${headers.host}`);
-  const path = urlObj.pathname;
+  const { method } = req;
+  const path = req.url.split('?')[0]; // query 제거, trailing slash 무시
 
   // ---------------------------
   // 1️⃣ /api/test
   // ---------------------------
   if (path === '/api/test') {
     if (method === 'GET') {
-      const data = urlObj.searchParams.get('data');
-      return res.status(200).json({ message: 'GET success', received: data });
+      const data = new URL(req.url, `http://${req.headers.host}`).searchParams.get('data');
+      return res.status(200).json({ message: 'GET success', received: data || null });
     }
+
     if (method === 'POST') {
       const { testData } = await parseBody(req);
       return res.status(200).json({ message: 'POST success', received: testData });
     }
-    res.setHeader('Allow', ['GET','POST']);
+
+    res.setHeader('Allow', ['GET', 'POST']);
     return res.status(405).end(`Method ${method} Not Allowed`);
   }
 
@@ -46,23 +47,25 @@ module.exports = async (req, res) => {
 
     const { quizId, score } = await parseBody(req);
 
-    // 인증 체크
+    // JWT 인증
     const authResult = await authenticateToken(req);
     if (authResult.error) return res.status(authResult.status).json({ message: authResult.error });
 
     const { userId } = authResult.user;
-    if (!quizId || score === undefined) return res.status(400).json({ error: 'Quiz ID and score required.' });
+    if (!quizId || score === undefined) return res.status(400).json({ error: 'Quiz ID and score are required.' });
 
-    // DB 저장 예시
     const client = await db.getClient();
     try {
-      await client.query('INSERT INTO quiz_scores (user_id, quiz_id, score) VALUES ($1,$2,$3)', [userId, quizId, score]);
+      await client.query(
+        'INSERT INTO quiz_scores (user_id, quiz_id, score) VALUES ($1, $2, $3)',
+        [userId, quizId, score]
+      );
       return res.status(201).json({ success: true, message: 'Score submitted successfully.' });
-    } catch(err) {
-      console.error(err);
+    } catch (err) {
+      console.error('DB Error:', err);
       return res.status(500).json({ error: 'Internal server error' });
     } finally {
-      if(client) client.release();
+      if (client) client.release();
     }
   }
 
