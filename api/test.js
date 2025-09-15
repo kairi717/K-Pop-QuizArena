@@ -1,4 +1,5 @@
 // /api/test.js
+
 export default function handler(req, res) {
   if (req.method === 'GET') {
     // GET 요청 처리
