@@ -1,37 +1,49 @@
 // api/index.js
 const db = require('./db.js');
 const { authenticateToken } = require('./utils/auth.js');
-
-// 각 API 로직을 담당하는 핸들러들을 가져옵니다.
 const userHandler = require('./user.js'); 
 const rankingHandler = require('./ranking.js');
 
-module.exports = async (req, res) => {
-  const { url, method } = req;
+async function parseBody(req) {
+  return new Promise((resolve, reject) => {
+    let body = '';
+    req.on('data', chunk => { body += chunk.toString(); });
+    req.on('end', () => {
+      try { resolve(JSON.parse(body || '{}')); }
+      catch (err) { reject(err); }
+    });
+    req.on('error', reject);
+  });
+}
 
-  // 1. /api/test 핸들러
-  if (url.startsWith('/api/test')) {
+module.exports = async (req, res) => {
+  const { method, headers } = req;
+  const url = new URL(req.url, `http://${headers.host}`);
+  const path = url.pathname;
+
+  // 1. /api/test
+  if (path === '/api/test') {
     if (method === 'GET') {
-      const { data } = req.query;
-      return res.status(200).json({ message: 'GET success', received: data || null });
+      const data = url.searchParams.get('data');
+      return res.status(200).json({ message: 'GET success', received: data });
     }
     if (method === 'POST') {
-      const { testData } = req.body;
+      const { testData } = await parseBody(req);
       return res.status(200).json({ message: 'POST success', received: testData });
     }
     res.setHeader('Allow', ['GET', 'POST']);
     return res.status(405).end(`Method ${method} Not Allowed`);
   }
 
-  // 2. /api/quiz/submitScore 핸들러
-  if (url.startsWith('/api/quiz/submitScore')) {
+  // 2. /api/quiz/submitScore
+  if (path === '/api/quiz/submitScore') {
     if (method !== 'POST') return res.status(405).json({ message: 'Method Not Allowed' });
-    
+
     const authResult = await authenticateToken(req);
     if (authResult.error) return res.status(authResult.status).json({ message: authResult.error });
-    
+
     const { userId } = authResult.user;
-    const { quizId, score } = req.body;
+    const { quizId, score } = await parseBody(req);
     if (!quizId || score === undefined) return res.status(400).json({ error: 'Quiz ID and score are required.' });
 
     const client = await db.getClient();
@@ -46,14 +58,11 @@ module.exports = async (req, res) => {
     }
   }
 
-  // 3. 기존 핸들러 호출
-  if (url.startsWith('/api/user/')) {
-    return userHandler(req, res);
-  }
-  if (url.startsWith('/api/ranking/')) {
-    return rankingHandler(req, res);
-  }
+  // 3. /api/user/*
+  if (path.startsWith('/api/user/')) return userHandler(req, res);
 
-  // 4. 일치하는 핸들러가 없는 경우 404 반환
-  return res.status(404).json({ message: `Global API endpoint for ${url} not found.` });
+  // 4. /api/ranking/*
+  if (path.startsWith('/api/ranking/')) return rankingHandler(req, res);
+
+  return res.status(404).json({ message: `Global API endpoint for ${path} not found.` });
 };
