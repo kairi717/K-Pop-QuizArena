@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/ranking/:path*",
-      "destination": "/api/ranking"
-    },
-    {
-      "source": "/api/user/:path*",
-      "destination": "/api/user"
+      "source": "/api/:path*",
+      "destination": "/api"
     },
     {
       "source": "/((?!api/|static/|sounds/|favicon.ico|manifest.json|robots.txt).*)",
