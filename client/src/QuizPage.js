@@ -69,7 +69,7 @@ function QuizPage({ quizId }) {
             // 4. authUser로부터 최신 ID 토큰을 비동기적으로 가져옵니다.
             const token = await authUser.getIdToken();
             console.log(`Submitting score: quizId=${quizId}, score=${score}`);
-            const response = await axios.post('/api/quiz/submit-score', 
+            const response = await axios.post('/api/quiz/submitScore', 
                 { quizId, score }, // 이제 항상 최신 score를 참조합니다.
                 { headers: { Authorization: `Bearer ${token}` } }
             );
