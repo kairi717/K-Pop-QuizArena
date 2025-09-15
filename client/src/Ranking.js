@@ -1,6 +1,8 @@
 import React, { useState, useEffect} from 'react'; 
 import axios from 'axios';
 import './Ranking.css';
+// 1. useAuth 훅을 import하여 인증 상태와 토큰을 가져옵니다.
+import { useAuth } from './AuthProvider';
 import SkeletonLoader from './SkeletonLoader';
 import ErrorDisplay from './ErrorDisplay';
 
@@ -10,6 +12,7 @@ function Ranking() {
     const [myRank, setMyRank] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const { user } = useAuth(); // 2. AuthProvider로부터 현재 사용자 정보를 가져옵니다.
     
     // 💥 useEffect 안에서 모든 비동기 로직을 처리합니다.
     useEffect(() => {
@@ -20,18 +23,25 @@ function Ranking() {
             setLoading(true);
             setError(null);
 
-            const token = localStorage.getItem('token');
+            let token = null;
+            if (user) {
+                try {
+                    token = await user.getIdToken();
+                } catch (e) {
+                    console.error("Error getting ID token", e);
+                }
+            }
 
             const headers = token ? { Authorization: `Bearer ${token}` } : {};
             try {
                 const [weeklyRes, myRankRes] = await Promise.all([
-                    axios.get('/api/ranking/weekly'),
+                    axios.get('/api/ranking/weekly', { headers }), // 랭킹 조회에도 인증 헤더를 추가합니다.
                     token ? axios.get('/api/ranking/my-weekly-rank', { headers }) : Promise.resolve(null)
                 ]);
                 
                 // 2. 컴포넌트가 여전히 마운트된 상태일 때만 state를 업데이트
                 if (isMounted) {
-                    setWeeklyRankers(weeklyRes.data);
+                    setWeeklyRankers(weeklyRes.data.rankers || []); // 3. API 응답 구조에 맞게 수정합니다.
                     if (myRankRes) {
                         setMyRank(myRankRes.data);
                     }
@@ -60,7 +70,7 @@ function Ranking() {
             isMounted = false;
         };
 
-    }, []); // 💥 의존성 배열을 비워, 마운트 시 단 한번만 실행되도록 강제
+    }, [user]); // 4. user 객체가 변경될 때마다 랭킹을 다시 불러옵니다.
 
 
     if (loading) {
@@ -118,4 +128,3 @@ function Ranking() {
     
 
 export default Ranking;
-

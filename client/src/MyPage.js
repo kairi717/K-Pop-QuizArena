@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import { Helmet } from 'react-helmet-async';
+// 1. useAuth 훅을 import 합니다.
+import { useAuth } from './AuthProvider';
 import './MyPage.css';
 import ErrorDisplay from './ErrorDisplay';
 
@@ -26,22 +28,21 @@ const MyPageSkeleton = () => (
 );
 
 function MyPage() {
-    const [user, setUser] = useState(null);
+    const { user: authUser } = useAuth(); // 2. AuthProvider의 user를 authUser로 받습니다.
+    const [userInfo, setUserInfo] = useState(null); // DB에서 가져온 사용자 정보를 저장할 상태
     const [history, setHistory] = useState([]);
     const [myRank, setMyRank] = useState(null);
     const [myStats, setMyStats] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
 
-    const fetchData = useCallback(async () => {
+    const fetchData = useCallback(async (token) => {
         setLoading(true);
         setError('');
-        const token = localStorage.getItem('token');
-        if (!token) { /* ... */ return; }
         const headers = { Authorization: `Bearer ${token}` };
 
         try {
-            // 이제 4개의 API를 동시에 요청합니다.
+            // 3. 4개의 API를 동시에 요청합니다.
             const [userRes, historyRes, rankRes, statsRes] = await Promise.all([
                 axios.get('/api/user/me', { headers }),
                 axios.get('/api/user/point-history', { headers }),
@@ -49,24 +50,32 @@ function MyPage() {
                 axios.get('/api/user/my-stats', { headers })
             ]);
             
-            setUser(userRes.data);
+            setUserInfo(userRes.data);
             setHistory(historyRes.data);
             setMyRank(rankRes.data);
             setMyStats(statsRes.data);
         } catch (err) {
             setError('Something went wrong while loading data.');
+            console.error("MyPage data fetch error:", err);
         } finally {
             setLoading(false);
         }
     }, []);
 
     useEffect(() => {
-        fetchData();
-    }, [fetchData]);
+        if (authUser) {
+            authUser.getIdToken().then(token => {
+                fetchData(token);
+            }).catch(err => {
+                setError('Could not authenticate. Please log in again.');
+                setLoading(false);
+            });
+        }
+    }, [authUser, fetchData]);
 
     if (loading) return <MyPageSkeleton />;
     if (error) return <ErrorDisplay message={error} onRetry={fetchData} />;
-    if (!user) return <div>We couldn’t find your user information.</div>;
+    if (!userInfo) return <div>We couldn’t find your user information.</div>;
 
     return (
         <>
@@ -76,9 +85,9 @@ function MyPage() {
             </Helmet>        
             <div className="mypage-container">
                 <div className="profile-card">
-                    <img src={user.picture_url} alt="profile" className="profile-picture" />
-                    <h2 className="profile-nickname">{user.nickname}</h2>
-                    <p className="profile-email">{user.email}</p>
+                    <img src={userInfo.picture_url} alt="profile" className="profile-picture" />
+                    <h2 className="profile-nickname">{userInfo.nickname}</h2>
+                    <p className="profile-email">{userInfo.email}</p>
                 </div>
 
                 {/* --- 👇 통계 섹션 새로 추가 --- */}
@@ -100,7 +109,7 @@ function MyPage() {
 
                 <div className="history-card">
                     <h3>Reward Points History</h3>
-                    <p className="total-points">Total Points: <span>{user.points} P</span></p>
+                    <p className="total-points">Total Points: <span>{userInfo.points} P</span></p>
                     <ul className="history-list">
                         {history.length > 0 ? (
                             history.map((item, index) => (
