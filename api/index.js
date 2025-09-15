@@ -11,16 +11,17 @@ async function parseBody(req) {
     req.on('data', chunk => { body += chunk.toString(); });
     req.on('end', () => {
       try { resolve(JSON.parse(body || '{}')); }
-      catch (err) { reject(err); }
+      catch(err) { reject(err); }
     });
     req.on('error', reject);
   });
 }
 
+
 module.exports = async (req, res) => {
   const { method, headers } = req;
-  const url = new URL(req.url, `http://${headers.host}`);
-  const path = url.pathname;
+  const urlObj = new URL(req.url, `http://${req.headers.host}`);
+  const path = urlObj.pathname;  // query string 제외
 
   // /api/test
   if (path === '/api/test') {
@@ -30,7 +31,7 @@ module.exports = async (req, res) => {
     }
     if (method === 'POST') {
       const { testData } = await parseBody(req);
-      return res.status(200).json({ message: 'POST success', received: testData });
+      return res.status(200).json({ message:'POST success', received:testData });
     }
     res.setHeader('Allow', ['GET','POST']);
     return res.status(405).end(`Method ${method} Not Allowed`);
@@ -38,7 +39,7 @@ module.exports = async (req, res) => {
 
   // /api/quiz/submitScore
   if (path === '/api/quiz/submitScore') {
-    if (method !== 'POST') return res.status(405).json({ message: 'Method Not Allowed' });
+    if(method !== 'POST') return res.status(405).end();
     const { quizId, score } = await parseBody(req);
     return res.status(201).json({ success: true, quizId, score });
   }
