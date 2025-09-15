@@ -1,21 +1,29 @@
 import React from 'react';
-import { useGoogleLogin } from '@react-oauth/google';
+// 1. AuthProvider의 useAuth 훅을 import 합니다.
+import { useAuth } from './AuthProvider';
 
-function LoginPage({ onLoginSuccess }) {
-    const login = useGoogleLogin({
-        flow: 'auth-code',
-        ux_mode: 'redirect',
-        // 환경 변수가 불안정할 수 있으므로, 배포 환경에서는 리디렉션 URI를 명시적으로 지정하는 것이 가장 안전합니다.
-        // 로컬 개발 시에는 아래 주석을, 배포 시에는 실제 주소를 사용하세요.
-        // redirect_uri: 'http://localhost:3000/auth/google/callback', // 개발용
-        redirect_uri: 'https://k-pop-quiz-arena.vercel.app/auth/google/callback', // 배포용
-    });
+function LoginPage() {
+    // 2. useAuth 훅에서 login 함수를 가져옵니다.
+    const { login } = useAuth();
+
+    // 2. 로그인 버튼 클릭 시 실행될 핸들러 함수입니다.
+    const handleLogin = async () => {
+        try {
+            // AuthProvider의 login 함수를 호출합니다.
+            // 성공 시 onAuthStateChanged가 상태를 업데이트하고 App.js가 리디렉션합니다.
+            await login();
+        } catch (error) {
+            // 사용자가 팝업을 닫거나 다른 에러가 발생한 경우를 처리할 수 있습니다.
+            alert('로그인에 실패했습니다. 다시 시도해주세요.');
+        }
+    };
 
     return (
         <div className="login-container">
             <h2>Are you the Ultimate K-Pop Fan?</h2>
             <p>Prove your knowledge, climb the ranks, and get rewarded!</p>
-            <button onClick={() => login()} className="google-login-button">
+            {/* 3. 버튼 클릭 시 handleLogin 함수를 호출합니다. */}
+            <button onClick={handleLogin} className="google-login-button">
                 Sign in with Google
             </button>
         </div>

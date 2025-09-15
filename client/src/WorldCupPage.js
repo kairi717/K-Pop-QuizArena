@@ -4,6 +4,8 @@ import { Helmet } from 'react-helmet-async';
 import { songWorldCupData } from './kpopData';
 import { contentList } from './contentData';
 import axios from 'axios';
+// 1. Firebase auth 객체를 가져옵니다.
+import { auth } from './firebase';
 import VideoPlayerModal from './VideoPlayerModal';
 import './WorldCupPage.css';
 
@@ -37,7 +39,7 @@ function WorldCupPage() {
 
 
     // 2. 사용자가 한 명을 선택했을 때의 로직 (가장 큰 변경점)
-    const handleSelect = (selectedWinner) => {
+    const handleSelect = async (selectedWinner) => {
         const newWinners = [...winners, selectedWinner];
         const nextMatchIndex = matchIndex + 1;
         
@@ -52,12 +54,18 @@ function WorldCupPage() {
             // 최종 우승자 결정 또는 다음 라운드 시작
             if (nextRoundParticipants.length === 1) {
                 const finalWinner = nextRoundParticipants[0];
-                const token = localStorage.getItem('token');
-                if (token) {
-                    axios.post('/api/worldcup/vote',
-                        { cupId: cupId, winnerName: finalWinner.name },
-                        { headers: { Authorization: `Bearer ${token}` } }
-                    ).catch(err => console.error("Failed to submit vote", err));
+                // 2. 현재 로그인된 사용자 객체를 가져옵니다.
+                const user = auth.currentUser;
+                if (user) {
+                    try {
+                        // 3. 사용자로부터 Firebase ID 토큰을 가져옵니다.
+                        const token = await user.getIdToken();
+                        // 4. API 요청 헤더에 Firebase ID 토큰을 담아 보냅니다.
+                        await axios.post('/api/worldcup/vote',
+                            { cupId: cupId, winnerName: finalWinner.name },
+                            { headers: { Authorization: `Bearer ${token}` } }
+                        );
+                    } catch (err) { console.error("Failed to submit vote", err); }
                 }
                 navigate(`/worldcup/results/${cupId}`);
             } else {

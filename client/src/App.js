@@ -1,7 +1,6 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
 // --- 👇 1. 애니메이션에 필요한 useLocation을 import 합니다 ---
 import { BrowserRouter as Router, Routes, Route, Navigate, Link, useLocation, useNavigate } from 'react-router-dom';
-import { GoogleOAuthProvider } from '@react-oauth/google';
 // --- 👇 2. Framer Motion을 import 합니다 ---
 import { AnimatePresence, motion } from 'framer-motion';
 import './App.css';
@@ -17,10 +16,7 @@ const WorldCupPage = lazy(() => import('./WorldCupPage'));
 const ResultPage = lazy(() => import('./ResultPage'));
 const PrivacyPolicyPage = lazy(() => import('./PrivacyPolicyPage'));
 const TermsOfServicePage = lazy(() => import('./TermsOfServicePage'));
-const GoogleRedirectPage = lazy(() => import('./GoogleRedirectPage'));
 const ApiTestPage = lazy(() => import('./ApiTestPage')); // API 테스트 페이지 import
-
-const GOOGLE_CLIENT_ID = "312445077290-b4kjhscds8brpl8krrloes6gv7pe3m9s.apps.googleusercontent.com";
 
 const LoadingSpinner = () => (
     <div className="loading-spinner-container"><div className="loading-spinner"></div></div>
@@ -65,7 +61,6 @@ function AnimatedRoutes() {
                         <Route path="/worldcup/results/:cupId" element={user ? <ResultPage /> : <Navigate to="/login" />} />
                         <Route path="/privacy" element={<PrivacyPolicyPage />} />
                         <Route path="/terms" element={<TermsOfServicePage />} />
-                        <Route path="/auth/google/callback" element={<GoogleRedirectPage />} />
 
                         {/* 👇 API 테스트를 위한 페이지 라우트를 추가합니다. */}
                         <Route path="/api-test" element={<ApiTestPage />} />
@@ -90,7 +85,7 @@ function AppContent() {
     // user 상태가 변경될 때마다 실행됩니다.
     useEffect(() => {
         // 사용자가 로그인되었고, 현재 페이지가 로그인 관련 페이지라면 홈페이지로 리디렉션합니다.
-        if (user && (location.pathname === '/login' || location.pathname === '/auth/google/callback')) {
+        if (user && location.pathname === '/login') {
             navigate('/');
         }
     }, [user, navigate, location.pathname]);
@@ -128,14 +123,12 @@ function AppContent() {
 // --- 👇 5. 최상위 App 컴포넌트는 Router를 포함하도록 변경합니다 ---
 export default function App() {
     return (
-        <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
-            <AuthProvider>
-                {/* Router를 여기에 배치하여 useLocation Hook이 작동하도록 합니다. */}
-                {/* AppContent 내부에서 navigate를 사용하기 위해 Router가 AppContent를 감싸야 합니다. */}
-                <Router>
-                    <AppContent />
-                </Router>
-            </AuthProvider>
-        </GoogleOAuthProvider>
+        <AuthProvider>
+            {/* Router를 여기에 배치하여 useLocation Hook이 작동하도록 합니다. */}
+            {/* AppContent 내부에서 navigate를 사용하기 위해 Router가 AppContent를 감싸야 합니다. */}
+            <Router>
+                <AppContent />
+            </Router>
+        </AuthProvider>
     );
 }

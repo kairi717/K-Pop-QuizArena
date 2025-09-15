@@ -9,8 +9,8 @@ module.exports = async (req, res) => {
     return res.status(405).json({ message: 'Method Not Allowed' });
   }
 
-  // 인증 확인
-  const authResult = authenticateToken(req);
+  // 인증 확인 (Firebase 토큰 검증으로 변경)
+  const authResult = await authenticateToken(req);
   if (authResult.error) {
     return res.status(authResult.status).json({ message: authResult.error });
   }
