@@ -1,8 +1,15 @@
 {
+  "builds": [
+    { "src": "client/package.json", "use": "@vercel/static-build" },
+    { "src": "api/**/*.js", "use": "@vercel/node" }
+  ],
+  "framework": "create-react-app",
+  "buildCommand": "npm run build --prefix client",
+  "outputDirectory": "client/build",
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/api"
+      "destination": "/api/$1"
     },
     {
       "source": "/((?!api/|static/|sounds/|favicon.ico|manifest.json|robots.txt).*)",
