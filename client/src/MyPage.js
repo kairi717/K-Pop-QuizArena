@@ -114,7 +114,15 @@ function MyPage() {
                         {history.length > 0 ? (
                             history.map((item, index) => (
                                 <li key={index} className="history-item">
-                                    {/* ... 기존 history item JSX ... */}
+                                    <div className="history-details">
+                                        <span className="history-reason">{item.reason}</span>
+                                        <span className="history-date">
+                                            {new Date(item.created_at).toLocaleString()}
+                                        </span>
+                                    </div>
+                                    <span className={`history-points ${item.points_change > 0 ? 'positive' : ''}`}>
+                                        {item.points_change > 0 ? '+' : ''}{item.points_change} P
+                                    </span>
                                 </li>
                             ))
                         ) : (

@@ -22,7 +22,7 @@ function ResultPage() {
         setError(null);
         try {
             const res = await axios.get(`/api/worldcup/results?cupId=${cupId}`);
-            setResults(res.data);
+            setResults(res.data.results || []); // 💥 API 응답 객체에서 'results' 배열을 추출합니다.
         } catch (error) {
             console.error("Failed to fetch results", error);
             setError("Failed to load the results. Please try again."); // 💥 에러 메시지 설정
@@ -46,7 +46,7 @@ function ResultPage() {
         fetchResults();
     }, [cupId, fetchResults]);
 
-    const totalVotes = results.reduce((sum, item) => sum + item.votes, 0);
+    const totalVotes = results.reduce((sum, item) => sum + Number(item.votes), 0);
 
     // --- 👇 렌더링 로직을 수정합니다 ---
     if (loading) {
@@ -90,7 +90,7 @@ function ResultPage() {
                         const percentage = totalVotes > 0 ? ((result.votes / totalVotes) * 100).toFixed(1) : 0;
                         const rankClass = index === 0 ? 'rank-1' : index === 1 ? 'rank-2' : index === 2 ? 'rank-3' : '';
                         return (
-                            <div key={index} className="bar-wrapper">
+                            <div key={result.name || index} className="bar-wrapper">
                                 <span className={`participant-name ${rankClass}`}>{index + 1}. {result.participant_name}</span>
                                 <div className="bar">
                                     <div 
