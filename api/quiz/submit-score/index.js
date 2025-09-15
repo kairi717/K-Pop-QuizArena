@@ -1,7 +1,7 @@
 // api/quiz/submit-score.js
 
-const db = require('../db.js');
-const { authenticateToken } = require('../utils/auth.js');
+const db = require('../../db.js');
+const { authenticateToken } = require('../../utils/auth.js');
 
 module.exports = async (req, res) => {
   // POST 요청만 허용
@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
   }
 
   // 인증 확인
-  const authResult = authenticateToken(req);
+  const authResult = await authenticateToken(req);
   if (authResult.error) {
     return res.status(authResult.status).json({ message: authResult.error });
   }

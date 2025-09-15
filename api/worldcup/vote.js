@@ -1,7 +1,7 @@
 // api/worldcup/vote.js
 
-const db = require('../db.js');
-const { authenticateToken } = require('../utils/auth.js');
+const db = require('../../db.js');
+const { authenticateToken } = require('../../utils/auth.js');
 
 module.exports = async (req, res) => {
   // POST 요청만 허용
