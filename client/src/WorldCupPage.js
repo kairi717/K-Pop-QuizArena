@@ -61,7 +61,7 @@ function WorldCupPage() {
                         // 3. 사용자로부터 Firebase ID 토큰을 가져옵니다.
                         const token = await user.getIdToken();
                         // 4. API 요청 헤더에 Firebase ID 토큰을 담아 보냅니다.
-                        await axios.post('/api/worldcup/vote',
+                        await axios.post('/api/worldcup/submitVote',
                             { cupId: cupId, winnerName: finalWinner.name },
                             { headers: { Authorization: `Bearer ${token}` } }
                         );
