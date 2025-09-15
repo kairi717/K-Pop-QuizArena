@@ -37,7 +37,7 @@ function ApiTestPage() {
       setError('');
       const token = 'your_jwt_token_here'; // 실제 JWT로 교체
       const res = await axios.post(
-        '/api/quiz/submitScore',
+        '/api/quiz/submitscore',
         { quizId: 1, score: 95 },
         { headers: { Authorization: `Bearer ${token}` } }
       );
