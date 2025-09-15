@@ -4,6 +4,7 @@
     { "src": "api/**/*.js", "use": "@vercel/node" }
   ],
   "framework": "create-react-app",
+  "buildCommand": "npm run build --prefix client",
   "outputDirectory": "client/build",
   "rewrites": [
     {
