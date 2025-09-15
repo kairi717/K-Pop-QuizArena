@@ -6,7 +6,7 @@ const { authenticateToken } = require('../../utils/auth.js');
 async function parseBody(req) {
   return new Promise((resolve, reject) => {
     let body = '';
-    req.on('data', chunk => { body += chunk.toString(); });
+    req.on('data', chunk => body += chunk.toString());
     req.on('end', () => {
       try { resolve(JSON.parse(body || '{}')); }
       catch(err) { reject(err); }
@@ -14,6 +14,7 @@ async function parseBody(req) {
     req.on('error', reject);
   });
 }
+
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).json({ message: 'Method Not Allowed' });
