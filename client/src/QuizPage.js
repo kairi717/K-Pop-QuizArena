@@ -3,6 +3,8 @@ import axios from 'axios';
 import { Helmet } from 'react-helmet-async'; 
 import './QuizPage.css';
 import AdModal from './AdModal';
+// 1. useAuth 훅을 import 합니다.
+import { useAuth } from './AuthProvider';
 
 // 퀴즈 데이터 파일들을 import 합니다.
 import blackpinkQuizData from './quizData/blackpinkQuizData.json';
@@ -44,6 +46,7 @@ function QuizPage({ quizId }) {
     const [timer, setTimer] = useState(QUIZ_TIME_LIMIT); // 남은 시간
     const [showAd, setShowAd] = useState(false); // 광고 모달 표시 여부
     const [ranking, setRanking] = useState([]); // 랭킹 데이터
+    const { user: authUser } = useAuth(); // 2. AuthProvider로부터 사용자 정보를 가져옵니다.
 
     const quizInfo = allQuizData[quizId];
 
@@ -51,7 +54,7 @@ function QuizPage({ quizId }) {
     const fetchRanking = useCallback(async () => {
         try {
             const res = await axios.get(`/api/quiz/ranking?quizId=${quizId}`);
-            setRanking(res.data);
+            setRanking(res.data.ranking || []); // 💥 API 응답 객체에서 'ranking' 배열을 추출합니다.
         } catch (error) {
             console.error("Failed to fetch ranking", error);
         }
@@ -59,21 +62,25 @@ function QuizPage({ quizId }) {
 
     // 점수 제출 함수
     const submitScoreToServer = useCallback(async () => {
-        const token = localStorage.getItem('token');
-        if (!token) return;
+        // 3. authUser가 없으면 함수를 종료합니다.
+        if (!authUser) return;
+
         try {
+            // 4. authUser로부터 최신 ID 토큰을 비동기적으로 가져옵니다.
+            const token = await authUser.getIdToken();
             console.log(`Submitting score: quizId=${quizId}, score=${score}`);
             const response = await axios.post('/api/quiz/submit-score', 
                 { quizId, score }, // 이제 항상 최신 score를 참조합니다.
                 { headers: { Authorization: `Bearer ${token}` } }
             );
             if (response.data.success) {
+                // 점수 제출 성공 시에만 랭킹을 다시 불러옵니다.
                 await fetchRanking();
             }
         } catch (error) {
             console.error("Failed to submit score", error);
         }
-    }, [quizId, score, fetchRanking]);
+    }, [quizId, score, fetchRanking, authUser]); // 5. 의존성 배열에 authUser를 추가합니다.
 
         // 퀴즈 종료를 처리하는 useEffect
     useEffect(() => {
